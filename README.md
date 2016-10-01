@@ -349,7 +349,8 @@ maximize its usefulness to others.
       [footnotes](https://daringfireball.net/projects/markdown/syntax#link) at
       the bottom of your document, so referring to them several times throughout
       becomes cheap. Some of my personal preferences on api formatting can be
-      found [here](api_formatting.md)
+      found
+      [here](https://github.com/noffle/common-readme/blob/master/api_formatting.md)
 
 7. If your module is a small collection of stateless functions, having a
    **Usage** section as a [Node REPL
