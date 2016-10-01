@@ -12,7 +12,7 @@ stacks of punchcards, "READ ME!" scrawled upon them, describing their use.
 The pattern of README appearing in all-caps is a consistent facet throughout
 history. In addition to the visual strikingness of using all-caps, UNIX systems
 would sort capitals before lower case letters, conveniently putting the README
-before the rest of the directory's content [1](1).
+before the rest of the directory's content<sup>[1](#footnote-1)</sup>.
 
 The intent is clear: *"this is important information for the user to read before
 proceeding"*. Let's explore together what constitutes "important information" in
@@ -414,7 +414,7 @@ into an article about writing READMEs. Thus, Art of README was born!
 
 ## Footnotes
 
-1. See [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
+1. <a name="footnote-1"></a>See [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
    However, most systems today will not sort capitals before all lowercase
    characters, reducing this convention's usefulness to just the visual
    strikingness of all-caps.
