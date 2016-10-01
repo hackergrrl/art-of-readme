@@ -407,9 +407,10 @@ I'm [noffle](http://blog.eight45.net/about/). I'm known to
 This little project began back in May in Berlin at squatconf, where I was
 digging into how Perl monks wrote their documentation, and also lamented the
 state of my READMEs in the Node ecosystem. It spurred me to create
-common-readme. The "README Tips" section overflowed with tips though, which I
-decided could be usefully collected into an article about writing READMEs. Thus,
-Art of README was born!
+[common-readme](https://github.com/noffle/common-readme). The "README Tips"
+section overflowed with tips though, which I decided could be usefully collected
+into an article about writing READMEs. Thus, Art of README was born!
+
 
 ## Footnotes
 
