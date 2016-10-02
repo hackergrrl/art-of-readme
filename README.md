@@ -407,7 +407,7 @@ through excellent documentation!
 ## The author
 
 I'm [noffle](http://blog.eight45.net/about/). I'm known to
-[blog](blog.eight45.net), [tweet](https://twitter.com/noffle), and
+[blog](http://blog.eight45.net), [tweet](https://twitter.com/noffle), and
 [hack](https://github.com/noffle).
 
 This little project began back in May in Berlin at squatconf, where I was
