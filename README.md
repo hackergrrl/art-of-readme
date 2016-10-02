@@ -58,7 +58,7 @@ For modules, this can take the form of inaccurate or unhelpful names (any
 guesses what the `fudge` module does?), no documentation, no tests, no source
 code comments, or incomprehensible function names.
 
-Many don't have an active maintainer. If a mdoule has no human available to
+Many don't have an active maintainer. If a module has no human available to
 answer questions and explain what a module does, combined with no remnants of
 documentation left behind, a module becomes a bizarre alien artifact, unusable
 and incomprehensible by the archaeologist-hackers of tomorrow.
