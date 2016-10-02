@@ -95,7 +95,7 @@ different ways.
 
 Some experienced Node developers band together to create [curated
 lists](https://github.com/sindresorhus/awesome-nodejs) of quality modules.
-Developers leverge their many years examining hundreds of different modules to
+Developers leverage their many years examining hundreds of different modules to
 share with newcomers the *Crème de la Crème*: the best modules in each category.
 This might also take the form of RSS feeds and mailing lists of new modules deigned
 useful by trusted community members.
@@ -151,7 +151,7 @@ mistakes again. Developers have been writing documentation for quite some number
 of years. It would be wasteful to not look back a little bit and see what people
 did right before Node.
 
-Perl, for all of the flak it recieves, is in some ways the spiritual grandparent
+Perl, for all of the flak it receives, is in some ways the spiritual grandparent
 of Node. Both are high-level scripting languages, adopt many UNIX idioms, fuel
 much of the internet, and both feature a wide module ecosystem.
 
