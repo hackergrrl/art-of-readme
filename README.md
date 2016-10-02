@@ -338,13 +338,17 @@ maximize its usefulness to others.
    clear, but make sure your format expresses important subtleties:
 
    a. which parameters are optional, and their defaults
+
    b. mention type information where it is not obvious from convention
+
    c. for `opts` object parameters, detail all keys and values that are accepted
+
    d. don't shy away from providing a tiny example of an API function's use if
       their use is not obvious or fully covered in the **Usage** section.
       However, this can also be a strong signal that the function is too complex
       and needs to be refactored, broken into smaller functions, or removed
       altogether
+
    e. aggressively linkify specialized terminology! In markdown you can keep
       [footnotes](https://daringfireball.net/projects/markdown/syntax#link) at
       the bottom of your document, so referring to them several times throughout
