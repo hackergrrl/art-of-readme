@@ -424,3 +424,15 @@ into an article about writing READMEs. Thus, Art of README was born!
    characters, reducing this convention's usefulness to just the visual
    strikingness of all-caps.
 
+
+## Credits
+
+A heartfelt thank you to @mafintosh and @feross for the encouragement I needed
+to get this idea off the ground and start writing!
+
+Thank you to the following awesome readers for noticing errors and sending me
+PRs :heart: :
+
+- @ungoldman
+- @boidolr
+- @imjoehaines
