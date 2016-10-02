@@ -436,3 +436,9 @@ PRs :heart: :
 - @ungoldman
 - @boidolr
 - @imjoehaines
+
+
+## Pull requests welcome!
+
+Spotted an error? Something doesn't make sense? Send me a [pull
+request](https://github.com/noffle/art-of-readme/pulls)!
