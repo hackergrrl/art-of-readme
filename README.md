@@ -431,15 +431,15 @@ into an article about writing READMEs. Thus, Art of README was born!
 
 ## Credits
 
-A heartfelt thank you to @mafintosh and @feross for the encouragement I needed
+A heartfelt thank you to [@mafintosh](https://github.com/mafintosh) and [@feross](https://github.com/feross) for the encouragement I needed
 to get this idea off the ground and start writing!
 
 Thank you to the following awesome readers for noticing errors and sending me
 PRs :heart: :
 
-- @ungoldman
-- @boidolr
-- @imjoehaines
+- [@ungoldman](https://github.com/ungoldman)
+- [@boidolr](https://github.com/boidolr)
+- [@imjoehaines](https://github.com/imjoehaines)
 
 And thanks to my readers for their overall feedback:
 
