@@ -440,6 +440,7 @@ PRs :heart: :
 - @ungoldman
 - @boidolr
 - @imjoehaines
+- @radarhere
 
 And thanks to my readers for their overall feedback:
 
