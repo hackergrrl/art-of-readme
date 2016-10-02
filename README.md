@@ -441,6 +441,7 @@ PRs :heart: :
 - @boidolr
 - @imjoehaines
 - @radarhere
+- @joshmanders
 
 And thanks to my readers for their overall feedback:
 
