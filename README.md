@@ -9,6 +9,10 @@ PDP-10](http://pdp-10.trailing-edge.com/decuslib10-04/01/43,50322/read.me.html),
 though it may even harken back to the days of informative paper notes placed atop
 stacks of punchcards, "READ ME!" scrawled upon them, describing their use.
 
+A reader suggested that the title README may be a playful nudge toward Lewis
+Carroll's *Alice's Adventures in Wonderland*, which features a potion and a cake
+labelled *"DRINK ME"* and *"EAT ME"* respectively.
+
 The pattern of README appearing in all-caps is a consistent facet throughout
 history. In addition to the visual strikingness of using all-caps, UNIX systems
 would sort capitals before lower case letters, conveniently putting the README
