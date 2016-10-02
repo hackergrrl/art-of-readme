@@ -39,20 +39,17 @@ well to other programming ecosystems as well.
 
 ## Many modules: some good, some bad
 
-The Node ecosystem is powered by its modules.
-
-If Node was a train, it's [npm](https://npmjs.org) that arranges them into a
-string of boxcars, puts a locomotive behind it, and keeps it running on
-schedule. In the course of a week, Node developers evaluate dozens of modules
-for inclusion in their projects. This is a great deal of power being churned out
-in a daily basis, ripe for the plucking, just as fast as one can write `npm
-install`.
+The Node ecosystem is powered by its modules. [npm](https://npmjs.org) is the
+magic that makes it all *go*. In the course of a week, Node developers evaluate
+dozens of modules for inclusion in their projects. This is a great deal of power
+being churned out in a daily basis, ripe for the plucking, just as fast as one
+can write `npm install`.
 
 Like any ecosystem that is extremely accessible, the quality bar varies. npm
 does its best to nicely pack away all of these modules and ship them far and
-wide. However, the tools stuffed into each boxcar are widely varied: some are
-shining and new, others broken and rusty, and still others are somewhere in
-between. There are even some that we don't know what they do!
+wide. However, the tools found are widely varied: some are shining and new,
+others broken and rusty, and still others are somewhere in between. There are
+even some that we don't know what they do!
 
 For modules, this can take the form of inaccurate or unhelpful names (any
 guesses what the `fudge` module does?), no documentation, no tests, no source
