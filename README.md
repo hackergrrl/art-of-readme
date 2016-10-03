@@ -206,10 +206,8 @@ well it'd fit into my code:
 
 3. *Usage* -- rather than starting to delve into the API docs, it'd be great to
    see what the module looks like in action. I can quickly determine whether the
-   example JS fits the desired style and problem. People have lots of opinions
-   on things like promises/callbacks and ES6. If it does fit the bill, then I
-   can proceed to greater detail. If it does, then I can proceed to greater
-   detail.
+   example JS fits the desired style (promises, callbacks, ES6?) and problem.
+   If it does, then I can proceed to greater detail.
 
 4. *API* -- the name, description, and usage of this module all sound appealing
    to me. I'm very likely to use this module at this point. I just need to scan
