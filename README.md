@@ -159,7 +159,7 @@ It so turns out that the [monks](http://perlmonks.org) of the Perl community
 indeed have a great deal of experience in writing [quality
 READMEs](http://search.cpan.org/~kane/Archive-Tar/lib/Archive/Tar.pm). CPAN is a
 wonderful resource that is worth reading through to learn more about a community
-that wrote consistently high-calibur documentation.
+that wrote consistently high-calibre documentation.
 
 
 ### No README? No abstraction
@@ -198,11 +198,11 @@ begin to examine it from top to bottom:
    getting an idea of what the module does in slightly greater detail.
    `collide-2d-aabb-aabb` says it
 
-> Determines whether a moving axis-aligned bounding box (AABB) collides with
-> other AABBs.
+   > Determines whether a moving axis-aligned bounding box (AABB) collides with
+   > other AABBs.
 
-Awesome: it defines what an AABB is, and what the module does. Now to gauge how
-well it'd fit into my code:
+   Awesome: it defines what an AABB is, and what the module does. Now to gauge how
+   well it'd fit into my code:
 
 3. *Usage* -- rather than starting to delve into the API docs, it'd be great to
    see what the module looks like in action. I can quickly determine whether the
