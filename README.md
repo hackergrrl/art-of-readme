@@ -442,6 +442,7 @@ PRs :heart: :
 - @imjoehaines
 - @radarhere
 - @joshmanders
+- [@ddbeck](https://github.com/ddbeck)
 
 And thanks to my readers for their overall feedback:
 
