@@ -68,7 +68,7 @@ For those modules that do have documentation, where do they fall on the quality
 spectrum? Maybe it's just a one-liner description: `"sorts numbers by their hex
 value"`. Maybe it's a snippet of example code. These are both improvements upon
 nothing, but they tend to result in the worst-case scenario for a modern day
-module spelunkyer: digging into the source code to try and understand how it
+module spelunker: digging into the source code to try and understand how it
 actually works. Writing excellent documentation is all about keeping the users
 *out* of the source code by providing instructions sufficient to enjoy the
 wonderful abstractions that your module brings.
@@ -108,14 +108,14 @@ made.
 Of course there is also npm's built-in [search](https://npmjs.org)
 functionality: a safe default, and the usual port of entry for new developers.
 
-No matter your approach, regardless of whether the module spelunkyer ultimately
+No matter your approach, regardless of whether the module spelunker ultimately
 finds themselves on [npmjs.org](https://npmjs.org) or
 [github.com](https://github.com) or somewhere else, they'll be staring your
 README square in the face. Since your users will inevitably end up here, what
 can be done to make this brief impression maximally effective?
 
 
-## Professional module spelunkying
+## Professional module spelunking
 
 ### The README: Your one-stop shop
 
@@ -181,7 +181,7 @@ The Perl monks have wisdom to share on the matter:
 
 ### Key elements
 
-Once a README is located, the brave module spelunkyer must scan it to discern if
+Once a README is located, the brave module spelunker must scan it to discern if
 it matches the developer's needs. This becomes essentially a series of pattern
 matching problems for their brain to solve, where each step takes them deeper
 into the module and its details.
@@ -194,7 +194,7 @@ begin to examine it from top to bottom:
    promising, though it assumes I know what an "aabb" is. If the name sounds too
    vague or unrelated, it may be a signal to move on.
 
-2. *One liner* -- having a one-liner that describes the module is useful for
+2. *One-liner* -- having a one-liner that describes the module is useful for
    getting an idea of what the module does in slightly greater detail.
    `collide-2d-aabb-aabb` says it
 
@@ -290,7 +290,7 @@ userbase.
 
 This mindset doesn't appeal to everyone; it requires checking your ego at the
 door and letting the work speak for itself as much as possible. Your only job is
-to describe its promise as succinctly as you can, so module spelunkyers can
+to describe its promise as succinctly as you can, so module spelunkers can
 either use your work when it's a fit, or move on to something else that does.
 
 
@@ -443,6 +443,7 @@ PRs :heart: :
 - [@radarhere](https://github.com/radarhere)
 - [@joshmanders](https://github.com/joshmanders)
 - [@ddbeck](https://github.com/ddbeck)
+- [@StevenMaude](https://github.com/StevenMaude)
 
 And thanks to my readers for their overall feedback:
 
