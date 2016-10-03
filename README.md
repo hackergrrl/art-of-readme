@@ -443,6 +443,7 @@ PRs :heart: :
 - [@radarhere](https://github.com/radarhere)
 - [@joshmanders](https://github.com/joshmanders)
 - [@ddbeck](https://github.com/ddbeck)
+- [@StevenMaude](https://github.com/StevenMaude)
 
 And thanks to my readers for their overall feedback:
 
