@@ -9,7 +9,7 @@ PDP-10](http://pdp-10.trailing-edge.com/decuslib10-04/01/43,50322/read.me.html),
 though it may even harken back to the days of informative paper notes placed atop
 stacks of punchcards, "READ ME!" scrawled upon them, describing their use.
 
-A reader<sup[1](#footnote-1)</sup> suggested that the title README may be a playful nudge toward Lewis
+A reader<sup>[1](#footnote-1)</sup> suggested that the title README may be a playful nudge toward Lewis
 Carroll's *Alice's Adventures in Wonderland*, which features a potion and a cake
 labelled *"DRINK ME"* and *"EAT ME"* respectively.
 
