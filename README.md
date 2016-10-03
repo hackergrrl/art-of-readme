@@ -440,6 +440,7 @@ PRs :heart: :
 - [@ungoldman](https://github.com/ungoldman)
 - [@boidolr](https://github.com/boidolr)
 - [@imjoehaines](https://github.com/imjoehaines)
+- [@krishmunot](https://github.com/krishmunot)
 
 And thanks to my readers for their overall feedback:
 
