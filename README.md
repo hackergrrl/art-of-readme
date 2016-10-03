@@ -194,7 +194,7 @@ begin to examine it from top to bottom:
    promising, though it assumes I know what an "aabb" is. If the name sounds too
    vague or unrelated, it may be a signal to move on.
 
-2. *One liner* -- having a one-liner that describes the module is useful for
+2. *One-liner* -- having a one-liner that describes the module is useful for
    getting an idea of what the module does in slightly greater detail.
    `collide-2d-aabb-aabb` says it
 
