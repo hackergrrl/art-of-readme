@@ -482,6 +482,7 @@ PRs :heart: :
 - [@joshmanders](https://github.com/joshmanders)
 - [@ddbeck](https://github.com/ddbeck)
 - [@StevenMaude](https://github.com/StevenMaude)
+- [@KrishMunot](https://github.com/KrishMunot)
 
 Thank you to [@qihaiyan](https://github.com/qihaiyan) for translating Art of README to Chinese!
 
