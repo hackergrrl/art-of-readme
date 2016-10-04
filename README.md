@@ -399,6 +399,42 @@ you may save some time writing READMEs with `common-readme`. You'll find
 real module examples with this format, too.
 
 
+## Bonus: Exemplars
+
+Theory is well and good, but what do excellent READMEs look like? Here are some
+that I think embody the principles of this article well:
+
+- https://github.com/feross/bittorrent-dht
+- https://github.com/freeman-lab/pixel-grid
+- https://github.com/mafintosh/torrent-stream
+- https://github.com/mikolalysenko/box-intersect
+- https://github.com/noffle/ice-box
+- https://github.com/pull-stream/pull-stream
+- https://github.com/substack/tape
+- https://github.com/substack/quote-stream
+- https://github.com/yoshuawuyts/vmd
+
+
+Do you know of others that you think would make good examples? [Send a pull
+request](https://github.com/noffle/art-of-readme/pulls)!
+
+
+## Bonus: The README Checklist
+
+A handy bonefide checklist that to see how your README is doing:
+
+- [ ] One-liner explaining the purpose of the module
+- [ ] Necessary background context & links
+- [ ] Potentially unfamiliar terms link to informative sources
+- [ ] Clear, *runnable* example of usage
+- [ ] Installation instructions
+- [ ] Extensive API documentation
+- [ ] Performs [cognitive funneling](https://github.com/noffle/art-of-readme#cognitive-funneling)
+- [ ] Caveats and limitations mentioned up-front
+- [ ] Doesn't rely on images to relay critical information
+- [ ] License
+
+
 ## Call to arms!
 
 Go forth, brave module spelunker, and make your work discoverable and useable
