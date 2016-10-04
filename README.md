@@ -1,5 +1,7 @@
 # Art of README
 
+*This article can also be read [in Chinese](README-zh.md).*
+
 ## Etymology
 
 Where does the term "README" come from?
@@ -445,9 +447,10 @@ PRs :heart: :
 - [@ddbeck](https://github.com/ddbeck)
 - [@StevenMaude](https://github.com/StevenMaude)
 
-And thanks to my readers for their overall feedback:
+Thank you to [@qihaiyan](https://github.com/qihaiyan) for translating Art of README to Chinese!
 
-- [entiat_blues](https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8am9w5)
+Finally, thanks for all of the feedback! Please share your comments [as an
+issue](https://github.com/noffle/art-of-readme/issues)!
 
 
 ## Pull requests welcome!
