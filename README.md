@@ -404,6 +404,10 @@ guidelines and handy command-line generator. If you like what's written here,
 you may save some time writing READMEs with `common-readme`. You'll find
 real module examples with this format, too.
 
+You may also enjoy
+[standard-readme](https://github.com/richardlitt/standard-readme), which is a
+more structured, lintable take on a common README format.
+
 
 ## Bonus: Exemplars
 
