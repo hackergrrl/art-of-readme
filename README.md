@@ -296,6 +296,12 @@ to describe its promise as succinctly as you can, so module spelunkers can
 either use your work when it's a fit, or move on to something else that does.
 
 
+## Call to arms!
+
+Go forth, brave module spelunker, and make your work discoverable and useable
+through excellent documentation!
+
+
 ## Bonus: other good practices
 
 Outside of the key points of the article, there are other practices you can
@@ -433,12 +439,6 @@ A handy bonefide checklist that to see how your README is doing:
 - [ ] Caveats and limitations mentioned up-front
 - [ ] Doesn't rely on images to relay critical information
 - [ ] License
-
-
-## Call to arms!
-
-Go forth, brave module spelunker, and make your work discoverable and useable
-through excellent documentation!
 
 
 ## The author
