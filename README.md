@@ -3,4 +3,4 @@
 ### Доступные языки
 
 - [en](en/README.md)
-- [ru](ru/README.md)
+- [ru (в процессе перевода)](ru/README.md)
