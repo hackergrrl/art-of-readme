@@ -48,7 +48,7 @@ well to other programming ecosystems as well.
 The Node ecosystem is powered by its modules. [npm](https://npmjs.org) is the
 magic that makes it all *go*. In the course of a week, Node developers evaluate
 dozens of modules for inclusion in their projects. This is a great deal of power
-being churned out in a daily basis, ripe for the plucking, just as fast as one
+being churned out on a daily basis, ripe for the plucking, just as fast as one
 can write `npm install`.
 
 Like any ecosystem that is extremely accessible, the quality bar varies. npm
@@ -224,14 +224,14 @@ begin to examine it from top to bottom:
    module. If there are nonstandard installation notes, here's where they'd go,
    but even if it's just a regular `npm install` I'd like to have that listed
    too. New users start using Node all the time, so having a link to npmjs.org
-   and an install command helps that user with resources to figure out how Node
+   and an install command provides them the resources to figure out how Node
    modules work.
 
 6. *License* -- most modules put this at the very bottom, but this might
    actually be better to have higher up; you're likely to exclude a module VERY
    quickly if it has an incompatible license to your work. I generally stick to
    the MIT/BSD/X11/ISC flavours. If you have a non-permissive license, stick it
-   at the very top of the module to prevent any confusion
+   at the very top of the module to prevent any confusion.
 
 
 ## Cognitive funneling
@@ -333,7 +333,7 @@ maximize its usefulness to others.
 5. Be judicious in your use of badges. They're easy to
    [abuse](https://github.com/angular/angular). They can also be a breeding
    ground for bikeshedding and endless debate. They add visual noise to your
-   README, and generally only function if the user reading your markdown in a
+   README, and generally only function if the user is reading your markdown in a
    browser online, since the images are generally hosted elsewhere on the
    internet. For each badge, consider: "what real value is this badge providing
    to the typical viewer of this README"? Have a CI badge to show build/test
@@ -431,7 +431,7 @@ request](https://github.com/noffle/art-of-readme/pulls)!
 
 ## Bonus: The README Checklist
 
-A handy bonefide checklist that to see how your README is doing:
+A handy bona fide checklist that to see how your README is doing:
 
 - [ ] One-liner explaining the purpose of the module
 - [ ] Necessary background context & links
@@ -487,6 +487,7 @@ PRs :heart: :
 - [@ddbeck](https://github.com/ddbeck)
 - [@StevenMaude](https://github.com/StevenMaude)
 - [@KrishMunot](https://github.com/KrishMunot)
+- [@chesterhow](https://github.com/chesterhow)
 
 Thank you to [@qihaiyan](https://github.com/qihaiyan) for translating Art of README to Chinese!
 
