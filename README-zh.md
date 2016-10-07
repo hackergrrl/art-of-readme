@@ -265,6 +265,7 @@ PRs :heart: :
 - [@joshmanders](https://github.com/joshmanders)
 - [@ddbeck](https://github.com/ddbeck)
 - [@StevenMaude](https://github.com/StevenMaude)
+- [@hejx](https://github.com/Alex-fun)
 
 And thanks to my readers for their overall feedback:
 
