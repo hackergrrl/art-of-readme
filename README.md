@@ -500,3 +500,8 @@ issue](https://github.com/noffle/art-of-readme/issues)!
 
 Spotted an error? Something doesn't make sense? Send me a [pull
 request](https://github.com/noffle/art-of-readme/pulls)!
+
+## License
+
+Creative Commons Attribution License (do whatever, just attribute me)
+http://creativecommons.org/licenses/by/2.0/
