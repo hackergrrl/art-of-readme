@@ -492,6 +492,8 @@ PRs :heart: :
 
 Thank you to [@qihaiyan](https://github.com/qihaiyan) for translating Art of README to Chinese!
 
+- [@BrettDong](https://github.com/brettdong) for revising punctuation in Chinese version.
+
 Finally, thanks for all of the feedback! Please share your comments [as an
 issue](https://github.com/noffle/art-of-readme/issues)!
 
