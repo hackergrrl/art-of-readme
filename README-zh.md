@@ -265,10 +265,15 @@ PRs :heart: :
 - [@ddbeck](https://github.com/ddbeck)
 - [@StevenMaude](https://github.com/StevenMaude)
 - [@hejx](https://github.com/Alex-fun)
+- [@KrishMunot](https://github.com/KrishMunot)
+- [@chesterhow](https://github.com/chesterhow)
 
-And thanks to my readers for their overall feedback:
+Thank you to [@qihaiyan](https://github.com/qihaiyan) for translating Art of README to Chinese!
 
-- [entiat_blues](https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8am9w5)
+- [@BrettDong](https://github.com/brettdong) for revising punctuation in Chinese version.
+
+Finally, thanks for all of the feedback! Please share your comments [as an
+issue](https://github.com/noffle/art-of-readme/issues)!
 
 
 ## Pull requests welcome!
