@@ -503,5 +503,4 @@ request](https://github.com/noffle/art-of-readme/pulls)!
 
 ## License
 
-Creative Commons Attribution License (do whatever, just attribute me)
-http://creativecommons.org/licenses/by/2.0/
+[Creative Commons Attribution License](http://creativecommons.org/licenses/by/2.0/)
