@@ -485,14 +485,18 @@ PRs :heart: :
 - [@radarhere](https://github.com/radarhere)
 - [@joshmanders](https://github.com/joshmanders)
 - [@ddbeck](https://github.com/ddbeck)
+- [@RichardLitt](https://github.com/RichardLitt)
 - [@StevenMaude](https://github.com/StevenMaude)
 - [@KrishMunot](https://github.com/KrishMunot)
 - [@chesterhow](https://github.com/chesterhow)
-- [@hejx](https://github.com/Alex-fun)
 
-Thank you to [@qihaiyan](https://github.com/qihaiyan) for translating Art of README to Chinese!
+Thank you to [@qihaiyan](https://github.com/qihaiyan) for translating Art of
+README to Chinese! The following users also made contributions:
 
 - [@BrettDong](https://github.com/brettdong) for revising punctuation in Chinese version.
+- [@Alex-fun](https://github.com/Alex-fun)
+- [@HmyBmny](https://github.com/HmyBmny)
+- [@vra](https://github.com/vra)
 
 Finally, thanks for all of the feedback! Please share your comments [as an
 issue](https://github.com/noffle/art-of-readme/issues)!
