@@ -499,6 +499,9 @@ README to Chinese! The following users also made contributions:
 - [@HmyBmny](https://github.com/HmyBmny)
 - [@vra](https://github.com/vra)
 
+Thank you to [@lennonjesus](https://github.com/lennonjesus) for translating Art
+of README to Brazilian Portuguese!
+
 Finally, thanks for all of the feedback! Please share your comments [as an
 issue](https://github.com/noffle/art-of-readme/issues)!
 
