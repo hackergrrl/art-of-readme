@@ -415,6 +415,7 @@ more structured, lintable take on a common README format.
 Theory is well and good, but what do excellent READMEs look like? Here are some
 that I think embody the principles of this article well:
 
+- https://github.com/defstream/nl3
 - https://github.com/feross/bittorrent-dht
 - https://github.com/freeman-lab/pixel-grid
 - https://github.com/mafintosh/torrent-stream
