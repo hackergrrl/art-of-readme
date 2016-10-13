@@ -383,31 +383,30 @@ UserBase.
 
 ## [13] Бонус: простое README
 
-Не случайно, это также формат, используемый
-[** Общего ридми **] (https://github.com/noffle/common-readme), набор README
-руководящих принципов и генератор командной строки под рукой. Если вам нравится то, что здесь написано,
-Вы можете сэкономить время на написание READMEs с `здравым readme`. Ты найдешь
-реальные примеры модулей с этим форматом, тоже.
+Не секрет, что это также формат, используемый в
+[** common-readme **] (https://github.com/noffle/common-readme), набор правил для написания README
+и генератор, работающий в командной строке. Если вам нравится то, что здесь написано,
+вы можете сэкономить время на написание своих README-шек с помощью `common-readme`. Здесь же можно найти примеры
+реальных ридми, написанных в этом формате.
 
 
-## [14] Призыв к оружию!
+## [14] Всем ридми!
 
-Идите вперед, храбрый модуль спелеолог, и сделать вашу работу обнаруживаемым и полезной
-через отличную документацию!
+Теперь идите и напишите ридми на все ваши модули,
+сделайте вашу работу понятной и доступной с помощью отлично написанной документации!
 
 
-## [15] Автор
+## [15] Об авторе
 
-Я [noffle] (http://blog.eight45.net/about/). Я, как известно,
-[Блог] (http://blog.eight45.net), [чирикать] (https://twitter.com/noffle), и
-[Хак] (https://github.com/noffle).
+Я -  [noffle] (http://blog.eight45.net/about/). [Мой блог] (http://blog.eight45.net),
+[мой твиттер] (https://twitter.com/noffle), и [мой код] (https://github.com/noffle).
 
-Этот маленький проект был начат еще в мае в Берлине в squatconf, где я был
-копаться в том, как Perl монахи написали свою документацию, а также посетовал
-состояние моих файлы README в узле экосистемы. Это побудило меня создать
-[Общего ридми] (https://github.com/noffle/common-readme). "Ридми советы"
-раздел разливалась с советами, хотя, который я решил было бы полезно собраны
-в статье о написании READMEs. Таким образом, искусство README родился!
+Этот маленький проект был начат еще в мае в Берлине на конференции squatconf, где я разбирался,
+как "старички" Perl-а пишут свою документацию, а также сокрушался из-за состояния
+моих собственных README в Node. Это побудило меня создать
+[common-readme] (https://github.com/noffle/common-readme). Раздел "Советы по README"
+был переполнен и я решил, что будет полезно собрать их всех в статью о том, как писать ридми.
+Так появилось "Искусство README".
 
 
 ## [16] Сноски
@@ -423,12 +422,12 @@ UserBase.
 
 ## [17] Благодарности
 
-Искреннее спасибо [@mafintosh] (https://github.com/mafintosh) и
-[@feross] (Https://github.com/feross) для поощрения мне нужно, чтобы получить эту
-Идея с мертвой точки и начать писать!
+Выражаю благодарность [@mafintosh] (https://github.com/mafintosh) и
+[@feross] (Https://github.com/feross), которые подтолкнули меня написать эту статью
+и сдвинули дело с мертвой точки.
 
-Спасибо следующим удивительным читателям замечать ошибки и посылать мне
-Реципиенты: сердце::
+Спасибо следующим удивительным читателям за то, что помогали исправлять ошибки
+и посылать мне PR-ы :heart: :
 
 - [@ungoldman] (Https://github.com/ungoldman)
 - [@boidolr] (Https://github.com/boidolr)
@@ -438,11 +437,20 @@ UserBase.
 - [@ddbeck] (Https://github.com/ddbeck)
 - [@StevenMaude] (Https://github.com/StevenMaude)
 
-И спасибо моим читателям за их общей обратной связи:
+И спасибо моим читателям за их отзывы:
 
-- [Entiat_blues] (https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8am9w5)
+- [entiat_blues] (https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8am9w5)
 
 
-## [18] Pull requests приветствуются!
+## [18] Перевод
+Команда энтузиастов-переводчиков, рискнувших перевести эту статью:
+- [@sapunovnik] (https://github.com/Sapunov)
+- [@cheburashka21] (https://github.com/IvanGamazov)
+- [@skyrocker] (https://github.com/chulanovskyi)
+- [@foromik] (https://github.com/FoRomik)
+- [@wladyslaw] (https://github.com/vlshat)
 
-Нашли ошибку? Где-то бессмыслица? Пришлите мне [pull request] (https://github.com/noffle/art-of-readme/pulls)!
+## [19] Pull request-ы приветствуются!
+
+Нашли ошибку? Что-то непонятно? Пришлите мне
+[pull-request] (https://github.com/Sapunov/art-of-readme/pulls)!
