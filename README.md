@@ -1,6 +1,7 @@
 # Art of README
 
-*This article can also be read [in Chinese](README-zh.md).*
+*This article can also be read in [Chinese](README-zh.md) and 
+[Brazilian Portuguese](README-pt-BR.md).*
 
 ## Etymology
 
