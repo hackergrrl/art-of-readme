@@ -237,7 +237,7 @@ Perl圣僧们所分享的智慧：
 [hack](https://github.com/noffle).
 
 这个小项目于5月份诞生在柏林的squatconf，在那儿我钻研Perl的圣僧们怎么编写他们的文档，同时叹息在Node生态系统中的我写的README。它促使我创建了
-[common-readme](https://github.com/noffle/common-readme)。尽管"README Tips"部分满是tips，我仍然决定集中写一篇关于如果编写README的文章。于是，Art of README诞生了!
+[common-readme](https://github.com/noffle/common-readme)。尽管"README Tips"部分满是tips，我仍然决定集中写一篇关于如何编写README的文章。于是，Art of README诞生了!
 
 
 ## Footnotes
@@ -246,7 +246,7 @@ Perl圣僧们所分享的智慧：
    [Sixes666](https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8akpz6)!
 
 1. <a name="footnote-2"></a>See [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
-   然而，现在的多数系统不会将大些字母排在小写字母前面，弱化了这个约定的作用，全部大写只能是在视觉上更显著。
+   然而，现在的多数系统不会将大写字母排在小写字母前面，弱化了这个约定的作用，全部大写只能是在视觉上更显著。
 
 ## Credits
 
