@@ -9,7 +9,7 @@ Where does the term "README" come from?
 
 The nomenclature dates back to *at least* the 1970s [and the
 PDP-10](http://pdp-10.trailing-edge.com/decuslib10-04/01/43,50322/read.me.html),
-though it may even hearken back to the days of informative paper notes placed atop
+though it may even harken back to the days of informative paper notes placed atop
 stacks of punchcards, "READ ME!" scrawled on them, describing their use.
 
 A reader<sup>[1](#footnote-1)</sup> suggested that the title README may be a playful nudge toward Lewis
@@ -17,7 +17,7 @@ Carroll's *Alice's Adventures in Wonderland*, which features a potion and a cake
 labelled *"DRINK ME"* and *"EAT ME"*, respectively.
 
 The pattern of README appearing in all-caps is a consistent facet throughout
-history. In addition to the visual strikingness of using all-caps, UNIX systems
+history. In addition to the visual impact of using all-caps, UNIX systems
 would sort capitals before lower case letters, conveniently putting the README
 before the rest of the directory's content<sup>[2](#footnote-2)</sup>.
 
@@ -471,7 +471,7 @@ into an article about writing READMEs. Thus, Art of README was born!
 1. <a name="footnote-2"></a>See [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
    However, most systems today will not sort capitals before all lowercase
    characters, reducing this convention's usefulness to just the visual
-   strikingness of all-caps.
+   impact of all-caps.
 
 
 ## Credits
