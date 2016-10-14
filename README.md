@@ -9,7 +9,7 @@ Where does the term "README" come from?
 
 The nomenclature dates back to *at least* the 1970s [and the
 PDP-10](http://pdp-10.trailing-edge.com/decuslib10-04/01/43,50322/read.me.html),
-though it may even hearken back to the days of informative paper notes placed atop
+though it may even harken back to the days of informative paper notes placed atop
 stacks of punchcards, "READ ME!" scrawled on them, describing their use.
 
 A reader<sup>[1](#footnote-1)</sup> suggested that the title README may be a playful nudge toward Lewis
@@ -513,7 +513,8 @@ issue](https://github.com/noffle/art-of-readme/issues)!
 ## Pull requests welcome!
 
 Spotted an error? Something doesn't make sense? Send me a [pull
-request](https://github.com/noffle/art-of-readme/pulls)!
+request](https://github.com/noffle/art-of-readme/pulls)! Please avoid making
+stylistic changes though -- they are unlikely to be accepted. Thanks!
 
 ## License
 
