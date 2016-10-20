@@ -417,16 +417,16 @@ more structured, lintable take on a common README format.
 Theory is well and good, but what do excellent READMEs look like? Here are some
 that I think embody the principles of this article well:
 
-- https://github.com/defstream/nl3
+- https://github.com/noffle/ice-box
+- https://github.com/substack/quote-stream
 - https://github.com/feross/bittorrent-dht
+- https://github.com/mikolalysenko/box-intersect
 - https://github.com/freeman-lab/pixel-grid
 - https://github.com/mafintosh/torrent-stream
-- https://github.com/mikolalysenko/box-intersect
-- https://github.com/noffle/ice-box
 - https://github.com/pull-stream/pull-stream
 - https://github.com/substack/tape
-- https://github.com/substack/quote-stream
 - https://github.com/yoshuawuyts/vmd
+- https://github.com/defstream/nl3
 
 
 Do you know of others that you think would make good examples? [Send a pull
