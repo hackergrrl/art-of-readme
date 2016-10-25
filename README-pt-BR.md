@@ -18,19 +18,19 @@ referência a Alice no País das Maravilhas, de Lewis Carroll, onde existe uma
 poção e um bolo escrito *"DRINK ME"* (ME BEBA) e *"EATME"* (ME COMA)
 respectivamente.
 
-O padrão README aparecendo toda em maiúsculo é uma característica consistente
+O padrão README aparecendo todo em maiúsculo é uma característica consistente
 ao longo da história. Além do impacto visual de usar tudo em caps, sistemas
 UNIX ordenam letras maiúsculas antes de minúsculas, colocando convenientemente
 o README antes de todo o resto do conteúdo do diretório<sup>[2](#footnote-2)</sup>.
 
 A intenção é clara: *"esta é uma informação importante para o usuário ler antes
-de prosseguir"*. Vamos explorar juntos o que constitui "informação importante" na
+de prosseguir"*. Vamos explorar juntos o que constitui uma "informação importante" na
 era moderna.
 
 
 ## Para os criadores, para os consumidores
 
-Este é um artigo sobre os READMEs. Sobre o que eles fazem, porque são absolutamente
+Este é um artigo sobre os READMEs. Sobre o que eles fazem, por que são absolutamente
 necessários, e como escrevê-los direito.
 
 É escrito para os criadores de módulos, pois, como um construtor de módulos,
@@ -51,46 +51,47 @@ também a outros ecossistemas de programação.
 O ecossistema Node é alimentado por seus módulos. [NPM](https://npmjs.org) é a
 mágica que faz com que tudo *aconteça*. No decorrer de uma semana, programadores
 Node avaliam dezenas de módulos para inclusão em seus projetos. Esta é uma grande
-quantidade de energia agitada diariamente, madura para a colheita, tão rápido
-quanto alguém pode escrever `npm install`.
+quantidade de energia agitada diariamente, madura para a colheita, tão rápida
+quanto alguém possa escrever `npm install`.
 
 Assim como qualquer ecossistema que é extremamente acessível, o grau de qualidade
-varia. npm faz o seu melhor para organizar bem todos os módulos e entregá-los o
-de melhor forma possível. Entretanto, as ferramentas achadas lá variam bastante:
+varia. npm faz o seu melhor para organizar bem todos os módulos e entregá-los da
+melhor forma possível. Entretanto, as ferramentas achadas lá variam bastante:
 algumas são novas e brilhantes. Outras são velhas e enferrujadas. E algumas estão
-ali no meio termo. Há até aquelas que sequer temos idéia do que fazem!
+ali no meio termo. Há também aquelas que sequer temos idéia do que fazem!
 
 Para módulos, isto pode tomar a forma de nomes incorretos ou inúteis (alguém
 adivinha o que o módulo `fudge` faz?), sem documentação, sem testes, nenhum
 comentário de código-fonte, ou nomes de função incompreensíveis.
 
-Muitos não têm um mantenedor ativo. Se um módulo tem nenhum humano disponível
-para responder a perguntas e explicar o que ele faz, combinado com nenhum ou
+Muitos não têm um mantenedor ativo. Se um módulo tem nenhuma pessoa disponível
+para responder às perguntas e explicar o que ele faz, combinado com nenhum ou
 restos de documentação deixados para trás, torna-se um artefato alienígena
 bizarro, inutilizável e incompreensível pelos hackers arqueólogos de amanhã.
 
-Para aqueles módulos que não têm documentação, onde eles caem sobre a qualidade
-espectro? Talvez seja apenas uma descrição de uma linha: `"ordenar números pelo
-valor hexadecimal"`. Talvez seja um trecho de código de exemplo. Estas são
-duas melhorias sobre nada, mas eles tendem a resultar no pior cenário para um
-moderno caçador de tesouros: cavar no código-fonte para tentar entender como ele
-realmente funciona. Escrever uma documentação excelente é tudo sobre como manter
-os usuários *fora* do código-fonte, fornecendo instruções suficientes para
+Para aqueles módulos que não têm documentação, onde estariam seu espectro de
+qualidade? Talvez eles sejam descritos com apenas uma linha: `"ordenar números
+pelo valor hexadecimal"`. Talvez seja um trecho de código de exemplo. Estas são
+duas melhorias sem valor, mas elas tendem a resultar no pior cenário para um
+moderno caçador de tesouros: cavar o código-fonte para tentar entender como ele
+realmente funciona. Escrever uma documentação excelente é sobre como manter os
+usuários *fora* do código-fonte, fornecendo instruções suficientes para
 aproveitar as abstrações maravilhosas que seu módulo traz.
 
 Node tem um ecossistema "amplo": é em grande parte composto de uma lista muito
-longa de módulos faça-alguma-coisa-bem independentes, sob nenhuma bandeira mas a
-sua própria. Tem [exceções](https://github.com/lodash/lodash), mas, apesar destes
-feudos, o mote do propósito único, em seus números, governa o mundo Node.
+longa de módulos independentes do tipo faça-alguma-coisa-bem, sob nenhuma bandeira
+que não a sua própria. Existem [exceções](https://github.com/lodash/lodash),
+mas apesar destes poucos feudos, são os plebeus de uma única causa quem, devido
+ao seu grande número, verdadeiramente governam o reino do Node.
 
 Isso tem uma consequência natural: pode ser difícil encontrar módulos de qualidade
-que façam o que você precisa.
+que façam exatamente o que você precisa.
 
-**Isso é ok**. Verdade. Uma baixa taxa de entradas e um problema de descoberta é
-infinitamente melhor do que um problema de cultura, onde apenas uma pequena
-minoria privilegiada poderá participar.
+**Tudo bem com isso**. De verdade. A falta de barreiras para entrar e um problema
+para encontrar as coisas é infinitamente melhor do que um problema de cultura,
+onde apenas uns poucos privilegiados podem participar.
 
-Além disso, descoberta -- como se pode ver -- é mais fácil de tratar.
+Além disso, descoberta -- como se vê -- é mais fácil de tratar.
 
 
 ## Todos os caminhos levam ao README.txt
@@ -439,12 +440,12 @@ Conhece outros bons exemplos? [Envie um pull request](https://github.com/noffle/
 Um prático checklist para você conferir como seu README está:
 
 - [ ] Uma linha explicando o propósito do módulo
-- [ ] Necessary background context & links
+- [ ] Ligações e contextualizações necessárias
 - [ ] Termos pontencialmente desconhecidos linkados a fontes de informações
 - [ ] Exemplo de utilização claro e *executável*
 - [ ] Instruções de instalação
-- [ ] Documentação extensica da API
-- [ ] Performs [cognitive funneling](https://github.com/noffle/art-of-readme#cognitive-funneling)
+- [ ] Documentação extensiva da API
+- [ ] Realizar [afunilamento cognitivo](https://github.com/noffle/art-of-readme#cognitive-funneling)
 - [ ] Advertências e limitações explícitas
 - [ ] Não depender de imagens para transmitir informações importantes
 - [ ] Licença
@@ -493,12 +494,17 @@ Obrigado aos incríveis leitores por reportar erros e enviar suas PRs :heart: :
 - [@chesterhow](https://github.com/chesterhow)
 
 Um agradecimento ao [@qihaiyan](https://github.com/qihaiyan) por traduzir o Art
-of README para chinês!
+of README para chinês! Os seguintes usuários também fizeram contribuições:
 
 - [@BrettDong](https://github.com/brettdong) for revising punctuation in Chinese version.
 - [@Alex-fun](https://github.com/Alex-fun)
 - [@HmyBmny](https://github.com/HmyBmny)
 - [@vra](https://github.com/vra)
+
+Um agradecimento ao [@lennonjesus](https://github.com/lennonjesus) por traduzir
+o Art of README para o Português Brasileiro! Os seguintes usuários também fizeram contribuições:
+
+- [@rectius](https://github.com/rectius)
 
 Finalmente, obrigado a todos pelo feedback! Por favor, compartilhe seus
 comentários através de [issues](https://github.com/noffle/art-of-readme/issues)!
