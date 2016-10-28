@@ -282,7 +282,7 @@ Perl 圣僧们所分享的智慧：
 
 ## 致谢
 
-由衷的感谢 [@mafintosh](https://github.com/mafintosh) 和
+由衷地感谢 [@mafintosh](https://github.com/mafintosh) 和
 [@feross](https://github.com/feross)，是他们的鼓励让我的这些想法得以落地，并开始写作!
 
 感谢下面这些值得尊敬的读者，指正我的纰漏： :heart: :
@@ -305,12 +305,12 @@ Perl 圣僧们所分享的智慧：
 - [@HmyBmny](https://github.com/HmyBmny)
 - [@vra](https://github.com/vra)
 
-最后，对于你们所有的反馈表示由衷感谢! 请子啊 [issue](https://github.com/noffle/art-of-readme/issues)中分享你们的评论!
+最后，对于你们所有的反馈表示由衷感谢! 请在 [issue](https://github.com/noffle/art-of-readme/issues) 中分享你们的评论!
 
 
 ## 欢迎参与!
 
-发现了错误? 存在某些无意义的东西? 想我发起一个[pull
+发现了错误? 存在某些无意义的东西? 向我发起一个[pull
 request](https://github.com/noffle/art-of-readme/pulls)吧!
 
 ## 许可证
