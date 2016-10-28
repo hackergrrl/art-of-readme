@@ -430,6 +430,7 @@ que eu acredito que aplicam bem os princípios deste artigo:
 - https://github.com/substack/tape
 - https://github.com/substack/quote-stream
 - https://github.com/yoshuawuyts/vmd
+- https://github.com/kataras/iris
 
 
 Conhece outros bons exemplos? [Envie um pull request](https://github.com/noffle/art-of-readme/pulls)!
