@@ -500,6 +500,7 @@ PRs :heart: :
 - [@KrishMunot](https://github.com/KrishMunot)
 - [@chesterhow](https://github.com/chesterhow)
 - [@sjsyrek](https://github.com/sjsyrek)
+- [@thenickcox](https://github.com/thenickcox)
 
 Thank you to [@qihaiyan](https://github.com/qihaiyan) for translating Art of
 README to Chinese! The following users also made contributions:
