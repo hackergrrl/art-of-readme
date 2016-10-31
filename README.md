@@ -21,8 +21,8 @@ history. In addition to the visual strikingness of using all-caps, UNIX systems
 would sort capitals before lower case letters, conveniently putting the README
 before the rest of the directory's content<sup>[2](#footnote-2)</sup>.
 
-The intent is clear: *"this is important information for the user to read before
-proceeding"*. Let's explore together what constitutes "important information" in
+The intent is clear: *"This is important information for the user to read before
+proceeding."* Let's explore together what constitutes "important information" in
 this modern age.
 
 
@@ -258,6 +258,8 @@ You don't need to use *this* format, but try to be consistent to save your users
 precious cognitive cycles.
 
 The ordering presented here is lovingly referred to as "cognitive funneling"
+=======
+The ordering presented here is lovingly referred to as "cognitive funneling,"
 and can be imagined as a funnel held upright, where the widest end contains the
 broadest more pertinent details, and moving deeper down into the funnel presents
 more specific details that are pertinent for only a reader who is interested
@@ -279,7 +281,8 @@ Once again, the Perl monks have wisdom to share on the subject:
 > Ideally, someone who's slightly familiar with your module should be
 > able to refresh their memory without hitting "page down".  As your
 > reader continues through the document, they should receive a
-> progressively greater amount of knowledge. -- from `perlmodstyle`
+> progressively greater amount of knowledge.
+> -- from `perlmodstyle`
 
 
 ## Care about people's time
@@ -342,6 +345,9 @@ maximize its usefulness to others:
    to the typical viewer of this README?" Do you have a CI badge to show build/test
    status? This signal would better reach important parties by emailing
    maintainers or automatically creating an issue -- always consider the
+   to the typical viewer of this README"? Have a CI badge to show build/test
+   status? This signal would better reach important parties by emailing
+   maintainers or automatically creating an issue. Always consider the
    audience of the data in your README and ask yourself if there's a flow for
    that data that can better reach its intended audience.
 
