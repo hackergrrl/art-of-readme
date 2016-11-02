@@ -257,8 +257,6 @@ Thus, it follows that in a README it is desirable to have:
 You don't need to use *this* format, but try to be consistent to save your users
 precious cognitive cycles.
 
-The ordering presented here is lovingly referred to as "cognitive funneling"
-=======
 The ordering presented here is lovingly referred to as "cognitive funneling,"
 and can be imagined as a funnel held upright, where the widest end contains the
 broadest more pertinent details, and moving deeper down into the funnel presents
