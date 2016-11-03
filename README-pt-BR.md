@@ -421,15 +421,16 @@ estruturado, lintable, em um formato comum de README.
 A teroria é boa... Mas com o que READMEs excelentes se parecem? Aqui estão alguns
 que eu acredito que aplicam bem os princípios deste artigo:
 
+- https://github.com/noffle/ice-box
+- https://github.com/substack/quote-stream
 - https://github.com/feross/bittorrent-dht
+- https://github.com/mikolalysenko/box-intersect
 - https://github.com/freeman-lab/pixel-grid
 - https://github.com/mafintosh/torrent-stream
-- https://github.com/mikolalysenko/box-intersect
-- https://github.com/noffle/ice-box
 - https://github.com/pull-stream/pull-stream
 - https://github.com/substack/tape
-- https://github.com/substack/quote-stream
 - https://github.com/yoshuawuyts/vmd
+- https://github.com/defstream/nl3
 
 
 Conhece outros bons exemplos? [Envie um pull request](https://github.com/noffle/art-of-readme/pulls)!
@@ -489,9 +490,12 @@ Obrigado aos incríveis leitores por reportar erros e enviar suas PRs :heart: :
 - [@radarhere](https://github.com/radarhere)
 - [@joshmanders](https://github.com/joshmanders)
 - [@ddbeck](https://github.com/ddbeck)
+- [@RichardLitt](https://github.com/RichardLitt)
 - [@StevenMaude](https://github.com/StevenMaude)
 - [@KrishMunot](https://github.com/KrishMunot)
 - [@chesterhow](https://github.com/chesterhow)
+- [@sjsyrek](https://github.com/sjsyrek)
+- [@thenickcox](https://github.com/thenickcox)
 
 Um agradecimento ao [@qihaiyan](https://github.com/qihaiyan) por traduzir o Art
 of README para chinês! Os seguintes usuários também fizeram contribuições:
@@ -505,6 +509,9 @@ Um agradecimento ao [@lennonjesus](https://github.com/lennonjesus) por traduzir
 o Art of README para o Português Brasileiro! Os seguintes usuários também fizeram contribuições:
 
 - [@rectius](https://github.com/rectius)
+
+Um agradecimento ao [@jabiinfante](https://github.com/jabiinfante) por traduzir
+o Art of README para o Espanhol!
 
 Finalmente, obrigado a todos pelo feedback! Por favor, compartilhe seus
 comentários através de [issues](https://github.com/noffle/art-of-readme/issues)!
