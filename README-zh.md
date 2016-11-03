@@ -297,6 +297,8 @@ Perl 圣僧们所分享的智慧：
 - [@StevenMaude](https://github.com/StevenMaude)
 - [@KrishMunot](https://github.com/KrishMunot)
 - [@chesterhow](https://github.com/chesterhow)
+- [@sjsyrek](https://github.com/sjsyrek)
+- [@thenickcox](https://github.com/thenickcox)
 
 感谢 [@qihaiyan](https://github.com/qihaiyan) 将《README的艺术》翻译成中文! 以下用户也为本文做出了贡献：
 
@@ -304,6 +306,14 @@ Perl 圣僧们所分享的智慧：
 - [@Alex-fun](https://github.com/Alex-fun)
 - [@HmyBmny](https://github.com/HmyBmny)
 - [@vra](https://github.com/vra)
+
+Thank you to [@lennonjesus](https://github.com/lennonjesus) for translating Art
+of README to Brazilian Portuguese! The following users also made contributions:
+
+- [@rectius](https://github.com/rectius)
+
+Thank you to [@jabiinfante](https://github.com/jabiinfante) for translating Art
+of README to Spanish!
 
 最后，对于你们所有的反馈表示由衷感谢! 请在 [issue](https://github.com/noffle/art-of-readme/issues) 中分享你们的评论!
 
