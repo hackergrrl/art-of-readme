@@ -27,12 +27,12 @@ Vamos a explorar juntos que constituye "información importante" en estos tiempo
 
 ## Para creadores, para consumidores
 
-Este es un artículo acerca de los ficheros README. Sobre que es lo que hacen, por qué son absolutamente
+Este es un artículo acerca de los ficheros README. Sobre qué es lo que hacen, por qué son absolutamente
 necesarios, y cómo confeccionarlos correctamente.
 
 Esto está escrito para creadores de módulos, como constructores de módulos, vuestro trabajo es
 crear algo que dure en el tiempo. Esto dese ser una motivación inherente, incluso aunque el autor no tenga
-intención de compartir su trabajo. Trasncurridos 6 meses, un módulo sin documentación comienza a
+intención de compartir su trabajo. Transcurridos 6 meses, un módulo sin documentación comienza a
 parecer nuevo y desconocido.
 
 Esto también se ha escrito para consumidores de módulos, ya que todo autor de módulos es también
@@ -50,36 +50,36 @@ que hace que todo *funcione*. Durante una semana cualquiera, un desarrollador de
 de módulos para ser incluidos en su proyecto. Eso es utilizar muchísimo poder a diario, utilizando
 simplemente un `npm install`.
 
-Como cualquier ecosistemas extremadamente accesible, la barra de calidad puede variar. npm
+Como cualquier ecosistema extremadamente accesible, la barra de calidad puede variar. npm
 funciona empaquetando y distribuyendo estos módulos ampliamente. Sin embargo, las herramientas que
-nos encontramos son muy variadas: algunas eston nuevas y relucientes, otras están viejas y oxidadas,
+nos encontramos son muy variadas: algunas están nuevas y relucientes, otras están viejas y oxidadas,
 mientras otras están el medio. Incluso hay algunas de las que ¡no sabemos ni qué es lo que hacen!
 
 En lo relativo a módulos, esto puede llevarse a una forma de nombres inexactos o inútiles (¿alguien
 adivina qué hace el módulo `fudge`?), sin documentación o pruebas, sin código fuente comentado, o
 con nombres de función incomprensibles.
 
-Muchos ni tiene un mantenedor activo. Si un módulo no tiene ni una persona disponible respondiendo a
+Muchos ni tienen un mantenedor activo. Si un módulo no tiene ni una persona disponible respondiendo a
 preguntas y explicando qué hace el módulo, ni rastro de documentación, éste se vuelve un artefacto
 alienígena bizarro, inusable e incomprensible para los *arqueolo-hackers* del mañana.
 
 Para aquellos módulos que si tienen documentación, ¿a qué nivel de calidad podremos encontrarlos?
 Puede que sea una simple explicación de una línea: `"ordena números por
-su valor en hexadecimal"`. Puede que se un pedazo de código fuente. Ambos casos son
+su valor en hexadecimal"`. Puede que sea un pedazo de código fuente. Ambos casos son
 mejor que nada, pero suelen terminar en el peor de los casos para un
 espeleólogo de módulos moderno: excavando en un código fuente para intentar entender
 cómo funciona realmente. Escribir documentación excelente sirve para mantener a los
-usuarios *fuera* del código fuente proporcionando suficientes intrucciones para
+usuarios *fuera* del código fuente proporcionando suficientes instrucciones para
 disfrutar de la maravillosa abstracción que nos brinda el módulo.
 
 Node tiene un "amplio" ecosistema: está ampliamente compuesto por una larga lista de
 módulos independientes que hacen una-cosa-bien y únicamente eso. Existen
 [excepciones](https://github.com/lodash/lodash), pero a pesar de estos feudos menores,
-es la gente de un único propósito la que, dada us superioridad numérica, verdaderamente mandan
+es la gente de un único propósito la que, dada su superioridad numérica, verdaderamente mandan
 en el reino de Node.
 
 Esta situación tiene un consecuencia natural: puede ser complicado encontrar módulos de *calidad*
-que hagan exactamente lo que tu quieres que hagan.
+que hagan exactamente lo que tú quieres que hagan.
 
 **Esto está bien**. De verdad. Una exigencia de entrada menor y un problema de detectabilidad, es
 infinitamente mejor que un problema de cultura, donde sólo unos pocos privilegiados puedan participar.
@@ -98,7 +98,7 @@ compartir con los recién llegados la *crème de la crème*: los mejores módulo
 categoría. Esto podrá tomar forma de feeds RSS o listas de correo de nuevos módulos que
 sean considerados útiles por miembros confiables de la comunidad.
 
-¿Qué hay de la redes sociales? Esta idea estimuló la creación de
+¿Qué hay de las redes sociales? Esta idea estimuló la creación de
 [node-modules.com](http://node-modules.com/), un reemplazo de búsqueda para npm que aprovecha
 tus conexiones sociales en GitHub para encontrar módulos que gusten o hayan sido hechos por
 tus amigos.
@@ -106,10 +106,10 @@ tus amigos.
 Por supuesto también está la funcionalidad nativa de [búsqueda](https://npmjs.org) de
 npm: una opción segura, y habitual punto de entrada para nuevos desarrolladores.
 
-No importa cuál sea tu opción, no importa si el espeleológo de módulos entra al
+No importa cuál sea tu opción, no importa si el espeleólogo de módulos entra al
 subsuelo del módulo por [npmjs.org](https://npmjs.org),
 [github.com](https://github.com), o por cualquier otro sitio, este usuario potencial se
-encontrará mirando fijamente a tu fichero README. Ya que tus usuario terminarán
+encontrará mirando fijamente a tu fichero README. Ya que tus usuarios terminarán
 inevitablemente aquí, ¿qué podemos hacer para potenciar al máximo su primera impresión?
 
 
@@ -119,7 +119,7 @@ inevitablemente aquí, ¿qué podemos hacer para potenciar al máximo su primera
 
 Un README es la primera -- y puede que única -- mirada que dedica un consumidor de módulos
 a tu creación. El consumidor quiere que el módulo satisfaga su necesidad, así que debes
-explicar exactamente que necesidad satisface tu módulo y cómo de efectivo es.
+explicar exactamente qué necesidad satisface tu módulo y cómo de efectivo es.
 
 Tu trabajo consiste en
 
@@ -143,7 +143,7 @@ detallada es buena -- ¡haz páginas separadas para esto! -- pero mantén tu REA
 
 ### Aprender del pasado
 
-Suele decirse que quién no aprende historia, está condenado a comenter los mismos
+Suele decirse que quién no aprende historia, está condenado a cometer los mismos
 errores otra vez. Los desarrolladores han estado escribiendo documentación desde hace
 bastantes años. Sería un desperdicio no mirar atrás y fijarnos en lo que la gente
 ha estado haciendo bien antes de Node.
@@ -173,7 +173,7 @@ Los Perl monks comparten cierta sabiduría acerca de este tema:
 > interna (tripas). Esto es bueno, ya que significa que eres libre de cambiar el
 > código de tu módulo mientras mantengas intacta la interfaz.
 >
-> Recuerda: la documentación, y no el ćodigo, define lo que hace un módulo.
+> Recuerda: la documentación, y no el código, define lo que hace un módulo.
 -- [Ken Williams](http://mathforum.org/ken/perl_modules.html#document)
 
 
@@ -184,7 +184,7 @@ para discernir si se ajusta a las necesidades del desarrollo. Esencialmente,
 esto se convierte en una serie de coincidencia de patrones que sus cerebros deben
 resolver, donde cada paso les mete más dentro del módulo y sus detalles.
 
-Digamos ,por ejemplo, que mi búsquesa de un módulo de detección de colisiones 2D
+Digamos, por ejemplo, que mi búsqueda de un módulo de detección de colisiones 2D
 me lleva hasta `collide-2d-aabb-aabb`](https://github.com/noffle/collide-2d-aabb-aabb). I
 Comienzo a examinarlo de arriba hacia abajo:
 
@@ -199,7 +199,7 @@ Comienzo a examinarlo de arriba hacia abajo:
    > Determina si el movimiento de una caja delimitada alienada en un eje (CDAE) colisiona
    > con otras CDAE. (CDAE = AABB = axis-aligned bounding box)
 
-   Increible: define lo qué significa AABB, y lo que hace el módulo. Ahora queda calibrar cómo
+   Increíble: define lo qué significa AABB, y lo que hace el módulo. Ahora queda calibrar cómo
    de bien encajaría en mi código.
 
 3. *Uso* -- En lugar de empezar a ahondar en la documentación de la API, estaría genial
@@ -214,24 +214,24 @@ Comienzo a examinarlo de arriba hacia abajo:
    de que tendrá una muy fácil integración con mi código fuente. La sección API, deberá
    detallar los objetos y funciones del módulo, sus firmas, tipados de vuelta, callbacks, y
    eventos. Se deberá incluir el tipado allá donde no sea obvio. Cualquier advertencia deberá
-   ser expuestsa claramente.
+   ser expuesta claramente.
 
 5. *Instalación* -- si he leído hasta aquí abajo, entonces estoy condenado a instalar el
    módulo. Si existen notas no estándar de instalación, deberían ir aquí, al igual que si es
    un simple `npm install`, también me gustaría verlo mencionado aquí. Existen nuevos usuarios
    comenzando a usar Node todo el tiempo, así que enlazar a npmjs.org y el comando de instalación
-   les facilita los recursos para descubrir como funciona el sistema de módulos de Node.
+   les facilita los recursos para descubrir cómo funciona el sistema de módulos de Node.
 
 6. *Licencia* -- la mayoría de los módulos ponen esto muy abajo, pero podría ser mejor ponerlo
    más arriba; Es posible que excluyas rápidamente un módulo si tiene una licencia incompatible
-   con tu trabajo. Yo generalemente me mantengo en licencias tipo MIT/BSD/X11/ISC. Si tienes
+   con tu trabajo. Yo generalmente me mantengo en licencias tipo MIT/BSD/X11/ISC. Si tienes
    una licencia no permisiva, colócala muy arriba del módulo para prevenir cualquier tipo
    de confusión.
 
 
 ## Canalización cognitiva
 
-El orden de lo expusto anteriormente no ha sido escogido al azar.
+El orden de lo expuesto anteriormente no ha sido escogido al azar.
 
 Los consumidores de módulos usan muchos módulos, y necesitan ver muchos módulos.
 
@@ -239,7 +239,7 @@ Cuando has visto cientos de módulo, comienzas a descubrir que la mente de
 beneficia de patrones predecibles.
 
 También comienzas a construir tu propio sistema heurístico para aquella información
-que quieres, y para esas banderas rojas que descalifican rápidamente algunos modulos.
+que quieres, y para esas banderas rojas que descalifican rápidamente algunos módulos.
 
 Así, se deduce que un README deseable debe tener:
 
@@ -251,19 +251,19 @@ valiosos ciclos cognitivos.
 
 El orden presentado aquí, se denomina cariñosamente "canalización cognitiva"
 y puede imaginarse como un embudo en posición vertical, donde la zona más ancha
-contiene los detalles pertinentes más generales, y al movernos hacía abajo en el embudo
-se presentan detalles más específicos, pertinentes únicamente para un lectos lo suficientemente
+contiene los detalles pertinentes más generales, y al movernos hacia abajo en el embudo
+se presentan detalles más específicos, pertinentes únicamente para un lector lo suficientemente
 interesado en tu trabajo como para para haber llegado hasta las profundidades del documento.
 Finalmente, el fondo podrá reservarse para detalles que incluyan un contexto más
-profundo del trabajo (antecedentes, creditos, bibliografía, etc.).
+profundo del trabajo (antecedentes, créditos, bibliografía, etc.).
 
-De nuevo, los monjes de Perl tiene sabiduría que comparten sobre esta materia:
+De nuevo, los monjes de Perl tienen sabiduría que comparten sobre esta materia:
 
 > El nivel de detalle en la documentación de un módulo Perl generalmente va
 > de menos a más detalle. Tu sección de SIPNOSIS deberá contener un
 > ejemplo de uso mínimo (quizás algo tan simple como una única línea de
-> codigo; evitar los casos de uso poco comunes o cualquier cosa innecesaria para
-> la mayoría de usuarios); la DESCRIPCIÓN deberá describir tu módulo en terminos más
+> código; evitar los casos de uso poco comunes o cualquier cosa innecesaria para
+> la mayoría de usuarios); la DESCRIPCIÓN deberá describir tu módulo en términos más
 > amplios, generalmente con unos pocos párrafos; Se podrá dar más detalle de
 > rutinas o métodos, ejemplos de código más largos y otro material más en
 > profundidad en secciones posteriores.
@@ -276,34 +276,34 @@ De nuevo, los monjes de Perl tiene sabiduría que comparten sobre esta materia:
 
 ## Preocupación por el tiempo de la gente
 
-Increible; el orden de estos puntos clave, debería decidirse por la rapidez con la que
-alquien 'corto circuite' y apueste por tu módulo.
+Increíble; el orden de estos puntos clave, debería decidirse por la rapidez con la que
+alguien 'corto circuite' y apueste por tu módulo.
 
 Suena poco prometedor, ¿verdad? Pero pensar en ello: tu trabajo, cuando estás en ello con
 un alto nivel de altruismo en mente, no se trata de "vender" a la gente tu trabajo.
-Se trata de dejar que evaluen qué hace tu creación lo más objetivamente posible,
+Se trata de dejar que evalúen qué hace tu creación lo más objetivamente posible,
 y que decidan si satisface sus necesidades o no -- además de maximizar tu número de
-descargas Y tu base de usuarios.
+descargas y tu base de usuarios.
 
 Este modo de pensar no se ajusta a todo el mundo; requiere dejar tu ego en la puerta
 y dejar que el trabajo hable por si solo tanto como sea posible. Tu único trabajo
-es describir lo que promete tan sucitamente como te sea posible, de manera que los
+es describir lo que promete tan sucintamente como te sea posible, de manera que los
 espeleólogos de módulos puedan usar tu trabajo cuando les encaje, o bien encontrar
 otra opción que les encaje mejor.
 
 
 ## ¡Llamada a las armas!
 
-¡Sal ahí fuera, valiente construtor de módulos, y haz que tu trabajo sea visible y
+¡Sal ahí fuera, valiente constructor de módulos, y haz que tu trabajo sea visible y
 utilizable gracias a una documentación excelente!
 
 ## Bonus: otras buenas prácticas
 
-Más allá de las claves de este artículo, existen otras técnicas qe puedes seguir
+Más allá de las claves de este artículo, existen otras técnicas que puedes seguir
 (o evitar) para subir aún más la barra de calidad de tus README y maximizar su
 usabilidad para el resto:
 
-1. Considera incluir un sección **Antecedentes** si tu módulo depende de una
+1. Considera incluir una sección **Antecedentes** si tu módulo depende de una
    importante pero no muy conocida abstracción o de otros ecosistemas. La función
    de [`bisecting-between`](https://github.com/noffle/bisecting-between) no es
    demasiado obvia si partimos de su nombre, así que tiene una sección muy detallada
@@ -339,20 +339,20 @@ usabilidad para el resto:
    la información en el README y habría que preguntarse si existe algún flujo para esa
    información que pueda llegar mejor hasta la audiencia deseada.
 
-6. Formatear una API es altamente opinable. Utiliza el formato que tu consideres
-   más claro, pero asegurate de que este formato contempla algunas sutilezas:
+6. Formatear una API es altamente opinable. Utiliza el formato que tú consideres
+   más claro, pero asegúrate de que este formato contempla algunas sutilezas:
 
    a. qué parámetros son opcionales, y su valor por defecto
 
-   b. información del tipado, allí donde no exista un convención obvia
+   b. información del tipado, allí donde no exista una convención obvia
 
    c. para los parámetros `opts` de un objeto, todas las claves y valores aceptados
 
-   d. no rehuyas de proporcionar un pequeño ejemplo de uso de alguna función de la API
-      cuyo funcionamiento no sea obvio o no esté completamente cuvierto en la sección
+   d. no rehúyas de proporcionar un pequeño ejemplo de uso de alguna función de la API
+      cuyo funcionamiento no sea obvio o no esté completamente cubierto en la sección
       *Uso*. Sin embargo, esto puede considerarse como una señal de complejidad de la
       función, que pudiera necesitar ser refactorizada, dividida en funciones más
-      pequeñas o elimiada en s conjunto.
+      pequeñas o eliminada en su conjunto.
 
    e. ¡linka agresivamente terminología especializada! En markdown se puede escribir
       [notas al pie](https://daringfireball.net/projects/markdown/syntax#link) en la
@@ -361,7 +361,7 @@ usabilidad para el resto:
       encontrarse [aquí](https://github.com/noffle/common-readme/blob/master/api_formatting.md)
 
 7. Si tu módulo está compuesto por una pequeña colección de funciones sin estado,
-   tener una sección **Uso** smilar a la de [Node REPL
+   tener una sección **Uso** similar a la de [Node REPL
    session](https://github.com/noffle/bisecting-between#example) de invocaciones
    a funciones y sus resultados, pueden comunicar el uso de manera más claro que
    un fichero de código fuente en ejecución.
@@ -380,7 +380,7 @@ usabilidad para el resto:
     documentación -- esto implica que deberías mantener tus APIS pequeñas
     y definidas con concreción desde las primeras fases. Los requerimientos
     cambian a lo largo del tiempo, pero en lugar de cargar supuestos en directamente
-    en la API de tus módulos, cargalos en un nivel de abstracción: el set del módulo
+    en la API de tus módulos, cárgalos en un nivel de abstracción: el set del módulo
     mismo. Si los requerimientos *sí* cambian, y hacer-una-sola-cosa deja de tener
     sentido, entonces escribe un nuevo módulo que haga aquello que necesitas ahora.
     El módulo que 'hace-una-cosa-concreta' permanece como un modelo válido
@@ -390,7 +390,7 @@ usabilidad para el resto:
 11. Finalmente, recordar por favor que tu sistema de control de versiones y su fichero
     README integrado sobrevivirán a tu [servicio del repositorio](https://github.com) y
     a cualquiera de las cosas a las que enlaces -- especialmente a imágenes -- así que
-    -- incluye -- todo lo esencial para que futuros usurios puedan usar tu trabajo.
+    -- incluye -- todo lo esencial para que futuros usuarios puedan usar tu trabajo.
 
 
 ## Bonus: *common-readme*
@@ -427,7 +427,7 @@ los principios de este artículo:
 request](https://github.com/noffle/art-of-readme/pulls)!
 
 
-## Bonus: Lista de verificacion para un LÉEME
+## Bonus: Lista de verificación para un LÉEME
 
 A continuación una lista de comprobación para medir la calidad de tu fichero README:
 
@@ -435,7 +435,7 @@ A continuación una lista de comprobación para medir la calidad de tu fichero R
 - [ ] Contexto de fondo necesario y enlaces
 - [ ] Enlaces a fuentes informativas de términos potencialmente desconocidos
 - [ ] Ejemplo de uso *ejecutable* y claro
-- [ ] Intrucciones de instalación
+- [ ] Instrucciones de instalación
 - [ ] Documentación extensa de la API
 - [ ] Realización de [tunelización cognitiva](https://github.com/noffle/art-of-readme#cognitive-funneling)
 - [ ] Mencionar excepciones y limitaciones por adelantado
@@ -471,7 +471,7 @@ sobre escribir READMEs. Así, ¡nació El arte de LÉEME!
 Un sentido agradecimiento a [@mafintosh](https://github.com/mafintosh) y a
 [@feross](https://github.com/feross) por el ánimo recibido que necesité para despegar esta idea y empezar a escribir.
 
-Gracias a los lectores increibles que aparecen a continuación, por encontrar errores y enviarme sus PR :heart: :
+Gracias a los lectores increíbles que aparecen a continuación, por encontrar errores y enviarme sus PR :heart: :
 
 - [@ungoldman](https://github.com/ungoldman)
 - [@boidolr](https://github.com/boidolr)
