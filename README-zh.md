@@ -1,14 +1,11 @@
-# README 之道
-
+# README的艺术
 <!--
 Notes on Chinese formatting:
 
 * GitHub does not support inline styles, leading to appearance of oblique text which is wrong in Chinese. I have replaced some of these <em>'s with bold text.
 * Do not try to use line breaks for Chinese, or you get a bunch of extra spaces. If you find the source ugly without linebreak, blame markdown and let it be.
 -->
-
 ## 词源
-
 “README”（读我）这个词从何而来？
 
 正式命名的日期可以追溯到**至少** 1970 年和 [PDP-10](http://pdp-10.trailing-edge.com/decuslib10-04/01/43,50322/read.me.html)；不过也有可能是来自更早之前放在打孔卡片上的便签纸，上面潦草地写着的“READ ME!”。
@@ -19,7 +16,6 @@ README 这个词从出现开始就一直是大写的。除了大写单词更醒�
 <sup>[[2]](#footnote-2)</sup>。
 
 这样做的目的显而易见：“这是进行下一步之前的**重要信息**”。让我们来看一下现代的“**重要信息**”是怎么构成的。
-
 
 ## 针对创建者和使用者
 
@@ -79,7 +75,7 @@ README 是使用者首先（或唯一）审视你作品的入口。用户希望�
 3.  告诉他们使用的方法
 4.  告诉他们其它相关的细节
 
-这是 *你* 的工作。模块作者要证明他的作品在众多模块中是廖落星辰里的璀璨明珠。既然很多开发者第一眼看到的是你的 README，README 的编写质量决定了是否能给人留下好的第一印象。
+这是 **你** 的工作。模块作者要证明他的作品在众多模块中是廖落星辰里的璀璨明珠。既然很多开发者第一眼看到的是你的 README，README 的编写质量决定了是否能给人留下好的第一印象。
 
 ### 简洁
 
@@ -142,12 +138,12 @@ Perl 圣僧们所分享的智慧：
 
 你也开始建立你自己的策略来快速的决定哪些是你需要的，哪些是不需要的。
 
-因此，README应该包涵一下信息:
+因此，README应该包含以下信息:
 
 1.  一个可以预测的格式
 2.  某些关键元素
 
-你不必非要用 *这个* 格式，但要保持统一以符合你的用户的认知习惯。
+你不必非要用 **这个** 格式，但要保持统一以符合你的用户的认知习惯。
 
 这儿介绍的顺序被简称为“认知漏斗”，
 可以想象成是一个直立的漏斗，最宽的部分相关细节最宽泛，越往下移动细节越具体，只有对你的作品足够感兴趣的人才会关注这部分内容。最后，底部可以放一些作品背景的细节 (background，credits，biblio，...)
@@ -155,7 +151,7 @@ Perl 圣僧们所分享的智慧：
 再一次，Perl圣僧们在这个主题上分享了他们的智慧：
 
 > Perl模块的文档对于细节的描述是从少到多的。
-> 你的简介部分应该包涵一个小的例子程序
+> 你的简介部分应该包含一个小的例子程序
 > （或许只有一行代码，省略掉不常用的用例或大多数用户用不到的功能）
 > 描述部分应该从总体上描述你的模块，
 > 通常只需要几个段落；在随后的章节中再详细描述模块的例程或方法，长的代码示例，或其它的资料。
@@ -179,16 +175,15 @@ Perl 圣僧们所分享的智慧：
 
 在文章的重点之外，有其它的实践你可以遵循(或不遵循)来提高你的README的质量，最大限度地发挥其作用。
 
-1.  考虑包涵一个 **Background** 部分，如果你的模块依赖于重要但是不为人所熟知的抽象或生态系统。[`bisecting-between`](https://github.com/noffle/bisecting-between)的函数从它的名字上看不是特别明显，所以在 *Background* 部分会描述定义，并且给出具体概念和抽象的链接，以便需要的人去使用和获取。如果已经有相似的模块在npm上存在了，这儿也是一个非常适合描述建立模块的动机的地方。
+1.  考虑包涵一个 **背景** 部分，如果你的模块依赖于重要但是不为人所熟知的抽象或生态系统。[`bisecting-between`](https://github.com/noffle/bisecting-between)的函数从它的名字上看不是特别明显，所以在 **背景** 部分会描述定义，并且给出具体概念和抽象的链接，以便需要的人去使用和获取。如果已经有相似的模块在npm上存在了，这儿也是一个非常适合描述建立模块的动机的地方。
 
 2.  积极建立连接！如果你谈及其它的模块，想法，或者其他人的时候，在相关的引用内容上加上链接，这样访客就可以很容易的得到你的模块背后的想法。极少有模块是凭空诞生的：所有的作品来源于其它作品，因此很有必要让用户追溯你的模块的历史和灵感。
 
 3.  包涵参数和返回值的类型的信息，当这些信息不明确的时候。 尽可能的符合约定(`cb` 代表回调函数，`num` 代表 `Number`)。
 
-4.  在 **Usage** 部分包含的示例代码，要在repo中以文件的形式体现 -- 例如`example.js`。这样当用户clone项目后，就可以直接运行README中提及的代码。
+4.  在 **用法** 部分包含的示例代码，要在repo中以文件的形式体现 -- 例如`example.js`。这样当用户clone项目后，就可以直接运行README中提及的代码。
 
-5.  使用徽章要慎重。经常会被
-   [滥用](https://github.com/angular/angular)。它们会容易引起争论。它们在你的README中加入了视觉噪声，并且只有当用户在联网的浏览器里阅读你的markdown时才能看到徽章，因为图片是存放在互联网上的其它地方。对于每一个徽章，需要考虑：README中的徽章提供给典型读者的真实含义是什么？用一个CI徽章来显示build/test状态？这个信号更应该发邮件给维护者，或者自动创建一个issue -- 永远要考虑你的README中的数据的受众并且自问一下是否有一个流程能够让数据更好的送达到目标受众。
+5.  使用徽章要慎重。经常会被[滥用](https://github.com/angular/angular)。它们会容易引起争论。它们在你的README中加入了视觉噪声，并且只有当用户在联网的浏览器里阅读你的markdown时才能看到徽章，因为图片是存放在互联网上的其它地方。对于每一个徽章，需要考虑：README中的徽章提供给典型读者的真实含义是什么？用一个CI徽章来显示build/test状态？这个信号更应该发邮件给维护者，或者自动创建一个issue -- 永远要考虑你的README中的数据的受众并且自问一下是否有一个流程能够让数据更好的送达到目标受众。
 
 6.  API 文档格式没有局限。使用任何你认为是清晰的格式，但是要包含重要的细节：
 
@@ -198,32 +193,25 @@ Perl 圣僧们所分享的智慧：
 
     c. 对于 `opts` 对象参数，描述它所接受的所有的 keys 和 values
 
-    d. 为每个API提供一个小的调用示例，如果它们的用法不明显或是在 **Usage** 部分没有体现。
+    d. 为每个API提供一个小的调用示例，如果它们的用法不明显或是在 **用法** 部分没有体现。
       不过，也有可能是函数太复杂了，需要进行重构，划分成更细粒度的函数，或者整体删除。
 
-    e. 为特殊术语建立链接! 在markdown中你可以把
-      [footnotes](https://daringfireball.net/projects/markdown/syntax#link) 放在文档的末尾，可以很方便的多次引用它们。[这儿](https://github.com/noffle/common-readme/blob/master/api_formatting.md)有一些我的API文档格式的个人偏好。
+    e. 为特殊术语建立链接! 在markdown中你可以把[脚注](https://daringfireball.net/projects/markdown/syntax#link) 放在文档的末尾，可以很方便的多次引用它们。[这儿](https://github.com/noffle/common-readme/blob/master/api_formatting.md)有一些我的API文档格式的个人偏好。
 
-7.  如果你的模块是无状态函数的一个小的集合，在
-   **Usage** 部分以 [Node REPL
-   session](https://github.com/noffle/bisecting-between#example) 格式放一些调用和返回值的示例比运行一个示例文件更清晰。
+7.  如果你的模块是无状态函数的一个小的集合，在**用法** 部分以 [Node REPLsession](https://github.com/noffle/bisecting-between#example) 格式放一些调用和返回值的示例比运行一个示例文件更清晰。
 
-8.  如果你的模块提供了 CLI (command line interface)而不是 API，用命令调用的方式展示调用示例和输出。如果你创建了或更改了一个文件， `cat` 它来展示更改前后的变化。
+8.  如果你的模块提供了 CLI (command line interface)而不是 API，用命令调用的方式展示调用示例和输出。如果你创建了或更改了一个文件，`cat` 它来展示更改前后的变化。
 
-9.  不要忘记使用 `package.json`
-    [keywords](https://docs.npmjs.com/files/package.json#keywords) 来盛情邀请模块探险者们。
+9.  不要忘记使用 `package.json`中的[关键字](https://docs.npmjs.com/files/package.json#keywords)来盛情邀请模块探险者们。
 
-10. API改的越多，越要努力的去更新文档 -- 言外之意是让你的API
-    精简并及早给出具体定义。需求一直在变化，但是我们要做的是建立一个抽象层: 模块集合本身，而不是在API中做提前的假设。当需求
-    *变更* 时，并且'只做一件事'不能满足要求的时候，只需写一个新的模块。 '只做一件事'对npm生态系统来说能够使一个模块是有效的和有价值的，并且你的改进过程只是简单的用一个模块来替换另一个模块。
+10. API改的越多，越要努力的去更新文档 -- 言外之意是让你的API精简并及早给出具体定义。需求一直在变化，但是我们要做的是建立一个抽象层: 模块集合本身，而不是在API中做提前的假设。当需求**变更**时，并且'只做一件事'不能满足要求的时候，只需写一个新的模块。'只做一件事'对npm生态系统来说能够使一个模块是有效的和有价值的，并且你的改进过程只是简单的用一个模块来替换另一个模块。
 
-11. 最后，请记住你的版本控制仓库和其中的README存在的时间要比你的 [repository host](https://github.com) 和你链接到的其它任何东西--特别是图片--的时间都要长久。所以 *inline* 任何对将来要获取你的作品的用户来说是重要的东西。
+11. 最后，请记住你的代码仓库和其中的README存在的时间要比你的[代码仓库托管主机](https://github.com)和你链接到的其它任何东西--特别是图片--的时间都要长久。所以**内嵌**任何对将来要获取你的作品的用户来说是重要的东西。
 
 ## 奖励：*common-readme*
 
 不是巧合， 这也是
-[**common-readme**](https://github.com/noffle/common-readme)用的文档格式，一个README写作指南和方便的command-line生成器。如果你喜欢这儿的内容，
-通过`common-readme`你可以节省编写README的时间。你也可以找到使用这个格式的真实的模块的例子。
+[**common-readme**](https://github.com/noffle/common-readme)用的文档格式，一个README写作指南和方便的command-line生成器。如果你喜欢这儿的内容，通过`common-readme`你可以节省编写README的时间。你也可以找到使用这个格式的真实的模块的例子。
 
 你也可以在[标准Readme](https://github.com/richardlitt/standard-readme)中领略下更具结构化的通用Readme格式。
 
@@ -233,9 +221,7 @@ Perl 圣僧们所分享的智慧：
 
 *   [https://github.com/noffle/ice-box](https://github.com/noffle/ice-box)
 *   [https://github.com/substack/quote-stream](https://github.com/substack/quote-stream)
-*   [https://github.com/feross/bittorrent-dht
-](https://github.com/feross/bittorrent-dht
-)
+*   [https://github.com/feross/bittorrent-dht](https://github.com/feross/bittorrent-dht)
 *   [https://github.com/mikolalysenko/box-intersect](https://github.com/mikolalysenko/box-intersect)
 *   [https://github.com/freeman-lab/pixel-grid](https://github.com/freeman-lab/pixel-grid)
 *   [https://github.com/mafintosh/torrent-stream](https://github.com/mafintosh/torrent-stream)
@@ -244,7 +230,7 @@ Perl 圣僧们所分享的智慧：
 *   [https://github.com/yoshuawuyts/vmd](https://github.com/yoshuawuyts/vmd)
 *   [https://github.com/defstream/nl3](https://github.com/defstream/nl3)
 
-如果你遇到了认为不错的例子，请想我发起[pull request](https://github.com/noffle/art-of-readme/pulls)!
+如果你遇到了认为不错的例子，请向我发起[pull request](https://github.com/noffle/art-of-readme/pulls)!
 
 ## 奖励：README清单
 
@@ -274,16 +260,13 @@ Perl 圣僧们所分享的智慧：
 
 ## 脚注
 
-1. <a name="footnote-1"></a>感谢,
-   [Sixes666](https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8akpz6)!
+1. <a name="footnote-1"></a>感谢,[Sixes666](https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8akpz6)!
 
-1. <a name="footnote-2"></a>See [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
-   然而，现在的多数系统不会将大写字母排在小写字母前面，弱化了这个约定的作用，全部大写只能是在视觉上更显著。
+2. <a name="footnote-2"></a>参见[The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html)。然而，现在的多数系统不会将大写字母排在小写字母前面，弱化了这个约定的作用，全部大写只能是在视觉上更显著。
 
 ## 致谢
 
-由衷地感谢 [@mafintosh](https://github.com/mafintosh) 和
-[@feross](https://github.com/feross)，是他们的鼓励让我的这些想法得以落地，并开始写作!
+由衷地感谢 [@mafintosh](https://github.com/mafintosh) 和 [@feross](https://github.com/feross)，是他们的鼓励让我的这些想法得以落地，并开始写作!
 
 感谢下面这些值得尊敬的读者，指正我的纰漏： :heart: :
 
@@ -297,6 +280,8 @@ Perl 圣僧们所分享的智慧：
 - [@StevenMaude](https://github.com/StevenMaude)
 - [@KrishMunot](https://github.com/KrishMunot)
 - [@chesterhow](https://github.com/chesterhow)
+- [@sjsyrek](https://github.com/sjsyrek)
+- [@thenickcox](https://github.com/thenickcox)
 
 感谢 [@qihaiyan](https://github.com/qihaiyan) 将《README的艺术》翻译成中文! 以下用户也为本文做出了贡献：
 
@@ -305,13 +290,17 @@ Perl 圣僧们所分享的智慧：
 - [@HmyBmny](https://github.com/HmyBmny)
 - [@vra](https://github.com/vra)
 
-最后，对于你们所有的反馈表示由衷感谢! 请在 [issue](https://github.com/noffle/art-of-readme/issues) 中分享你们的评论!
+感谢 [@lennonjesus](https://github.com/lennonjesus) 将《README的艺术》翻译成巴西葡萄牙语！以下用户也为本文做出了贡献：
 
+- [@rectius](https://github.com/rectius)
+
+感谢 [@jabiinfante](https://github.com/jabiinfante) 将《README的艺术》翻译成西班牙语！
+
+最后，对于你们所有的反馈表示由衷感谢! 请在 [issue](https://github.com/noffle/art-of-readme/issues) 中分享你们的评论!
 
 ## 欢迎参与!
 
-发现了错误? 存在某些无意义的东西? 向我发起一个[pull
-request](https://github.com/noffle/art-of-readme/pulls)吧!
+发现了错误? 存在某些无意义的东西? 向我发起一个[pull request](https://github.com/noffle/art-of-readme/pulls)吧!
 
 ## 许可证
 
