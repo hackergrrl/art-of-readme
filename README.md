@@ -342,9 +342,6 @@ maximize its usefulness to others:
    internet. For each badge, consider: "what real value is this badge providing
    to the typical viewer of this README?" Do you have a CI badge to show build/test
    status? This signal would better reach important parties by emailing
-   maintainers or automatically creating an issue -- always consider the
-   to the typical viewer of this README"? Have a CI badge to show build/test
-   status? This signal would better reach important parties by emailing
    maintainers or automatically creating an issue. Always consider the
    audience of the data in your README and ask yourself if there's a flow for
    that data that can better reach its intended audience.
