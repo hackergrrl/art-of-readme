@@ -466,6 +466,8 @@ state of READMEs in the Node ecosystem. It spurred me to create
 section overflowed with tips though, which I decided could be usefully collected
 into an article about writing READMEs. Thus, Art of README was born!
 
+You can reach me at `noffle@eight45.net` or on Freenode IRC in `#eight45`.
+
 
 ## Footnotes
 
