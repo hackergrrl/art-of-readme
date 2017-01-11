@@ -456,6 +456,12 @@ La sección "README Tips" está repleta de consejos, por lo que decidí recogerl
 sobre escribir READMEs. Así, ¡nació El arte de LÉEME!
 
 
+## Otras lecturas
+
+- [README-Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
+- [Documentation First](http://joeyh.name/blog/entry/documentation_first/)
+ 
+
 ## Notas al pie
 
 1. <a name="footnote-1"></a>Gracias,
