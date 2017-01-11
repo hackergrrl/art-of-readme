@@ -430,10 +430,6 @@ that I think embody the principles of this article well:
 - https://github.com/defstream/nl3
 
 
-Do you know of others that you think would make good examples? [Send a pull
-request](https://github.com/noffle/art-of-readme/pulls)!
-
-
 ## Bonus: The README Checklist
 
 A helpful checklist to gauge how your README is coming along:
@@ -464,6 +460,12 @@ section overflowed with tips though, which I decided could be usefully collected
 into an article about writing READMEs. Thus, Art of README was born!
 
 You can reach me at `noffle@eight45.net` or on Freenode IRC in `#eight45`.
+
+
+## Further Reading
+
+- [README-Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
+- [Documentation First](http://joeyh.name/blog/entry/documentation_first/)
 
 
 ## Footnotes
