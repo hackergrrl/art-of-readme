@@ -466,6 +466,12 @@ criar o [common-readme](https://github.com/noffle/common-readme). A seção
 em um artigo sobre escrever READMEs. Assim, Art of README nasceu!
 
 
+## Leitura adicional
+
+- [README-Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
+- [Documentation First](http://joeyh.name/blog/entry/documentation_first/)
+
+
 ## Notas de rodapé
 
 1. <a name="footnote-1"></a>Obrigado,
