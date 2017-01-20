@@ -445,6 +445,19 @@ A helpful checklist to gauge how your README is coming along:
 - [ ] Doesn't rely on images to relay critical information
 - [ ] License
 
+## Bonus: See more
+
+This work, like all code, was inspired by lots of community efforts (and
+not just the Perl monks), and arose out of many conversations and other efforts.
+Here are a few other resources that come from similar places:
+
+ - [A long, interesting GitHub conversation](https://github.com/feross/standard/issues/141)
+ about making good READMEs and standardizing them
+ - [@richardlitt's standard-readme](https://github.com/RichardLitt/readme-standard),
+ based on the above, which has a specification for what a README should look like,
+ and a generator and proposed linter
+ - [zwei/standard-readme](https://github.com/zcei/standard-readme) - Another early
+ resource for javascript Readme standardization
 
 ## The author
 
