@@ -125,7 +125,7 @@ Tu trabajo consiste en
 
 1. decirles qué es (con contexto)
 2. mostrarles cómo funciona
-3. mostrarles como usarlo
+3. mostrarles cómo usarlo
 4. decirles cualquier otro detalle relevante
 
 Este es *tu* trabajo. Depende del creador del módulo probar que su trabajo es una

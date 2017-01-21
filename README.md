@@ -327,7 +327,7 @@ maximize its usefulness to others:
    inspiration.
 
 3. Include information on types of arguments and return parameters if it's not
-   obvious. Prefer convention whereever possible (`cb` probably means callback
+   obvious. Prefer convention wherever possible (`cb` probably means callback
    function, `num` probably means a `Number`, etc.).
 
 4. Include the example code in **Usage** as a file in your repo -- maybe as
