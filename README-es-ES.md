@@ -1,18 +1,18 @@
-# El arte del LÉEME
+# El arte del README
 
 *Este artículo ha sido traducido desde el [inglés](README.md) y puede encontrarse en [chino](README-zh.md), en
 [brasileño portugués](README-pt-BR.md) y en [español](README-es-ES.md).*
 
 ## Etimología
 
-¿De dónde viene el término "LÉEME"?
+¿De dónde viene el término "README"?
 
-La nomenclatura está fechada desde *por lo menos* el artículo de los 70 [and the
+La nomenclatura está fechada desde *por lo menos* los 70's [y el
 PDP-10](http://pdp-10.trailing-edge.com/decuslib10-04/01/43,50322/read.me.html),
-aunque puede ser más remontarse a los días de notas de papel informativas situadas sobre
-pilas de tarjetas perforadas, con un "LÉEME!" garabateado encima, describiendo su uso.
+aunque incluso podría remontarse a los días de notas de papel informativas situadas sobre
+pilas de tarjetas perforadas, con un "READ ME!" (¡LEEME!) garabateado encima, describiendo su uso.
 
-Un lector<sup>[1](#footnote-1)</sup> ha sugerido que el título LÉEME puede ser un guiño a
+Un lector<sup>[1](#footnote-1)</sup> ha sugerido que el título README puede ser un guiño a
 *Las aventuras de Alicia en el país de las maravillas* de Lewis Carroll, donde una poción y un pastel
 están etiquetados con *"BÉBEME"* y *"CÓMEME"*, respectivamente.
 
