@@ -17,7 +17,7 @@ Carroll's *Alice's Adventures in Wonderland*, which features a potion and a cake
 labelled *"DRINK ME"* and *"EAT ME"*, respectively.
 
 The pattern of README appearing in all-caps is a consistent facet throughout
-history. In addition to the visual strikingness of using all-caps, UNIX systems
+history. In addition to the visual impact of using all-caps, UNIX systems
 would sort capitals before lower case letters, conveniently putting the README
 before the rest of the directory's content<sup>[2](#footnote-2)</sup>.
 
@@ -476,7 +476,7 @@ You can reach me at `noffle@eight45.net` or on Freenode IRC in `#eight45`.
 1. <a name="footnote-2"></a>See [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
    However, most systems today will not sort capitals before all lowercase
    characters, reducing this convention's usefulness to just the visual
-   strikingness of all-caps.
+   impact of all-caps.
 
 
 ## Credits
