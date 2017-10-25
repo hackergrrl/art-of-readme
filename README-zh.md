@@ -304,4 +304,4 @@ Perl 圣僧们所分享的智慧：
 
 ## 许可证
 
-[Creative Commons Attribution License](Creative Commons Attribution License)
+[Creative Commons Attribution License](http://creativecommons.org/licenses/by/2.0/)
