@@ -1,7 +1,7 @@
 # El arte del README
 
 *Este artículo ha sido traducido desde el [inglés](README.md) y puede encontrarse en [chino](README-zh.md), en
-[brasileño portugués](README-pt-BR.md) y en [español](README-es-ES.md).*
+[portugués brasileño](README-pt-BR.md) y en [español](README-es-ES.md).*
 
 ## Etimología
 
@@ -500,10 +500,10 @@ README a chino! Los siguientes usuarios también contribuyeron:
 - [@vra](https://github.com/vra)
 
 ¡Gracias a [@lennonjesus](https://github.com/lennonjesus) por traducir Art
-of README a Portugués Brasileño!
+of README a portugués brasileño!
 
 ¡Gracias a [@jabiinfante](https://github.com/jabiinfante) por traducir Art
-of README a Español!
+of README a español!
 
 
 Para terminar, ¡gracias por todo el feedback! Por favor hacer vuestros comentarios [como una
