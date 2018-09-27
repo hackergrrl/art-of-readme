@@ -420,7 +420,6 @@ los principios de este artículo:
 - https://github.com/pull-stream/pull-stream
 - https://github.com/substack/tape
 - https://github.com/yoshuawuyts/vmd
-- https://github.com/defstream/nl3
 
 
 ¿Conoces alguno otro que sea un buen ejemplo? [Envíame un pull

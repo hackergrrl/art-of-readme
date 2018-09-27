@@ -228,7 +228,6 @@ Perl 圣僧们所分享的智慧：
 *   [https://github.com/pull-stream/pull-stream](https://github.com/pull-stream/pull-stream)
 *   [https://github.com/substack/tape](https://github.com/substack/tape)
 *   [https://github.com/yoshuawuyts/vmd](https://github.com/yoshuawuyts/vmd)
-*   [https://github.com/defstream/nl3](https://github.com/defstream/nl3)
 
 如果你遇到了认为不错的例子，请向我发起[pull request](https://github.com/noffle/art-of-readme/pulls)!
 
