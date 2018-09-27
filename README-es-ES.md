@@ -1,7 +1,7 @@
 # El arte del README
 
 *Este artículo ha sido traducido desde el [inglés](README.md) y puede encontrarse en [chino](README-zh.md), en
-[brasileño portugués](README-pt-BR.md) y en [español](README-es-ES.md).*
+[portugués brasileño](README-pt-BR.md) y en [español](README-es-ES.md).*
 
 ## Etimología
 
