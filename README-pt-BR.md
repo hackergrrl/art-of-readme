@@ -1,9 +1,9 @@
 # Art of README
 
 *Este artigo foi traduzido do [Inglês](README.md) e traduzido para [Chinês](README-zh.md),
-[Português](README-pt-BR.md) e Espanhol(README-es-ES.md).*
+[Português](README-pt-BR.md) e [Espanhol](README-es-ES.md).*
 
-## Etmologia
+## Etimologia
 
 De onde vem o termo "README"?
 
