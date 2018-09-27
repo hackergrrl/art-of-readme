@@ -501,10 +501,10 @@ README a chino! Los siguientes usuarios también contribuyeron:
 - [@vra](https://github.com/vra)
 
 ¡Gracias a [@lennonjesus](https://github.com/lennonjesus) por traducir Art
-of README a Portugués Brasileño!
+of README a portugués brasileño!
 
 ¡Gracias a [@jabiinfante](https://github.com/jabiinfante) por traducir Art
-of README a Español!
+of README a español!
 
 
 Para terminar, ¡gracias por todo el feedback! Por favor hacer vuestros comentarios [como una
