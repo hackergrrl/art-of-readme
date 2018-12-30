@@ -302,7 +302,7 @@ por el documento, irá recibiendo progresivamente más cantidad de información.
 ## Preocupación por el tiempo de los demás
 
 Es Increíble, el orden de estos puntos clave debería decidirse por la rapidez
-con la que alguien 'corto cirquito' apuesta por tu módulo.
+con la que alguien 'corto circuite' apuesta por tu módulo.
 
 ¿Suena poco prometedor? Piensa en esto: tu trabajo, cuando estás en ello con
 un alto nivel de altruismo en mente, no se trata de "vender" a la gente tu
@@ -543,7 +543,6 @@ README a español!
 
 Para terminar, ¡gracias por todo el feedback! Por favor hacer vuestros
 comentarios [como una _issue_](https://github.com/noffle/art-of-readme/issues)!
-
 
 ## ¡Pull requests bienvenidas!
 
