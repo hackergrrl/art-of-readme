@@ -13,12 +13,13 @@ namespace GeneticAlgorithm
         public float Fitness { get; set; }
         private Random _random;
         private Func<T> getRandomGene;
-
-        public DNA(int size, Random random, Func<T> getRandomGene, bool showInitGenes = true)
+        private Func<float, int> fitnessFunction; 
+        public DNA(int size, Random random, Func<T> getRandomGene, Func<float, int> fitnessFunction,bool showInitGenes = true)
         {
             Genes = new T[size];
             this._random = random;
             this.getRandomGene = getRandomGene;
+            this.fitnessFunction = fitnessFunction;
 
             if (showInitGenes)
             {
@@ -28,13 +29,15 @@ namespace GeneticAlgorithm
                 }
             }
         }
-        public float CalculateFitness()
+        public float CalculateFitness(int index)
         {
-            return 0;
+            Fitness = fitnessFunction(index);
+            return Fitness;
+
         }
         public DNA<T> CrossOver(DNA<T> OtherParent)
         {
-            DNA<T> child = new DNA<T>(Genes.Length, _random, getRandomGene, showInitGenes: false);
+            DNA<T> child = new DNA<T>(Genes.Length, _random, getRandomGene,fitnessFunction, showInitGenes: false);
             Random random = new Random();
             for (int i = 0; i < Genes.Length; i++)
             {
