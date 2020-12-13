@@ -547,6 +547,11 @@ auch Beiträge eingebracht:
 Dank an [@jabiinfante](https://github.com/jabiinfante) für das Übersetzen der
 Kunst des README ins Spanisch!
 
+Dank an [@Ryuno-Ki](https://github.com/Ryuno-Ki) für das Übersetzen der Kunst
+des README ins Deutsche! Die folgenden Nutzer haben auch Beiträge eingebracht:
+
+- [@randomC0der](https://github.com/randomC0der)
+
 Abschließend dank an alle für ihr Feedback! Bitte teilt eure Kommentare
 [als issue](https://github.com/noffle/art-of-readme/issues)!
 
