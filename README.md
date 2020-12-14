@@ -1,7 +1,8 @@
 # Art of README
 
 *This article can also be read in [Chinese](README-zh.md), 
-[Brazilian Portuguese](README-pt-BR.md) and [Spanish](README-es-ES.md).*
+[Brazilian Portuguese](README-pt-BR.md), [Spanish](README-es-ES.md) and
+[German](README-de-DE.md).*
 
 ## Etymology
 
@@ -515,6 +516,11 @@ of README to Brazilian Portuguese! The following users also made contributions:
 
 Thank you to [@jabiinfante](https://github.com/jabiinfante) for translating Art
 of README to Spanish!
+
+Thank you to [@Ryuno-Ki](https://github.com/Ryuno-Ki) for translating Art of
+README to German! The following users also made contributions:
+
+- [@randomC0der](https://github.com/randomC0der)
 
 Finally, thanks for all of the feedback! Please share your comments [as an
 issue](https://github.com/noffle/art-of-readme/issues)!

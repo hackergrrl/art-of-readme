@@ -295,6 +295,10 @@ Perl 圣僧们所分享的智慧：
 
 感谢 [@jabiinfante](https://github.com/jabiinfante) 将《README的艺术》翻译成西班牙语！
 
+感谢[@Ryuno-Ki](https://github.com/Ryuno-Ki) 将《README的艺术》翻译成德语！以下用户也对本文做出了贡献：
+
+- [@randomC0der](https://github.com/randomC0der)
+
 最后，对于你们所有的反馈表示由衷感谢! 请在 [issue](https://github.com/noffle/art-of-readme/issues) 中分享你们的评论!
 
 ## 欢迎参与!

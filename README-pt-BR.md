@@ -1,7 +1,8 @@
 # Art of README
 
 *Este artigo foi traduzido do [Inglês](README.md) e traduzido para [Chinês](README-zh.md),
-[Português](README-pt-BR.md) e [Espanhol](README-es-ES.md).*
+[Português](README-pt-BR.md) e [Espanhol](README-es-ES.md) e
+[Alemão](README-de-DE.md).*
 
 ## Etimologia
 
@@ -517,6 +518,11 @@ o Art of README para o Português Brasileiro! Os seguintes usuários também fiz
 
 Um agradecimento ao [@jabiinfante](https://github.com/jabiinfante) por traduzir
 o Art of README para o Espanhol!
+
+Um agradecimento ao [@Ryuno-Ki](https://github.com/Ryuno-Ki) por traduzir
+o Art of README para o Alemão! Os seguintes usuários também fizeram contribuições:
+
+- [@randomC0der](https://github.com/randomC0der)
 
 Finalmente, obrigado a todos pelo feedback! Por favor, compartilhe seus
 comentários através de [issues](https://github.com/noffle/art-of-readme/issues)!
