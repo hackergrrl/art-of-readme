@@ -1,31 +1,30 @@
-# Art of README
+# L'art du README
 
-*This article can also be read in [Chinese](README-zh.md), 
-[Brazilian Portuguese](README-pt-BR.md), [Spanish](README-es-ES.md) and
-[German](README-de-DE.md).*
+*Cet article peut également être lu en [Chinois](README-zh.md), 
+[Portugais brésilien](README-pt-BR.md), [espagnol](README-es-ES.md) et
+[Allemand](README-de-DE.md).*
 
-## Etymology
+## Etymologie
 
-Where does the term "README" come from?
+D'où vient le terme «README»?
 
-The nomenclature dates back to *at least* the 1970s [and the
-PDP-10](http://pdp-10.trailing-edge.com/decuslib10-04/01/43,50322/read.me.html),
-though it may even harken back to the days of informative paper notes placed atop
-stacks of punchcards, "READ ME!" scrawled on them, describing their use.
+La nomenclature remonte au moins aux années 1970 [et le
+PDP-10] (http://pdp-10.trailing-edge.com/decuslib10-04/01/43,50322/read.me.html),
+bien que cela puisse même remonter à l'époque des notes papier informatives placées au sommet
+de piles de cartes perforées, avec "READ ME!" (LISEZ-MOI!") griffonné sur eux, décrivant leur utilisation.
 
-A reader<sup>[1](#footnote-1)</sup> suggested that the title README may be a playful nudge toward Lewis
-Carroll's *Alice's Adventures in Wonderland*, which features a potion and a cake
-labelled *"DRINK ME"* and *"EAT ME"*, respectively.
+Un lecteur <sup>[1](#footnote-1)</sup> suggéra que le titre README puisse être un petit coup de pouce ludique 
+en hommage au très fameux roman, de Lewis Carroll, intitulé Les Aventures d'Alice au pays des merveilles, 
+comprennant une potion et un gâteau étiquetés "DRINK ME" (BUVEZ-MOI) et "EAT ME" (BUVEZ-MOI), respectivement.
 
-The pattern of README appearing in all-caps is a consistent facet throughout
-history. In addition to the visual strikingness of using all-caps, UNIX systems
-would sort capitals before lower case letters, conveniently putting the README
-before the rest of the directory's content<sup>[2](#footnote-2)</sup>.
+Le modèle de README apparaissant en majuscules est un point récurrent tout au long de l'histoire. 
+En plus du carractère visuellement frappant de l'utilisation des majuscules, les systèmes UNIX
+trient les majuscules avant les minuscules, mettant commodément le README
+avant le reste du contenu du répertoire <sup> [2](#footnote-2) </sup>.
 
-The intent is clear: *"This is important information for the user to read before
-proceeding."* Let's explore together what constitutes "important information" in
-this modern age.
-
+L'intention est claire: *"Il s'agit d'informations importantes que l'utilisateur doit lire avant
+de poursuivre."* Explorons ensemble ce qui constitue une "information importante" dans
+ces temps modernes.
 
 ## For creators, for consumers
 
