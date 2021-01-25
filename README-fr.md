@@ -26,23 +26,23 @@ L'intention est claire: *"Il s'agit d'informations importantes que l'utilisateur
 de poursuivre."* Explorons ensemble ce qui constitue une "information importante" dans
 ces temps modernes.
 
-## For creators, for consumers
+## Pour les créateurs, pour les consommateurs
 
-This is an article about READMEs. About what they do, why they are an absolute
-necessity, and how to craft them well.
+Cet article traite des READMEs. Il présente ce qu'ils font, pourquoi ils sont
+absolument nécessaires, et comment bien les construire.
 
-This is written for module creators, for as a builder of modules, your job is to
-create something that will last. This is an inherent motivation, even if the
-author has no intent of sharing their work. Once 6 months pass, a module without
-documentation begins to look new and unfamiliar.
+Cet article concerne les créateurs de modules car en tant que constructeurs
+de modules, leur travail consiste à créer des éléments durables.
+C'est une motivation inhérente, même si le l'auteur n'a pas l'intention
+de partager son travail. Une fois six mois passés, un module sans documentation
+commence à paraître nouveau et peu familier.
 
-This is also written for module consumers, for every module author is also a
-module consumer. Node has a very healthy degree of interdependency: no one lives
-at the bottom of the dependency tree.
+Cet article est également pour les consommateurs de modules, puisque chaque
+auteur de module en consomme également. Node a un degré d'interdépendance
+très sain : personne n'est au bas de l'arborescence des dépendances.
 
-Despite being focused on Node, the author contends that its lessons apply
-equally well to other programming ecosystems, as well.
-
+Bien qu'il se concentre sur Node, l'auteur soutient que ses leçons s'appliquent
+aussi bien à d’autres écosystèmes de programmation.
 
 ## Many modules: some good, some bad
 
