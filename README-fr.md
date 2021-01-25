@@ -524,13 +524,13 @@ README to German! The following users also made contributions:
 Finally, thanks for all of the feedback! Please share your comments [as an
 issue](https://github.com/noffle/art-of-readme/issues)!
 
+## Les contributions sont bienvenues!
 
-## Pull requests welcome!
+Vous avez repéré une erreur? Quelque chose n'a pas de sens? Envoyez-moi une [pull
+request] (https://github.com/noffle/art-of-readme/pulls)!
+Veuillez cependant éviter de faire des changements stylistiques s'il-vous-plait,
+il est peu probable qu'ils soient acceptés. Merci!
 
-Spotted an error? Something doesn't make sense? Send me a [pull
-request](https://github.com/noffle/art-of-readme/pulls)! Please avoid making
-stylistic changes though -- they are unlikely to be accepted. Thanks!
-
-## License
+## Licence
 
 [Creative Commons Attribution License](http://creativecommons.org/licenses/by/2.0/)
