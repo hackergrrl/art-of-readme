@@ -11,7 +11,7 @@ D'où vient le terme «README»?
 La nomenclature remonte au moins aux années 1970 [et le
 PDP-10] (http://pdp-10.trailing-edge.com/decuslib10-04/01/43,50322/read.me.html),
 bien que cela puisse même remonter à l'époque des notes papier informatives placées au sommet
-de piles de cartes perforées, avec "READ ME!" (LISEZ-MOI!") griffonné sur eux, décrivant leur utilisation.
+de piles de cartes perforées, avec "READ ME!" ("LISEZ-MOI!") griffonné sur eux, décrivant leur utilisation.
 
 Un lecteur <sup>[1](#footnote-1)</sup> suggéra que le titre README puisse être un petit coup de pouce ludique 
 en hommage au très fameux roman, de Lewis Carroll, intitulé Les Aventures d'Alice au pays des merveilles, 
@@ -38,66 +38,65 @@ de partager son travail. Une fois six mois passés, un module sans documentation
 commence à paraître nouveau et peu familier.
 
 Cet article est également pour les consommateurs de modules, puisque chaque
-auteur de module en consomme également. Node a un degré d'interdépendance
+auteur de module en consomme également. Node.js a un degré d'interdépendance
 très sain : personne n'est au bas de l'arborescence des dépendances.
 
-Bien qu'il se concentre sur Node, l'auteur soutient que ses leçons s'appliquent
+Bien qu'il se concentre sur Node.js, l'auteur soutient que ses leçons s'appliquent
 aussi bien à d’autres écosystèmes de programmation.
 
-## Many modules: some good, some bad
+## De nombreux modules: certains bons, d'autres mauvais
 
-The Node ecosystem is powered by its modules. [npm](https://npmjs.org) is the
-magic that makes it all *go*. In the course of a week, Node developers evaluate
-dozens of modules for inclusion in their projects. This is a great deal of power
-being churned out on a daily basis, ripe for the plucking, just as fast as one
-can write `npm install`.
+L'écosystème Node.js est alimenté par ses modules. [npm] (https://npmjs.org) est
+la magie qui fait tout cela *tourner*. Au cours d'une semaine, les développeurs Node évaluent
+des dizaines de modules à intégrer dans leurs projets. C'est beaucoup de puissance
+que de pouvoir tirr quotidiennement, autant de modules, aussi vite que l'on puisse
+écrire `npm install`.
 
-Like any ecosystem that is extremely accessible, the quality bar varies. npm
-does its best to nicely pack away all of these modules and ship them far and
-wide. However, the tools found are widely varied: some are shining and new,
-others broken and rusty, and still others are somewhere in between. There are
-even some that we don't know what they do!
+Comme tout écosystème extrêmement accessible, la barre de qualité varie. npm
+fait de son mieux pour bien empaqueter tous ces modules et les expédier ici et
+là en fonction du besoin. Cependant, les modules récupérés sont très variés: 
+certains sont neufs et brillants, d'autres sont cassés et rouillés,
+et d'autres encore sont situés quelque part entre les deux. 
+Il y en a même certains dont nous ne savons tout simplement pas ce qu'ils font!
 
-For modules, this can take the form of inaccurate or unhelpful names (any
-guesses what the `fudge` module does?), no documentation, no tests, no source
-code comments, or incomprehensible function names.
+Pour les modules, cela peut prendre la forme de noms inexacts ou inutiles 
+(une idée sur ce que fait le module `fudge`?), pas de documentation, pas de tests, 
+pas de commentaires dans le code source ou des noms de fonctions incompréhensibles.
 
-Many don't have an active maintainer. If a module has no human available to
-answer questions and explain what a module does, combined with no remnants of
-documentation left behind, a module becomes a bizarre alien artifact, unusable
-and incomprehensible by the archaeologist-hackers of tomorrow.
+Beaucoup n'ont pas de mainteneur actif. Si un module n'a aucune personne disponible pour
+répondre aux questions et expliquer ce que fait un module, combiné à une absence de documentation 
+laissé en héritage, un module devient un artefact extraterrestre bizarre, inutilisable
+et incompréhensible par les archéologues-hackers de demain.
 
-For those modules that do have documentation, where do they fall on the quality
-spectrum? Maybe it's just a one-liner description: `"sorts numbers by their hex
-value"`. Maybe it's a snippet of example code. These are both improvements upon
-nothing, but they tend to result in the worst-case scenario for a modern day
-module spelunker: digging into the source code to try and understand how it
-actually works. Writing excellent documentation is all about keeping the users
-*out* of the source code by providing instructions sufficient to enjoy the
-wonderful abstractions that your module brings.
+Pour les modules ayant de la documentation, où se situent-ils en terme de qualité?
+C'est peut-être juste une description à une seule ligne: `"trie les nombres par leur valeure hexadécimal"`,
+ou il s'agirait d'un exemple extrait du code. C'est déjà mieux que rien, mais ils ont 
+tendance à finir, dans le pire des cas, comme module pour les spéléologues des temps modernes: 
+fouillant dans le code source pour essayer de comprendre comment il fonctionne réellement. 
+Ecrire une excellente documentation, c'est garder les utilisateurs
+*hors* du code source en fournissant des instructions suffisantes pour profiter des
+merveilleuses abstractions que votre module apporte.
 
-Node has a "wide" ecosystem: it's largely made up of a very long list of
-independent do-one-thing-well modules flying no flags but their own. There are
-[exceptions](https://github.com/lodash/lodash), but despite these minor fiefdoms,
-it is the single-purpose commoners who, given their larger numbers, truly rule the
-Node kingdom.
+Node.js a un écosystème "large": il est en grande partie constitué d'une très longue liste de
+modules indépendants, adeptes du faire-une-chose-mais-le-faire-bien. Il y a des
+[exceptions] (https://github.com/lodash/lodash), mais malgré ces fiefs mineurs,
+ce sont les modules à "but unique" qui, étant donné leur plus grand nombre, gouvernent réellement le
+Royaume de Node.js.
 
-This situation has a natural consequence: it can be hard to find *quality* modules
-that do exactly what you want.
+Cette situation a une conséquence naturelle: il peut être difficile de trouver des modules *de qualité*
+qui font exactement ce que vous voulez.
 
-**This is okay**. Truly. A low bar to entry and a discoverability problem is
-infinitely better than a culture problem, where only the privileged few may
-participate.
+**C'est ok**. Vraiment. Une barre basse à l'entrée et un problème de découvrabilité est
+infiniment mieux qu'un problème de culture, où seuls quelques privilégiés peuvent participer.
 
-Plus, discoverability -- as it turns out -- is easier to address.
-
+De plus, la découvrabilité - en fait - est plus facile à gérer.
 
 ## All roads lead to README.md
 
-The Node community has responded to the challenge of discoverability in
+The Node.js community has responded to the challenge of discoverability in
 different ways.
 
-Some experienced Node developers band together to create [curated
+Some experienced Node.js developers band together to create [curated
 lists](https://github.com/sindresorhus/awesome-nodejs) of quality modules.
 Developers leverage their many years examining hundreds of different modules to
 share with newcomers the *crème de la crème*: the best modules in each category.
@@ -154,10 +153,10 @@ pages for it! -- but keep your README succinct.
 It is said that those who do not study their history are doomed to make its
 mistakes again. Developers have been writing documentation for quite some number
 of years. It would be wasteful to not look back a little bit and see what people
-did right before Node.
+did right before Node.js.
 
 Perl, for all of the flak it receives, is in some ways the spiritual grandparent
-of Node. Both are high-level scripting languages, adopt many UNIX idioms, fuel
+of Node.js. Both are high-level scripting languages, adopt many UNIX idioms, fuel
 much of the internet, and both feature a wide module ecosystem.
 
 It so turns out that the [monks](http://perlmonks.org) of the Perl community
@@ -226,8 +225,8 @@ begin to examine it from top to bottom:
 5. *Installation* -- if I've read this far down, then I'm sold on trying out the
    module. If there are nonstandard installation notes, here's where they'd go,
    but even if it's just a regular `npm install`, I'd like to see that mentioned,
-   too. New users start using Node all the time, so having a link to npmjs.org
-   and an install command provides them the resources to figure out how Node
+   too. New users start using Node.js all the time, so having a link to npmjs.org
+   and an install command provides them the resources to figure out how Node.js
    modules work.
 
 6. *License* -- most modules put this at the very bottom, but this might
@@ -453,7 +452,7 @@ I'm [noffle](http://blog.eight45.net/about/). I'm known to
 
 This little project began back in May in Berlin at squatconf, where I was
 digging into how Perl monks write their documentation and also lamenting the
-state of READMEs in the Node ecosystem. It spurred me to create
+state of READMEs in the Node.js ecosystem. It spurred me to create
 [common-readme](https://github.com/noffle/common-readme). The "README Tips"
 section overflowed with tips though, which I decided could be usefully collected
 into an article about writing READMEs. Thus, Art of README was born!
