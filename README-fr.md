@@ -301,10 +301,10 @@ to describe its promise as succinctly as you can, so module spelunkers can
 either use your work when it's a fit, or move on to something else that does.
 
 
-## Call to arms!
+## Appel aux armes!
 
-Go forth, brave module spelunker, and make your work discoverable and usable
-through excellent documentation!
+Allez de l'avant, courageux spéléologue de module, et rendez votre travail découvrable et utilisable
+grâce à une excellente documentation!
 
 
 ## Bonus: other good practices
@@ -403,21 +403,21 @@ maximize its usefulness to others:
 
 ## Bonus: *common-readme*
 
-Not coincidentally, this is also the format used by
-[**common-readme**](https://github.com/noffle/common-readme), a set of README
-guidelines and handy command-line generator. If you like what's written here,
-you may save some time writing READMEs with `common-readme`. You'll find
-real module examples with this format, too.
+Ce n'est pas par hasard, c'est aussi le format utilisé par
+[**common-readme**](https://github.com/noffle/common-readme), un ensemble de README
+directives et générateur de ligne de commande pratique. Si vous aimez ce qui est écrit ici,
+vous pouvez gagner du temps en écrivant des README avec `common-readme`. Vous trouverez
+de vrais exemples de modules avec ce format également.
 
-You may also enjoy
-[standard-readme](https://github.com/richardlitt/standard-readme), which is a
-more structured, lintable take on a common README format.
+Vous pouvez également profiter du 
+[standard-readme](https://github.com/richardlitt/standard-readme), qui est une
+version plus structurée et formatable du format README commun.
 
 
-## Bonus: Exemplars
+## Bonus: exemplaires
 
-Theory is well and good, but what do excellent READMEs look like? Here are some
-that I think embody the principles of this article well:
+La théorie est bonne, mais à quoi ressemblent les excellents README? En voilà quelques-uns 
+qui, je pense, incarnent bien les principes de cet article:
 
 - https://github.com/noffle/ice-box
 - https://github.com/substack/quote-stream
@@ -430,20 +430,20 @@ that I think embody the principles of this article well:
 - https://github.com/yoshuawuyts/vmd
 
 
-## Bonus: The README Checklist
+## Bonus: la liste de contrôle README
 
-A helpful checklist to gauge how your README is coming along:
+Une liste de contrôle utile pour évaluer la progression de votre README:
 
-- [ ] One-liner explaining the purpose of the module
-- [ ] Necessary background context & links
-- [ ] Potentially unfamiliar terms link to informative sources
-- [ ] Clear, *runnable* example of usage
-- [ ] Installation instructions
-- [ ] Extensive API documentation
-- [ ] Performs [cognitive funneling](https://github.com/noffle/art-of-readme#cognitive-funneling)
-- [ ] Caveats and limitations mentioned up-front
-- [ ] Doesn't rely on images to relay critical information
-- [ ] License
+- [ ] Une seule ligne expliquant le but du module
+- [ ] Contexte et liens nécessaires
+- [ ] Des termes potentiellement inconnus renvoient à des sources d'information
+- [ ] Exemple d'utilisation clair, *exécutable*
+- [ ] Instructions d'installation
+- [ ] Documentation complète de l'API
+- [ ] Effectue [l'entonnoir cognitif](https://github.com/noffle/art-of-readme#cognitive-funneling)
+- [ ] Mises en garde et limitations mentionnées à l'avance
+- [ ] Ne se fie pas aux images pour fournir des informations capitales
+- [ ] Licence
 
 
 ## The author
@@ -462,21 +462,20 @@ into an article about writing READMEs. Thus, Art of README was born!
 You can reach me at `noffle@eight45.net` or on Freenode IRC in `#eight45`.
 
 
-## Further Reading
+## Lectures complémentaires
 
 - [README-Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
 - [Documentation First](http://joeyh.name/blog/entry/documentation_first/)
 
 
-## Footnotes
+## Notes de bas de page
 
-1. <a name="footnote-1"></a>Thanks,
-   [Sixes666](https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8akpz6)!
+1. <a name="footnote-1"> </a> Merci,
+    [Sixes666](https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8akpz6)!
 
-1. <a name="footnote-2"></a>See [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
-   However, most systems today will not sort capitals before all lowercase
-   characters, reducing this convention's usefulness to just the visual
-   strikingness of all-caps.
+1. <a name="footnote-2"> </a> Voir [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
+    Cependant, la plupart des systèmes actuels ne trieront pas les majuscules avant toutes les minuscules, 
+    réduisant ainsi l'utilité de cette convention à son seul visuel frappant.
 
 
 ## Credits
