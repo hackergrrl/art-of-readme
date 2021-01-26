@@ -150,39 +150,38 @@ sans l'être trop. La documentation détaillée est bonne - séparez
 les pages pour cela! - mais gardez votre README succinct.
 
 
-### Learn from the past
+### Apprendre du passé
 
-It is said that those who do not study their history are doomed to make its
-mistakes again. Developers have been writing documentation for quite some number
-of years. It would be wasteful to not look back a little bit and see what people
-did right before Node.js.
+On dit que ceux qui n'étudient pas leur histoire sont condamnés à refaire les mêmes 
+erreurs à nouveau. Les développeurs écrivent de la documentation depuis un certain nombre
+d'années. Ce serait un gaspillage de ne pas regarder un peu en arrière et voir ce que les gens
+faisaient juste avant Node.js.
 
-Perl, for all of the flak it receives, is in some ways the spiritual grandparent
-of Node.js. Both are high-level scripting languages, adopt many UNIX idioms, fuel
-much of the internet, and both feature a wide module ecosystem.
+Perl, malgré toutes les critiques qu'il reçoit, est à certains égards le grand-père spirituel
+de Node.js. Les deux sont des langages de script de haut niveau, adoptent de nombreux idiomes UNIX,
+sont utilisés dans une grande partie d'Internet, et disposent d'un vaste écosystème de modules.
 
-It so turns out that the [monks](http://perlmonks.org) of the Perl community
-indeed have a great deal of experience in writing [quality
-READMEs](http://search.cpan.org/~kane/Archive-Tar/lib/Archive/Tar.pm). CPAN is a
-wonderful resource that is worth reading through to learn more about a community
-that wrote consistently high-calibre documentation.
+Il s'avère que les [moines](http://perlmonks.org) de la communauté Perl ont en effet une grande expérience 
+en rédaction de [README de qualité](http://search.cpan.org/~kane/Archive-Tar/lib/Archive/Tar.pm). CPAN est une
+merveilleuse ressource qui vaut la peine d'être lue pour en savoir plus sur une communauté
+qui a rédigé des documentations de bonne facture.
 
 
-### No README? No abstraction
+### Pas de README? Pas d'abstraction
 
-No README means developers will need to delve into your code in order to
-understand it.
+Pas de README signifie que les développeurs devront fouiller dans votre code pour
+le comprendre.
 
-The Perl monks have wisdom to share on the matter:
+Les moines Perl ont une sagesse à partager à ce sujet:
 
-> Your documentation is complete when someone can use your module without ever
-> having to look at its code. This is very important. This makes it possible for
-> you to separate your module's documented interface from its internal
-> implementation (guts). This is good because it means that you are free to
-> change the module's internals as long as the interface remains the same.
+> Votre documentation est complète lorsque quelqu'un peut utiliser votre module sans jamais
+> avoir à regarder son code. C'est très important. Cela vous permet de séparer l'interface 
+> documentée de votre module de son implémentation interne (tripes). C'est bien car cela 
+> signifie que vous êtes libre de modifier les composants internes du module autant que 
+> que vous le voulez, pour peu que l'interface l'interface reste la même.
 >
-> Remember: the documentation, not the code, defines what a module does.
--- [Ken Williams](http://mathforum.org/ken/perl_modules.html#document)
+> N'oubliez pas: la documentation, pas le code, définit ce que fait un module.
+- [Ken Williams](http://mathforum.org/ken/perl_modules.html#document)
 
 
 ### Key elements
