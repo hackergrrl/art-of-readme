@@ -121,25 +121,25 @@ utilisateurs se retrouveront inévitablement ici, que peut-on faire pour rendre
 leurs premières impressions efficaces au maximum ?
 
 
-## Professional module spelunking
+## Spéléologues de module professionnel
 
-### The README: Your one-stop shop
+### Le README: votre point d'entrée
 
-A README is a module consumer's first -- and maybe only -- look into your
-creation. The consumer wants a module to fulfill their need, so you must explain
-exactly what need your module fills, and how effectively it does so.
+Le README est le premier - et peut-être le seul - document qu'un consommateur de module examinera 
+lors de la découverte de votre création. Le consommateur souhaite qu'un module réponde à son besoin, 
+vous devez donc expliquer exactement ce que votre module permet et avec quelle efficacité il le fait.
 
-Your job is to
+Votre travail consiste à:
 
-1. tell them what it is (with context)
-2. show them what it looks like in action
-3. show them how they use it
-4. tell them any other relevant details
+1. leur dire ce que c'est (avec un contexte)
+2. leur montrer à quoi il ressemble en action
+3. leur montrer comment l'utiliser
+4. leur indiquer tout autre détail pertinent
 
-This is *your* job. It's up to the module creator to prove that their work is a
-shining gem in the sea of slipshod modules. Since so many developers' eyes will
-find their way to your README before anything else, quality here is your
-public-facing measure of your work.
+C'est *votre* travail. C'est au créateur du module de prouver que son travail est un
+joyau brillant dans la mer des modules abandonnés. Puisque tant de développeurs
+trouverons leur chemin vers votre README avant d'intier toute autre action, la qualité 
+du README sera comme une mesure de votre travail face au public.
 
 
 ### Brièveté
