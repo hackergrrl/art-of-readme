@@ -9,21 +9,21 @@
 D'où vient le terme «README»?
 
 La nomenclature remonte au moins aux années 1970 [et le
-PDP-10] (http://pdp-10.trailing-edge.com/decuslib10-04/01/43,50322/read.me.html),
-bien que cela puisse même remonter à l'époque des notes papier informatives placées au sommet
+PDP-10](http://pdp-10.trailing-edge.com/decuslib10-04/01/43,50322/read.me.html),
+bien que cela puisse même remonter à l'époque des notes informatives en papier placées au sommet
 de piles de cartes perforées, avec "READ ME!" ("LISEZ-MOI!") griffonné sur eux, décrivant leur utilisation.
 
-Un lecteur <sup>[1](#footnote-1)</sup> suggéra que le titre README puisse être un petit coup de pouce ludique 
-en hommage au très fameux roman, de Lewis Carroll, intitulé Les Aventures d'Alice au pays des merveilles, 
-comprennant une potion et un gâteau étiquetés "DRINK ME" (BUVEZ-MOI) et "EAT ME" (BUVEZ-MOI), respectivement.
+Un lecteur<sup>[1](#footnote-1)</sup> suggéra que le titre README puisse être un petit coup de pouce ludique 
+en hommage au très fameux roman, de Lewis Carroll, intitulé Les *Aventures d'Alice au pays des merveilles*, 
+comprennant une potion et un gâteau étiquetés respectivement avec "DRINK ME" (BUVEZ-MOI) et "EAT ME" (MANGEZ-MOI).
 
 Le modèle de README apparaissant en majuscules est un point récurrent tout au long de l'histoire. 
 En plus du carractère visuellement frappant de l'utilisation des majuscules, les systèmes UNIX
-trient les majuscules avant les minuscules, mettant commodément le README
-avant le reste du contenu du répertoire <sup> [2](#footnote-2) </sup>.
+triaient les majuscules avant les minuscules, mettant commodément le README
+avant le reste du contenu du répertoire<sup>[2](#footnote-2)</sup>.
 
 L'intention est claire: *"Il s'agit d'informations importantes que l'utilisateur doit lire avant
-de poursuivre."* Explorons ensemble ce qui constitue une "information importante" dans
+de poursuivre".* Explorons ensemble ce qui constitue une information "importante" dans
 ces temps modernes.
 
 ## Pour les créateurs, pour les consommateurs
@@ -31,15 +31,17 @@ ces temps modernes.
 Cet article traite des READMEs. Il présente ce qu'ils font, pourquoi ils sont
 absolument nécessaires, et comment bien les construire.
 
-Cet article concerne les créateurs de modules car en tant que constructeurs
-de modules, leur travail consiste à créer des éléments durables.
-C'est une motivation inhérente, même si le l'auteur n'a pas l'intention
-de partager son travail. Une fois six mois passés, un module sans documentation
-commence à paraître nouveau et peu familier.
+Cet article peut intéresser les créateurs de modules car, en tant que constructeurs
+de modules, leur travail consiste à créer des éléments durables et compréhensibles.
+C'est une motivation inhérente, même si l'auteur n'a pas l'intention
+de partager son travail.
+En effet, même si développé pour une utilisation privée, 
+une fois six mois passés, un module sans documentation
+devient inconnu même aux yeux de son créateur.
 
 Cet article est également pour les consommateurs de modules, puisque chaque
 auteur de module en consomme également. Node.js a un degré d'interdépendance
-très sain : personne n'est au bas de l'arborescence des dépendances.
+très sain : personne n'est aux pieds de l'arborescence des dépendances.
 
 Bien qu'il se concentre sur Node.js, l'auteur soutient que ses leçons s'appliquent
 aussi bien à d’autres écosystèmes de programmation.
@@ -110,13 +112,13 @@ npm qui exploite votre graphe social GitHub pour trouver des modules que
 vos amis aiment ou ont créés.
 
 Bien sûr, il existe également la fonctionnalité de [recherche](https://npmjs.org) 
-intégrée de npm: une valeur par défaut sûre et le port d'entrée habituel pour 
+intégrée de npm: une valeur sûre par défaut et le point d'entrée habituel pour tous 
 les nouveaux développeurs.
 
 Quelle que soit votre approche, peu importe si un spéléologue de module entre
-dans le module souterrain sur [npmjs.org](https://npmjs.org),
+dans les profonds souterrains de  modules sur [npmjs.org](https://npmjs.org),
 [github.com](https://github.com) ou ailleurs, cet utilisateur
-potentiel finira par regarder votre carré README en face. Étant donné que vos
+potentiel finira par regarder votre README en face. Étant donné que vos
 utilisateurs se retrouveront inévitablement ici, que peut-on faire pour rendre
 leurs premières impressions efficaces au maximum ?
 
@@ -127,7 +129,7 @@ leurs premières impressions efficaces au maximum ?
 
 Le README est le premier - et peut-être le seul - document qu'un consommateur de module examinera 
 lors de la découverte de votre création. Le consommateur souhaite qu'un module réponde à son besoin, 
-vous devez donc expliquer exactement ce que votre module permet et avec quelle efficacité il le fait.
+vous devez donc expliquer exactement ce que votre module permet de faire et avec quelle efficacité il le fait.
 
 Votre travail consiste à:
 
@@ -181,7 +183,7 @@ Les moines Perl ont une sagesse à partager à ce sujet:
 > que vous le voulez, pour peu que l'interface l'interface reste la même.
 >
 > N'oubliez pas: la documentation, pas le code, définit ce que fait un module.
-- [Ken Williams](http://mathforum.org/ken/perl_modules.html#document)
+> -- [Ken Williams](http://mathforum.org/ken/perl_modules.html#document)
 
 
 ### Key elements
@@ -283,27 +285,27 @@ Once again, the Perl monks have wisdom to share on the subject:
 > -- from `perlmodstyle`
 
 
-## Care about people's time
+## Se soucier du temps des gens
 
-Awesome; the ordering of these key elements should be decided by how quickly
-they let someone 'short circuit' and bail on your module.
+Impressionnant; l'ordre de ces éléments clés doit être décidé en fonction de la rapidité
+avec laquelle ils permettent à quelqu'un de «court-circuiter» et abandonner votre module.
 
-This sounds bleak, doesn't it? But think about it: your job, when you're doing
-it with optimal altruism in mind, isn't to "sell" people on your work. It's to
-let them evaluate what your creation does as objectively as possible, and decide
-whether it meets their needs or not -- not to, say, maximize your downloads or
-userbase.
+Cela semble sombre, n'est-ce pas? Mais pensez-y: votre travail, quand vous le faites
+avec un altruisme optimal à l'esprit, ce n'est pas pour «vendre» votre travail à des gens. 
+C'est de les laisser évaluer ce que votre création fait, aussi objectivement que possible, et 
+de décider si celui-ci réponde ou non à leurs besoins - ne pas, par exemple, maximiser vos 
+téléchargements ou votre base d'utilisateur.
 
-This mindset doesn't appeal to everyone; it requires checking your ego at the
-door and letting the work speak for itself as much as possible. Your only job is
-to describe its promise as succinctly as you can, so module spelunkers can
-either use your work when it's a fit, or move on to something else that does.
+Cet état d'esprit ne plaît pas à tout le monde; Cela implique qu'il faille laisser son ego à
+l'netrée et laisser l'œuvre parler d'elle-même autant que possible. Votre seul travail est
+de décrire sa promesse aussi succinctement que possible, afin que les spéléologues de modules puissent
+soit utilisez votre travail quand c'est un ajustement, soit passez à autre chose.
 
 
 ## Appel aux armes!
 
-Allez de l'avant, courageux spéléologue de module, et rendez votre travail découvrable et utilisable
-grâce à une excellente documentation!
+Allez de l'avant, courageux dénicheurs de module, et rendez votre travail compréhensible et utilisable
+par tous, grâce à une excellente documentation!
 
 
 ## Bonus: other good practices
@@ -429,7 +431,7 @@ qui, je pense, incarnent bien les principes de cet article:
 - https://github.com/yoshuawuyts/vmd
 
 
-## Bonus: la liste de contrôle README
+## Bonus: la liste de validation d'un README
 
 Une liste de contrôle utile pour évaluer la progression de votre README:
 
@@ -445,20 +447,21 @@ Une liste de contrôle utile pour évaluer la progression de votre README:
 - [ ] Licence
 
 
-## The author
+## L'auteur
 
-I'm [noffle](http://blog.eight45.net/about/). I'm known to
-[blog](http://blog.eight45.net), [tweet](https://twitter.com/noffle), and
-[hack](https://github.com/noffle).
+Je suis [noffle](http://blog.eight45.net/about/). Je suis connu pour mes divers
+[blogs](http://blog.eight45.net), [tweets](https://twitter.com/noffle) et
+[hacks](https://github.com/noffle).
 
-This little project began back in May in Berlin at squatconf, where I was
-digging into how Perl monks write their documentation and also lamenting the
-state of READMEs in the Node.js ecosystem. It spurred me to create
-[common-readme](https://github.com/noffle/common-readme). The "README Tips"
-section overflowed with tips though, which I decided could be usefully collected
-into an article about writing READMEs. Thus, Art of README was born!
+Ce petit projet a commencé en mai à Berlin chez squatconf, où je creusais
+la façon dont les moines Perl écrivaient leur documentation, tout en déplorant
+l'état des READMEs dans l'écosystème Node.js. Cela m'a alorsincité à créer
+[common-readme](https://github.com/noffle/common-readme). Cependant, la section 
+pour les "Conseils README" débordant de conseils, je me suis alors dit que
+cela pourrait être utilement de les collecter dans un article dédié à la rédaction de README.
+Ainsi, n'aissait l'Art of README!
 
-You can reach me at `noffle@eight45.net` or on Freenode IRC in `#eight45`.
+Vous pouvez me joindre à `noffle@huit45.net` ou sur Freenode IRC dans `#huit45`.
 
 
 ## Lectures complémentaires
@@ -477,56 +480,59 @@ You can reach me at `noffle@eight45.net` or on Freenode IRC in `#eight45`.
     réduisant ainsi l'utilité de cette convention à son seul visuel frappant.
 
 
-## Credits
+## Crédits
 
-A heartfelt thank you to [@mafintosh](https://github.com/mafintosh) and
-[@feross](https://github.com/feross) for the encouragement I needed to get this
-idea off the ground and start writing!
+Un grand merci à [@mafintosh](https://github.com/mafintosh) et
+[@feross](https://github.com/feross) pour les encouragements dont j'avais bien besoin afin 
+de faire décoller cette idée et commencer à écrire!
 
-Thank you to the following awesome readers for noticing errors and sending me
-PRs :heart: :
+Merci aux super lecteurs suivants d'avoir remarqué des erreurs et de m'avoir envoyé
+des PRs :coeur: :
 
 - [@ungoldman](https://github.com/ungoldman)
 - [@boidolr](https://github.com/boidolr)
 - [@imjoehaines](https://github.com/imjoehaines)
-- [@radarhere](https://github.com/radarhere)
-- [@joshmanders](https://github.com/joshmanders)
-- [@ddbeck](https://github.com/ddbeck)
-- [@RichardLitt](https://github.com/RichardLitt)
-- [@StevenMaude](https://github.com/StevenMaude)
-- [@KrishMunot](https://github.com/KrishMunot)
-- [@chesterhow](https://github.com/chesterhow)
-- [@sjsyrek](https://github.com/sjsyrek)
-- [@thenickcox](https://github.com/thenickcox)
+- [@radarhere] (https://github.com/radarhere)
+- [@joshmanders] (https://github.com/joshmanders)
+- [@ddbeck] (https://github.com/ddbeck)
+- [@RichardLitt] (https://github.com/RichardLitt)
+- [@StevenMaude] (https://github.com/StevenMaude)
+- [@KrishMunot] (https://github.com/KrishMunot)
+- [@chesterhow] (https://github.com/chesterhow)
+- [@sjsyrek] (https://github.com/sjsyrek)
+- [@thenickcox] (https://github.com/thenickcox)
 
-Thank you to [@qihaiyan](https://github.com/qihaiyan) for translating Art of
-README to Chinese! The following users also made contributions:
+Merci à [@qihaiyan](https://github.com/qihaiyan) d'avoir traduit l'Art of
+README en chinois! Les utilisateurs suivants ont également fait des contributions:
 
-- [@BrettDong](https://github.com/brettdong) for revising punctuation in Chinese version.
-- [@Alex-fun](https://github.com/Alex-fun)
-- [@HmyBmny](https://github.com/HmyBmny)
-- [@vra](https://github.com/vra)
+- [@BrettDong] (https://github.com/brettdong) pour la révision de la ponctuation en version chinoise.
+- [@Alex-fun] (https://github.com/Alex-fun)
+- [@HmyBmny] (https://github.com/HmyBmny)
+- [@vra] (https://github.com/vra)
 
-Thank you to [@lennonjesus](https://github.com/lennonjesus) for translating Art
-of README to Brazilian Portuguese! The following users also made contributions:
+Merci à [@lennonjesus](https://github.com/lennonjesus) d'avoir traduit l'Art
+of README en portugais brésilien! Les utilisateurs suivants ont également fait des contributions:
 
 - [@rectius](https://github.com/rectius)
 
-Thank you to [@jabiinfante](https://github.com/jabiinfante) for translating Art
-of README to Spanish!
+Merci à [@jabiinfante](https://github.com/jabiinfante) pour la traduction de l'Art
+of README en espagnol!
 
-Thank you to [@Ryuno-Ki](https://github.com/Ryuno-Ki) for translating Art of
-README to German! The following users also made contributions:
+Merci à [@Ryuno-Ki](https://github.com/Ryuno-Ki) pour avoir traduit l'Art of
+README en allemand! Les utilisateurs suivants ont également fait des contributions:
 
 - [@randomC0der](https://github.com/randomC0der)
 
-Finally, thanks for all of the feedback! Please share your comments [as an
-issue](https://github.com/noffle/art-of-readme/issues)!
+Merci à [@Manfred Madelaine](https://github.com/Manfred-Madelaine-pro) et
+[@Ruben Madelaine](https://github.com/Ruben-Madelaine)
+pour la traduction de l'Art of README en français!
 
-## Les contributions sont bienvenues!
+Enfin, merci pour tous les commentaires! Veuillez partager vos commentaires [en tant qu'issue](https://github.com/noffle/art-of-readme/issues)!
+
+## Les contributions sont les bienvenues!
 
 Vous avez repéré une erreur? Quelque chose n'a pas de sens? Envoyez-moi une [pull
-request] (https://github.com/noffle/art-of-readme/pulls)!
+request](https://github.com/noffle/art-of-readme/pulls)!
 Veuillez cependant éviter de faire des changements stylistiques s'il-vous-plait,
 il est peu probable qu'ils soient acceptés. Merci!
 
