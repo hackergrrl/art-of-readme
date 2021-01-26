@@ -1,8 +1,8 @@
 # Art of README
 
 *This article can also be read in [Chinese](README-zh.md), 
-[Brazilian Portuguese](README-pt-BR.md), [Spanish](README-es-ES.md) and
-[German](README-de-DE.md).*
+[Brazilian Portuguese](README-pt-BR.md), [Spanish](README-es-ES.md), 
+[German](README-de-DE.md) and [French](README-fr.md).*
 
 ## Etymology
 

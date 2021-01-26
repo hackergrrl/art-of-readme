@@ -3,8 +3,8 @@
 *Dieser Artikel wurde aus dem [Englischen](README.md) übersetzt.*
 
 *Dieser Artikel kann auch auf [Chinesisch](README-zh.md), 
-[Brasilianisches Portugiesisch](README-pt-BR.md) und
-[Spanisch](README-es-ES.md) gelesen werden.*
+[Brasilianisches Portugiesisch](README-pt-BR.md),
+[Spanisch](README-es-ES.md) und [Französisch](README-fr.md) gelesen werden.*
 
 ## Etymologie
 
