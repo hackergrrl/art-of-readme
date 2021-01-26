@@ -46,7 +46,7 @@ aussi bien à d’autres écosystèmes de programmation.
 
 ## De nombreux modules: certains bons, d'autres mauvais
 
-L'écosystème Node.js est alimenté par ses modules. [npm] (https://npmjs.org) est
+L'écosystème Node.js est alimenté par ses modules. [npm](https://npmjs.org) est
 la magie qui fait tout cela *tourner*. Au cours d'une semaine, les développeurs Node évaluent
 des dizaines de modules à intégrer dans leurs projets. C'est beaucoup de puissance
 que de pouvoir tirr quotidiennement, autant de modules, aussi vite que l'on puisse
@@ -79,7 +79,7 @@ merveilleuses abstractions que votre module apporte.
 
 Node.js a un écosystème "large": il est en grande partie constitué d'une très longue liste de
 modules indépendants, adeptes du faire-une-chose-mais-le-faire-bien. Il y a des
-[exceptions] (https://github.com/lodash/lodash), mais malgré ces fiefs mineurs,
+[exceptions](https://github.com/lodash/lodash), mais malgré ces fiefs mineurs,
 ce sont les modules à "but unique" qui, étant donné leur plus grand nombre, gouvernent réellement le
 Royaume de Node.js.
 
@@ -91,32 +91,34 @@ infiniment mieux qu'un problème de culture, où seuls quelques privilégiés pe
 
 De plus, la découvrabilité - en fait - est plus facile à gérer.
 
-## All roads lead to README.md
+## Tous les chemins mènent au README.md
+La communauté de Node.js a répondu au défi de la découverte de
+différentes manières.
 
-The Node.js community has responded to the challenge of discoverability in
-different ways.
+Certains développeurs expérimentés de Node.js se sont associés pour créer
+des [listes organisées](https://github.com/sindresorhus/awesome-nodejs)
+de modules de qualité. Les développeurs tirent parti de leurs nombreuses
+années à examiner des centaines de modules différents en partageant avec
+les nouveaux arrivants la crème de la crème :
+les meilleurs modules de chaque catégorie. Cela peut également prendre la
+forme de flux RSS et de listes de diffusion de nouveaux modules jugés utiles
+par les membres de confiance de la communauté.
 
-Some experienced Node.js developers band together to create [curated
-lists](https://github.com/sindresorhus/awesome-nodejs) of quality modules.
-Developers leverage their many years examining hundreds of different modules to
-share with newcomers the *crème de la crème*: the best modules in each category.
-This might also take the form of RSS feeds and mailing lists of new modules deemed
-to be useful by trusted community members.
+Qu'en est-il du graphe social ? Cette idée a stimulé la création de
+[node-modules.com](http://node-modules.com/), un remplacement de recherche 
+npm qui exploite votre graphe social GitHub pour trouver des modules que
+vos amis aiment ou ont créés.
 
-How about the social graph? This idea spurred the creation of
-[node-modules.com](http://node-modules.com/), a npm search replacement that
-leverages your GitHub social graph to find modules your friends like or have
-made.
+Bien sûr, il existe également la fonctionnalité de [recherche](https://npmjs.org) 
+intégrée de npm: une valeur par défaut sûre et le port d'entrée habituel pour 
+les nouveaux développeurs.
 
-Of course there is also npm's built-in [search](https://npmjs.org)
-functionality: a safe default, and the usual port of entry for new developers.
-
-No matter your approach, regardless whether a module spelunker enters the module
-underground at [npmjs.org](https://npmjs.org),
-[github.com](https://github.com), or somewhere else, this would-be user will
-eventually end up staring your README square in the face. Since your users
-will inevitably find themselves here, what can be done to make their first
-impressions maximally effective?
+Quelle que soit votre approche, peu importe si un spéléologue de module entre
+dans le module souterrain sur [npmjs.org](https://npmjs.org),
+[github.com](https://github.com) ou ailleurs, cet utilisateur
+potentiel finira par regarder votre carré README en face. Étant donné que vos
+utilisateurs se retrouveront inévitablement ici, que peut-on faire pour rendre
+leurs premières impressions efficaces au maximum ?
 
 
 ## Professional module spelunking
