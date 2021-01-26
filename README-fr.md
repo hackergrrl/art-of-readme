@@ -142,12 +142,12 @@ find their way to your README before anything else, quality here is your
 public-facing measure of your work.
 
 
-### Brevity
+### Brièveté
 
-The lack of a README is a powerful red flag, but even a lengthy README is not
-indicative of there being high quality. The ideal README is as short as it can
-be without being any shorter. Detailed documentation is good -- make separate
-pages for it! -- but keep your README succinct.
+L'absence d'un README est un puissant drapeau rouge, mais un long README n'est pas
+non plus gage de qualité. Le README idéal est aussi court que possible, 
+sans l'être trop. La documentation détaillée est bonne - séparez
+les pages pour cela! - mais gardez votre README succinct.
 
 
 ### Learn from the past
