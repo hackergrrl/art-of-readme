@@ -239,50 +239,49 @@ begin to examine it from top to bottom:
    at the very top of the module to prevent any confusion.
 
 
-## Cognitive funneling
+## Progressivité cognitive
 
-The ordering of the above was not chosen at random.
+L'ordre des éléments ci-dessus n'a pas été choisi au hasard.
 
-Module consumers use many modules, and need to look at many modules.
+Les consommateurs de modules utilisent et analysent de nombreux modules.
 
-Once you've looked at hundreds of modules, you begin to notice that the mind
-benefits from predictable patterns.
+Une fois que vous avez regardé des centaines de modules, vous commencez à remarquer que l'esprit
+bénéficie de modèles prévisibles.
 
-You also start to build out your own personal heuristic for what information you
-want, and what red flags disqualify modules quickly.
+Vous commencez également à élaborer votre propre heuristique personnelle pour les informations que vous
+veulez, et quels drapeaux rouges disqualifient rapidement les modules.
 
-Thus, it follows that in a README it is desirable to have:
+Ainsi, il s'ensuit que dans un README, il est souhaitable d'avoir:
 
-1. a predictable format
-2. certain key elements present
+1. un format prévisible
+2. certains éléments clés présents
 
-You don't need to use *this* format, but try to be consistent to save your users
-precious cognitive cycles.
+Vous n'avez pas besoin d'utiliser *ce* format, mais essayez d'être cohérent pour éviter de précieux 
+cycles cognitifs à vos utilisateurs.
 
-The ordering presented here is lovingly referred to as "cognitive funneling,"
-and can be imagined as a funnel held upright, where the widest end contains the
-broadest more pertinent details, and moving deeper down into the funnel presents
-more specific details that are pertinent for only a reader who is interested
-enough in your work to have reached that deeply in the document. Finally, the
-bottom can be reserved for details only for those intrigued by the deeper
-context of the work (background, credits, biblio, etc.).
+La recommandation présentée ici est appelée «progressivité cognitive»,
+et peut être imagée en un entonnoir, tenu debout, où l'extrémité la plus large contient 
+les détails les plus généraux et les plus pertinents, et la descente progressive dans l'entonnoir présente
+des détails de plus en plus spécifiques, n'étant pertinents que pour un lecteur suffisamment intéressé
+par le module pour avoir atteint ce niveau de profondeur. 
+Finalement, la fin peut être réservée pour les détails  sur le contexte 
+de la crétaion (background, crédits, biblio, etc.).
 
-Once again, the Perl monks have wisdom to share on the subject:
+Une fois de plus, les moines Perl ont une sagesse à partager sur le sujet:
 
-> The level of detail in Perl module documentation generally goes from
-> less detailed to more detailed.  Your SYNOPSIS section should
-> contain a minimal example of use (perhaps as little as one line of
-> code; skip the unusual use cases or anything not needed by most
-> users); the DESCRIPTION should describe your module in broad terms,
-> generally in just a few paragraphs; more detail of the module's
-> routines or methods, lengthy code examples, or other in-depth
-> material should be given in subsequent sections.
+> Le niveau de détail dans la documentation du module Perl va généralement du
+> moins détaillé au plus détaillé. Votre section SYNOPSIS devrait
+> contenir un exemple minimal d'utilisation (peut-être aussi court qu'une simple ligne de
+> code; sautez les cas d'utilisation inhabituels et tout ce qui n'est pas nécessaire pour 
+> la plupart des utilisateurs); la DESCRIPTION doit décrire votre module en termes généraux,
+> généralement en quelques paragraphes; le rests des détails sur le module, 
+> ses méthodes, ses longs exemples ou autres doivent être donné dans les sections suivantes.
 >
-> Ideally, someone who's slightly familiar with your module should be
-> able to refresh their memory without hitting "page down".  As your
-> reader continues through the document, they should receive a
-> progressively greater amount of knowledge.
-> -- from `perlmodstyle`
+> Idéalement, quelqu'un qui connaît un peu votre module devrait être
+> capables de se rafraîchir la mémoire sans pour autant devoir pacourir  l'entièreté de votre 
+> docuement. Au cours de sa lecture, votre lecteur devrait recevoir, graduellement, 
+> des connaissances de plus en plus poussées.
+> -- de `perlmodstyle`
 
 
 ## Se soucier du temps des gens
@@ -441,7 +440,7 @@ Une liste de contrôle utile pour évaluer la progression de votre README:
 - [ ] Exemple d'utilisation clair, *exécutable*
 - [ ] Instructions d'installation
 - [ ] Documentation complète de l'API
-- [ ] Effectue [l'entonnoir cognitif](https://github.com/noffle/art-of-readme#cognitive-funneling)
+- [ ] Applique la [progressivité cognitive](https://github.com/noffle/art-of-readme#cognitive-funneling)
 - [ ] Mises en garde et limitations mentionnées à l'avance
 - [ ] Ne se fie pas aux images pour fournir des informations capitales
 - [ ] Licence
