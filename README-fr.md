@@ -307,98 +307,98 @@ Allez de l'avant, courageux dénicheurs de module, et rendez votre travail compr
 par tous, grâce à une excellente documentation!
 
 
-## Bonus: other good practices
+## Bonus: autres bonnes pratiques
 
-Outside of the key points of the article, there are other practices you can
-follow (or not follow) to raise your README's quality bar even further and
-maximize its usefulness to others:
+En dehors des points clés de l'article, il existe d'autres pratiques que vous pouvez
+suivre (ou ne pas suivre) pour élever encore plus la barre de qualité de votre README et
+maximiser son utilité pour les autres:
 
-1. Consider including a **Background** section if your module depends on
-   important but not widely known abstractions or other ecosystems. The function
-   of [`bisecting-between`](https://github.com/noffle/bisecting-between) is not
-   immediately obvious from its name, so it has a detailed *Background* section
-   to define and link to the big concepts and abstractions one needs to
-   understand to use and grok it. This is also a great place to explain the
-   module's motivation if similar modules already exist on npm.
+1. Pensez à inclure une section **Contexte** si votre module dépend 
+   d'autres abstractions importantes mais peu connues ou d'autres écosystèmes. La fonction
+   de [`bissecting-between`](https://github.com/noffle/bisecting-between) n'est pas
+   immédiatement évident à partir de son nom, il a donc une section détaillée *Contexte*
+   pour définir et établir un lien avec les grands concepts et abstractions dont on a besoin
+   pour comprendre et utiliser votre module. C'est aussi un excellent endroit pour expliquer
+   la motivation du module si des modules similaires existent déjà sur npm.
 
-2. Aggressively linkify! If you talk about other modules, ideas, or people, make
-   that reference text a link so that visitors can more easily grok your module
-   and the ideas it builds on. Few modules exist in a vacuum: all work comes
-   from other work, so it pays to help users follow your module's history and
-   inspiration.
+2. Référencez agressivement! Si vous parlez d'autres modules, idées ou personnes, utilisez 
+   une référence afin que les visiteurs puissent plus facilement analyser votre module
+   et les idées sur lesquelles il s'appuie. Peu de modules existent à partir de rien: tout le travail vient
+   d'autres travaux, il est donc avantageux d'aider les utilisateurs à suivre l'historique de votre module et
+   ses inspirations.
 
-3. Include information on types of arguments and return parameters if it's not
-   obvious. Prefer convention wherever possible (`cb` probably means callback
-   function, `num` probably means a `Number`, etc.).
+3. Incluez des informations sur les types d'arguments et renvoyez les paramètres si ce n'est pas le cas
+   évident. Préférez la convention dans la mesure du possible (`cb` signifie probablement un rappel
+   fonction, `num` signifie probablement un` nombre`, etc.).
 
-4. Include the example code in **Usage** as a file in your repo -- maybe as
-   `example.js`. It's great to have README code that users can actually run if
-   they clone the repository.
+4. Incluez l'exemple de code dans ** Usage ** en tant que fichier dans votre dépôt - peut-être comme
+   `exemple.js`. C'est formidable d'avoir un code README que les utilisateurs peuvent exécuter si
+   ils clonent le référentiel.
 
-5. Be judicious in your use of badges. They're easy to
-   [abuse](https://github.com/angular/angular). They can also be a breeding
-   ground for bikeshedding and endless debate. They add visual noise to your
-   README and generally only function if the user is reading your Markdown in a
-   browser online, since the images are often hosted elsewhere on the
-   internet. For each badge, consider: "what real value is this badge providing
-   to the typical viewer of this README?" Do you have a CI badge to show build/test
-   status? This signal would better reach important parties by emailing
-   maintainers or automatically creating an issue. Always consider the
-   audience of the data in your README and ask yourself if there's a flow for
-   that data that can better reach its intended audience.
+5. Soyez judicieux dans votre utilisation des badges. Ils sont faciles à
+   [abus] (https://github.com/angular/angular). Ils peuvent aussi être un élevage
+   terrain de bikeshedding et de débat sans fin. Ils ajoutent du bruit visuel à votre
+   README et ne fonctionne généralement que si l'utilisateur lit votre Markdown dans un
+   navigateur en ligne, car les images sont souvent hébergées ailleurs sur le
+   l'Internet. Pour chaque badge, considérez: "quelle valeur réelle apporte ce badge
+   au spectateur type de ce fichier README? "Avez-vous un badge CI pour afficher la version / le test
+   statut? Ce signal permettrait de mieux atteindre les parties importantes par courrier électronique
+   mainteneurs ou créant automatiquement un problème. Considérez toujours le
+   audience des données de votre README et demandez-vous s'il existe un flux pour
+   ces données qui peuvent mieux atteindre son public cible.
+   
+6. Le formatage de l'API est hautement adaptable. Utilisez le format que vous pensez
+   le plus clair, mais assurez-vous que votre format exprime des subtilités importantes:
 
-6. API formatting is highly bikesheddable. Use whatever format you think is
-   clearest, but make sure your format expresses important subtleties:
+   a. quels paramètres sont facultatifs et leurs valeurs par défaut
 
-   a. which parameters are optional, and their defaults
+   b. informations de type, là où elles ne ressortent pas de la convention
 
-   b. type information, where it is not obvious from convention
+   c. pour les paramètres d'objet `opts`, toutes les clés et valeurs acceptées
 
-   c. for `opts` object parameters, all keys and values that are accepted
+   d. n'hésitez pas à fournir un petit exemple d'utilisation d'une fonction API si
+      ce n'est pas évident ou entièrement couvert dans la section **Utilisation**.
+      Cependant, cela peut également être un signal fort que la fonction est trop complexe
+      et doit être remanié, divisé en fonctions plus petites ou supprimé
+      tout à fait
 
-   d. don't shy away from providing a tiny example of an API function's use if
-      it is not obvious or fully covered in the **Usage** section.
-      However, this can also be a strong signal that the function is too complex
-      and needs to be refactored, broken into smaller functions, or removed
-      altogether
+   e. liez agressivement la terminologie spécialisée! En démarque, vous pouvez garder
+      [notes de bas de page](https://daringfireball.net/projects/markdown/syntax#link) à
+      au bas de votre document, donc vous y référer plusieurs fois
+      devient bon marché. Certaines de mes préférences personnelles sur le formatage de l'API peuvent être
+      a trouvé
+      [ici](https://github.com/noffle/common-readme/blob/master/api_formatting.md)
 
-   e. aggressively linkify specialized terminology! In markdown you can keep
-      [footnotes](https://daringfireball.net/projects/markdown/syntax#link) at
-      the bottom of your document, so referring to them several times throughout
-      becomes cheap. Some of my personal preferences on API formatting can be
-      found
-      [here](https://github.com/noffle/common-readme/blob/master/api_formatting.md)
+7. Si votre module est une petite collection de fonctions sans état, ayant un
+   **Section d'utilisation** en tant que [Node REPL
+   session](https://github.com/noffle/bisecting-between#example) de la fonction
+   les appels et les résultats peuvent communiquer l'utilisation plus clairement qu'un code source
+   fichier à exécuter.
 
-7. If your module is a small collection of stateless functions, having a
-   **Usage** section as a [Node REPL
-   session](https://github.com/noffle/bisecting-between#example) of function
-   calls and results might communicate usage more clearly than a source code
-   file to run.
+8. Si votre module fournit une CLI (interface de ligne de commande) au lieu de (ou
+    plus) une API programmatique, afficher des exemples d'utilisation sous forme d'appels de commandes
+    et leur sortie. Si vous créez ou modifiez un fichier, «cat» pour le démontrer
+    le changement avant et après.
 
-8. If your module provides a CLI (command line interface) instead of (or in
-    addition to) a programmatic API, show usage examples as command invocations
-    and their output. If you create or modify a file, `cat` it to demonstrate
-    the change before and after.
+9. N'oubliez pas d'utiliser `package.json`
+    [mots-clés](https://docs.npmjs.com/files/package.json#keywords) pour diriger
+    les dénicheurs de module jusqu'à votre porte.
 
-9. Don't forget to use `package.json`
-    [keywords](https://docs.npmjs.com/files/package.json#keywords) to direct
-    module spelunkers to your doorstep.
+10. Plus vous modifiez votre API, plus vous devez effectuer de mise à jour
+    documentation - l'implication ici est que vous devez conserver vos API
+    petit et concrètement défini dès le début. Les exigences changent avec le temps, mais
+    au lieu d'hypothèses de chargement frontal dans les API de vos modules, chargez
+    les remonter d'un niveau d'abstraction: le module s'est posé. Si les exigences
+    *faire* changer et 'faire-une-chose-concrète' n'a plus de sens, alors tout simplement
+    écrivez un nouveau module qui fait ce dont vous avez besoin. Le 'faire-une-chose-concrète'
+    module reste un modèle valide et précieux pour l'écosystème npm, et votre
+    la correction de cap ne vous coûte rien d'autre qu'une simple substitution d'un module pour
+    un autre.
 
-10. The more you change your API, the more work you need to exert updating
-    documentation -- the implication here is that you should keep your APIs
-    small and concretely defined early on. Requirements change over time, but
-    instead of front-loading assumptions into the APIs of your modules, load
-    them up one level of abstraction: the module set itself. If the requirements
-    *do* change and 'do-one-concrete-thing' no longer makes sense, then simply
-    write a new module that does the thing you need. The 'do-one-concrete-thing'
-    module remains a valid and valuable model for the npm ecosystem, and your
-    course correction cost you nothing but a simple substitution of one module for
-    another.
-
-11. Finally, please remember that your version control repository and its
-    embedded README will outlive your [repository host](https://github.com) and
-    any of the things you hyperlink to -- especially images -- so *inline* anything
-    that is essential to future users grokking your work.
+11. Enfin, n'oubliez pas que votre référentiel de contrôle de version et ses
+    Le fichier README intégré survivra à votre [hôte du référentiel](https://github.com) et
+    tout élément vers lequel vous créez un lien hypertexte - en particulier les images - donc *en ligne* n'importe quoi
+    c'est essentiel pour les futurs utilisateurs qui gambadent votre travail.
 
 
 ## Bonus: *common-readme*
