@@ -256,8 +256,8 @@ Ainsi, il s'ensuit que dans un README, il est souhaitable d'avoir:
 1. un format prévisible
 2. certains éléments clés présents
 
-Vous n'avez pas besoin d'utiliser *ce* format, mais essayez d'être cohérent pour éviter de précieux 
-cycles cognitifs à vos utilisateurs.
+Vous n'avez pas besoin d'utiliser *ce* format, mais essayez d'être cohérent pour éviter la perte de
+précieux cycles cognitifs à vos utilisateurs.
 
 La recommandation présentée ici est appelée «progressivité cognitive»,
 et peut être imagée en un entonnoir, tenu debout, où l'extrémité la plus large contient 
@@ -329,45 +329,43 @@ maximiser son utilité pour les autres:
 
 3. Incluez des informations sur les types d'arguments et renvoyez les paramètres si ce n'est pas le cas
    évident. Préférez la convention dans la mesure du possible (`cb` signifie probablement un rappel
-   fonction, `num` signifie probablement un` nombre`, etc.).
+   fonction, `num` signifie probablement un `nombre`, etc.).
 
-4. Incluez l'exemple de code dans ** Usage ** en tant que fichier dans votre dépôt - peut-être comme
+4. Incluez l'exemple de code dans **Usage** en tant que fichier dans votre dépôt - peut-être comme
    `exemple.js`. C'est formidable d'avoir un code README que les utilisateurs peuvent exécuter si
    ils clonent le référentiel.
 
 5. Soyez judicieux dans votre utilisation des badges. Ils sont faciles à
-   [abus] (https://github.com/angular/angular). Ils peuvent aussi être un élevage
-   terrain de bikeshedding et de débat sans fin. Ils ajoutent du bruit visuel à votre
+   [abuser](https://github.com/angular/angular). Ils ajoutent du bruit visuel à votre
    README et ne fonctionne généralement que si l'utilisateur lit votre Markdown dans un
-   navigateur en ligne, car les images sont souvent hébergées ailleurs sur le
-   l'Internet. Pour chaque badge, considérez: "quelle valeur réelle apporte ce badge
-   au spectateur type de ce fichier README? "Avez-vous un badge CI pour afficher la version / le test
-   statut? Ce signal permettrait de mieux atteindre les parties importantes par courrier électronique
-   mainteneurs ou créant automatiquement un problème. Considérez toujours le
-   audience des données de votre README et demandez-vous s'il existe un flux pour
-   ces données qui peuvent mieux atteindre son public cible.
+   navigateur web, car les images sont souvent hébergées ailleurs sur Internet. 
+   Pour chaque badge, considérez: "quelle valeur réelle apporte ce badge
+   au lecteur type de ce README?" Avez-vous un badge CI pour afficher la version / le test
+   statut? Ce signal permettrait de mieux atteindre les parties importantes en envoyant un email 
+   aux mainteneurs ou en créant automatiquement une github issue. Considérez toujours les
+   destinataires des données présentes dans votre README et demandez-vous s'il existe un flux dédié 
+   pour ces données qui pourrait mieux atteindre le public ciblé.
    
 6. Le formatage de l'API est hautement adaptable. Utilisez le format que vous pensez
    le plus clair, mais assurez-vous que votre format exprime des subtilités importantes:
 
    a. quels paramètres sont facultatifs et leurs valeurs par défaut
 
-   b. informations de type, là où elles ne ressortent pas de la convention
+   b. informations de typage, là où elles ne ressortent pas de la convention
 
    c. pour les paramètres d'objet `opts`, toutes les clés et valeurs acceptées
 
    d. n'hésitez pas à fournir un petit exemple d'utilisation d'une fonction API si
       ce n'est pas évident ou entièrement couvert dans la section **Utilisation**.
       Cependant, cela peut également être un signal fort que la fonction est trop complexe
-      et doit être remanié, divisé en fonctions plus petites ou supprimé
-      tout à fait
+      et doit être remaniée, divisée en fonctions plus petites ou supprimée
+      tout simplement
 
-   e. liez agressivement la terminologie spécialisée! En démarque, vous pouvez garder
-      [notes de bas de page](https://daringfireball.net/projects/markdown/syntax#link) à
-      au bas de votre document, donc vous y référer plusieurs fois
-      devient bon marché. Certaines de mes préférences personnelles sur le formatage de l'API peuvent être
-      a trouvé
-      [ici](https://github.com/noffle/common-readme/blob/master/api_formatting.md)
+   e. liez agressivement la terminologie spécialisée! En Markdown, vous pouvez garder des
+      [notes de bas de page](https://daringfireball.net/projects/markdown/syntax#link) en
+      bas de votre document, donc y mettre les détails des points annexes devient tout simplement
+      bon marché. Certaines de mes préférences personnelles sur le formatage de l'API peuvent être
+      trouvé [ici](https://github.com/noffle/common-readme/blob/master/api_formatting.md)
 
 7. Si votre module est une petite collection de fonctions sans état, ayant un
    **Section d'utilisation** en tant que [Node REPL
@@ -382,11 +380,11 @@ maximiser son utilité pour les autres:
 
 9. N'oubliez pas d'utiliser `package.json`
     [mots-clés](https://docs.npmjs.com/files/package.json#keywords) pour diriger
-    les dénicheurs de module jusqu'à votre porte.
+    les chercheurs de module jusqu'à votre porte.
 
 10. Plus vous modifiez votre API, plus vous devez effectuer de mise à jour
-    documentation - l'implication ici est que vous devez conserver vos API
-    petit et concrètement défini dès le début. Les exigences changent avec le temps, mais
+    de la documentation - l'implication ici est que vous devez conserver vos API
+    petite et concrètement définie dès le début. Les exigences changent avec le temps, mais
     au lieu d'hypothèses de chargement frontal dans les API de vos modules, chargez
     les remonter d'un niveau d'abstraction: le module s'est posé. Si les exigences
     *faire* changer et 'faire-une-chose-concrète' n'a plus de sens, alors tout simplement
