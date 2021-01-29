@@ -524,6 +524,10 @@ o Art of README para o Alemão! Os seguintes usuários também fizeram contribui
 
 - [@randomC0der](https://github.com/randomC0der)
 
+Um agradecimento ao [@Manfred Madelaine](https://github.com/Manfred-Madelaine-pro) e
+[@Ruben Madelaine](https://github.com/Ruben-Madelaine)
+por traduzir o Art of README para o Francês!
+
 Finalmente, obrigado a todos pelo feedback! Por favor, compartilhe seus
 comentários através de [issues](https://github.com/noffle/art-of-readme/issues)!
 

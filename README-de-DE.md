@@ -552,6 +552,10 @@ des README ins Deutsche! Die folgenden Nutzer haben auch Beiträge eingebracht:
 
 - [@randomC0der](https://github.com/randomC0der)
 
+Dank an [@Manfred Madelaine](https://github.com/Manfred-Madelaine-pro) und
+[@Ruben Madelaine](https://github.com/Ruben-Madelaine)
+für das Übersetzen der Kunst des README ins Französisch! 
+
 Abschließend dank an alle für ihr Feedback! Bitte teilt eure Kommentare
 [als issue](https://github.com/noffle/art-of-readme/issues)!
 

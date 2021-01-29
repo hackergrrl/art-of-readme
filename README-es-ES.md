@@ -550,6 +550,10 @@ README a alemán! Los siguientes usuarios también contribuyeron a este artícul
 
 - [@randomC0der](https://github.com/randomC0der)
 
+¡Gracias a [@Manfred Madelaine](https://github.com/Manfred-Madelaine-pro) y
+[@Ruben Madelaine](https://github.com/Ruben-Madelaine)
+por traducir Art of README a Francés!
+
 Para terminar, ¡gracias por todo el feedback! Por favor hacer vuestros
 comentarios [como una _issue_](https://github.com/noffle/art-of-readme/issues)!
 
