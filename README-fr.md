@@ -373,10 +373,10 @@ maximiser son utilité pour les autres:
    les appels et les résultats peuvent communiquer l'utilisation plus clairement qu'un code source
    fichier à exécuter.
 
-8. Si votre module fournit une CLI (interface de ligne de commande) au lieu de (ou
-    plus) une API programmatique, afficher des exemples d'utilisation sous forme d'appels de commandes
-    et leur sortie. Si vous créez ou modifiez un fichier, «cat» pour le démontrer
-    le changement avant et après.
+8. Si votre module fournit une CLI (interface de ligne de commande) au lieu (ou en plus)
+   d'une API programmatique, affichez des exemples d'utilisation sous forme d'appels de commandes
+   ainsi que leur retour. Si vous créez ou modifiez un fichier, utilisez la commande `cat`
+   pour mettre en évidence le changement avant et après.
 
 9. N'oubliez pas d'utiliser `package.json`
     [mots-clés](https://docs.npmjs.com/files/package.json#keywords) pour diriger
