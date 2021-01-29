@@ -489,23 +489,23 @@ des PRs :coeur: :
 - [@ungoldman](https://github.com/ungoldman)
 - [@boidolr](https://github.com/boidolr)
 - [@imjoehaines](https://github.com/imjoehaines)
-- [@radarhere] (https://github.com/radarhere)
-- [@joshmanders] (https://github.com/joshmanders)
-- [@ddbeck] (https://github.com/ddbeck)
-- [@RichardLitt] (https://github.com/RichardLitt)
-- [@StevenMaude] (https://github.com/StevenMaude)
-- [@KrishMunot] (https://github.com/KrishMunot)
-- [@chesterhow] (https://github.com/chesterhow)
-- [@sjsyrek] (https://github.com/sjsyrek)
-- [@thenickcox] (https://github.com/thenickcox)
+- [@radarhere](https://github.com/radarhere)
+- [@joshmanders](https://github.com/joshmanders)
+- [@ddbeck](https://github.com/ddbeck)
+- [@RichardLitt](https://github.com/RichardLitt)
+- [@StevenMaude](https://github.com/StevenMaude)
+- [@KrishMunot](https://github.com/KrishMunot)
+- [@chesterhow](https://github.com/chesterhow)
+- [@sjsyrek](https://github.com/sjsyrek)
+- [@thenickcox](https://github.com/thenickcox)
 
 Merci à [@qihaiyan](https://github.com/qihaiyan) d'avoir traduit l'Art of
 README en chinois! Les utilisateurs suivants ont également fait des contributions:
 
-- [@BrettDong] (https://github.com/brettdong) pour la révision de la ponctuation en version chinoise.
-- [@Alex-fun] (https://github.com/Alex-fun)
-- [@HmyBmny] (https://github.com/HmyBmny)
-- [@vra] (https://github.com/vra)
+- [@BrettDong](https://github.com/brettdong) pour la révision de la ponctuation en version chinoise.
+- [@Alex-fun](https://github.com/Alex-fun)
+- [@HmyBmny](https://github.com/HmyBmny)
+- [@vra](https://github.com/vra)
 
 Merci à [@lennonjesus](https://github.com/lennonjesus) d'avoir traduit l'Art
 of README en portugais brésilien! Les utilisateurs suivants ont également fait des contributions:
