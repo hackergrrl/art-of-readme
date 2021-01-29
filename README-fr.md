@@ -186,57 +186,57 @@ Les moines Perl ont une sagesse à partager à ce sujet:
 > -- [Ken Williams](http://mathforum.org/ken/perl_modules.html#document)
 
 
-### Key elements
+### Éléments clé
 
-Once a README is located, the brave module spelunker must scan it to discern if
-it matches the developer's needs. This becomes essentially a series of pattern
-matching problems for their brain to solve, where each step takes them deeper
-into the module and its details.
+Une fois qu'un README est identifié, le chercheur de module doit le scanner afin de confirmer si
+celui-ci répond bien à ses besoins de développement. Cela devient essentiellement une série de validation
+de critères d'acceptation que leur cerveau doit résoudre, où chaque étape les plonge de plus en plus
+dans le module et ses détails.
 
-Let's say, for example, my search for a 2D collision detection module leads me
-to [`collide-2d-aabb-aabb`](https://github.com/noffle/collide-2d-aabb-aabb). I
-begin to examine it from top to bottom:
+Disons, par exemple, que ma recherche d'un module de détection de collision 2D m'amène
+à [`collide-2d-aabb-aabb`](https://github.com/noffle/collide-2d-aabb-aabb). je
+commence à l'examiner de haut en bas:
 
-1. *Name* -- self-explanatory names are best. `collide-2d-aabb-aabb` sounds
-   promising, though it assumes I know what an "aabb" is. If the name sounds too
-   vague or unrelated, it may be a signal to move on.
+1. *Nom* - les noms explicites sont les meilleurs. Le nom `collide-2d-aabb-aabb`
+   semble prometteur, bien que cela suppose que je sache ce qu'est un "aabb". 
+   Si le nom semble trop vague ou sans rapport, cela peut être un signal pour passer à autre chose.
 
-2. *One-liner* -- having a one-liner that describes the module is useful for
-   getting an idea of what the module does in slightly greater detail.
-   `collide-2d-aabb-aabb` says it
+2. *One-liner* - avoir un one-liner qui décrit le module est utile pour
+   avoir une idée de ce que fait le module avec un peu plus de détails.
+   `collide-2d-aabb-aabb` l'exprime très bien
 
-   > Determines whether a moving axis-aligned bounding box (AABB) collides with
-   > other AABBs.
+   > Détermine si un cadre de délimitation aligné sur l'axe mobile (AABB) entre en collision avec
+   > un autres AABB.
 
-   Awesome: it defines what an AABB is, and what the module does. Now to gauge how
-   well it'd fit into my code:
+   Génial: il définit ce qu'est un AABB et ce que fait le module. Maintenant pour évaluer comment
+   cela s'intégrerait dans mon code:
 
-3. *Usage* -- rather than starting to delve into the API docs, it'd be great to
-   see what the module looks like in action. I can quickly determine whether the
-   example JS fits the desired style and problem. People have lots of opinions
-   on things like promises/callbacks and ES6. If it does fit the bill, then I
-   can proceed to greater detail.
+3. *Utilisation* - plutôt que de commencer à fouiller dans la documentation de l'API, ce serait génial de
+   voir à quoi ressemble le module en action. Je peux rapidement déterminer si l'exemple 
+   correspond au style et au problème souhaités. Les gens ont beaucoup d'opinions
+   sur des choses comme les promesses/callbacks et ES6. Si cela correspond à la demande, alors je
+   peut continuer vers plus de détails sur le fonctionnement.
 
-4. *API* -- the name, description, and usage of this module all sound appealing
-   to me. I'm very likely to use this module at this point. I just need to scan
-   the API to make sure it does exactly what I need and that it will integrate
-   easily into my codebase. The API section ought to detail the module's objects
-   and functions, their signatures, return types, callbacks, and events in
-   detail. Types should be included where they aren't obvious. Caveats should be
-   made clear.
+4. *API* - le nom, la description et l'utilisation de ce module semblent tous attrayants pour moi.
+   Je suis très susceptible d'utiliser ce module à ce stade. J'ai juste besoin de scanner
+   l'API pour m'assurer qu'elle fait exactement ce dont j'ai besoin et qu'elle s'intègre
+   facilement dans ma base de code. La section API doit détailler les objets du module
+   et fonctions, leurs signatures, types de retour, rappels et événements dans le détail.
+   Les types doivent être inclus là où ils ne sont pas évidents. Les mises en garde devraient être
+   clairement explicités.
 
-5. *Installation* -- if I've read this far down, then I'm sold on trying out the
-   module. If there are nonstandard installation notes, here's where they'd go,
-   but even if it's just a regular `npm install`, I'd like to see that mentioned,
-   too. New users start using Node.js all the time, so having a link to npmjs.org
-   and an install command provides them the resources to figure out how Node.js
-   modules work.
+5. *Installation* - si j'ai lu jusque-là, je suis convaincu d'au moins essayer le
+   module. S'il y a des notes d'installation non standard, voici où elles iraient,
+   mais même si c'est juste une simple commande d'`installation npm`, j'aimerais voir cela mentionné,
+   aussi. De nouveaux utilisateurs commencent à utiliser Node.js tout le temps, donc avoir un lien vers npmjs.org
+   et la commande d'installation associée, leur fournit toutes les ressources nécessaires pour 
+   comprendre comment les modules Node.js fonctionnent.
 
-6. *License* -- most modules put this at the very bottom, but this might
-   actually be better to have higher up; you're likely to exclude a module VERY
-   quickly if it has a license incompatible with your work. I generally stick to
-   the MIT/BSD/X11/ISC flavours. If you have a non-permissive license, stick it
-   at the very top of the module to prevent any confusion.
+6. *Licence* - la plupart des modules placent cela tout en bas, mais cela pourrait
+   en fait être placé plus haut; vous êtes susceptible d'exclure un module TRÈS
+   rapidement s'il possède une licence incompatible avec votre travail. Je m'en tiens généralement aux
+   dérivés des licences MIT / BSD / X11 / ISC. Si vous avez une licence non permissive, placez-la
+   tout en haut du module pour éviter toute confusion.
 
 
 ## Progressivité cognitive
