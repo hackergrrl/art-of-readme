@@ -458,7 +458,7 @@ pour les "Conseils README" débordant de conseils, je me suis alors dit que
 cela pourrait être utilement de les collecter dans un article dédié à la rédaction de README.
 Ainsi, n'aissait l'Art of README!
 
-Vous pouvez me joindre à `noffle@huit45.net` ou sur Freenode IRC dans `#huit45`.
+Vous pouvez me joindre à `noffle@eight45.net` ou sur Freenode IRC dans `#eight45`.
 
 
 ## Lectures complémentaires
