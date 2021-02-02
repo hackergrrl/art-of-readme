@@ -3,8 +3,8 @@
 *Dieser Artikel wurde aus dem [Englischen](README.md) übersetzt.*
 
 *Dieser Artikel kann auch auf [Chinesisch](README-zh.md), 
-[Brasilianisches Portugiesisch](README-pt-BR.md) und
-[Spanisch](README-es-ES.md) gelesen werden.*
+[Brasilianisches Portugiesisch](README-pt-BR.md),
+[Spanisch](README-es-ES.md) und [Französisch](README-fr.md) gelesen werden.*
 
 ## Etymologie
 
@@ -551,6 +551,10 @@ Dank an [@Ryuno-Ki](https://github.com/Ryuno-Ki) für das Übersetzen der Kunst
 des README ins Deutsche! Die folgenden Nutzer haben auch Beiträge eingebracht:
 
 - [@randomC0der](https://github.com/randomC0der)
+
+Dank an [@Manfred Madelaine](https://github.com/Manfred-Madelaine-pro) und
+[@Ruben Madelaine](https://github.com/Ruben-Madelaine)
+für das Übersetzen der Kunst des README ins Französisch! 
 
 Abschließend dank an alle für ihr Feedback! Bitte teilt eure Kommentare
 [als issue](https://github.com/noffle/art-of-readme/issues)!
