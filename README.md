@@ -529,13 +529,6 @@ for translating Art of README to French!
 Finally, thanks for all of the feedback! Please share your comments [as an
 issue](https://github.com/noffle/art-of-readme/issues)!
 
-
-## Pull requests welcome!
-
-Spotted an error? Something doesn't make sense? Send me a [pull
-request](https://github.com/noffle/art-of-readme/pulls)! Please avoid making
-stylistic changes though -- they are unlikely to be accepted. Thanks!
-
 ## License
 
 [Creative Commons Attribution License](http://creativecommons.org/licenses/by/2.0/)
