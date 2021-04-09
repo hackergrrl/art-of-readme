@@ -22,10 +22,10 @@ humorvolle Anspielung auf
 einen Trank und einen Kuchen mit der Bezeichung *"DRINK ME"* beziehungsweise
 *"EAT ME"* gibt.
 
-Das Muster, das README komplett in Großbuchstaben erscheint, ist eine
+Das Muster, das README komplett in Grossbuchstaben erscheint, ist eine
 konsistente Facette durch die Geschichte. Nicht nur dank der visuellen
 Hervorhebung durch das Benutzen von Majuskeln, sondern auch dadurch, dass
-UNIX-Systeme Großbuchstaben vor Kleinbuchstaben sortieren würden, was die
+UNIX-Systeme Grossbuchstaben vor Kleinbuchstaben sortieren würden, was die
 README bequemerweise vor den Rest des Ordnerinhalts
 platzierte<sup>[2](#footnote-2)</sup>.
 
@@ -45,7 +45,7 @@ Monaten wird ein Modul ohne Dokumentation wie neu und unbekannt aussehen.
 
 Dies ist ebenso für Konsumierende von Modulen geschrieben, da jeder Auto auch
 ein Nutzer von Modulen ist. Node.js hat einen sehr gesunden Grad von
-Interdependenz: niemand lebt wirklich am Fuße des Abhängigkeitsbaums.
+Interdependenz: niemand lebt wirklich am Fusse des Abhängigkeitsbaums.
 
 Auch wenn es sich auf Node.js fokussiert, behauptet der Autor, dass die
 Lektionen sich genauso gut auf andere Programmierumgebungen anwenden lassen.
@@ -82,10 +82,10 @@ einer modernen Modul-Höhlenforschung zu resultieren: Den Quellcode
 durchforsten, um zu versuchen und zu verstehen, wie es tatsächlich
 funktioniert. Das Schreiben hervorragender Dokumentation zeichnet sich dadurch
 aus, dass der Nutzer aus dem Quellcode ferngehalten wird, indem die Anleitungen
-ausreichend genug sind, um die wundervollen Abstraktionen zu genießen, die das
+ausreichend genug sind, um die wundervollen Abstraktionen zu geniessen, die das
 Modul bereitstellt.
 
-Node.js hat ein "großes" Ökosystem: Es besteht im Wesentlichen aus einer
+Node.js hat ein "grosses" Ökosystem: Es besteht im Wesentlichen aus einer
 sehr langen Liste von unabhängigen mach-eine-Sache-gut Modulen und nicht mehr.
 Es gibt [Ausnahmen](https://github.com/lodash/lodash), aber von diesen
 kleineren Lehnsgütern abgesehen sind es die Einzweck-Gutsherren, die aufgrund
@@ -101,7 +101,7 @@ nur die wenigen Privilegierten teilnehmen dürfen.
 Darüberhinaus lässt sich Auffindbarkeit -- wie wir herausfinden werden --
 einfacher adressieren.
 
-## Alle Straßen führen zur README.md
+## Alle Strassen führen zur README.md
 
 Die Node.js Gemeinschaft hat auf die Herausforderung der Auffindbarkeit in
 verschiedenen Weisen reagiert.
@@ -127,7 +127,7 @@ ein sicherer Standard und der übliche Einstiegspunkt für neue Entwickler.
 Egal welcher Ansatz, unabhängig davon, ob ein Modul-Höhlenforscher die
 Moduluntergründe von [npmjs.org](https://npmjs.org),
 [github.com](https://github.com) oder anderswo betritt, der potentielle Nutzer
-wird schließlich deine README zu sehen bekommen. Da sich deine Nutzer
+wird schliesslich deine README zu sehen bekommen. Da sich deine Nutzer
 unausweislich hier wiederfinden werden, stellt sich die Frage, was du machen
 kannst, um ihren ersten Eindruck maximal effektiv zu mcahen?
 
@@ -136,8 +136,8 @@ kannst, um ihren ersten Eindruck maximal effektiv zu mcahen?
 ### Die README: Alles aus einer Hand
 
 Die README ist der erste -- und vielleicht einzige -- Blick eines Modulnutzers
-in dein Werk. Der Nutzer erwartet, dass ein Modul ihre Bedürfnisse erfüllt,
-also must du genau erklären, was für ein Problem dein Modul löst und wie
+in dein Werk. Der Nutzer erwartet, dass ein Modul seine Bedürfnisse erfüllt,
+also musst du genau erklären, was für ein Problem dein Modul löst und wie
 effektiv es dabei ist.
 
 Deine Aufgabe ist es,
@@ -150,7 +150,7 @@ Deine Aufgabe ist es,
 Dies ist *deine* Aufgabe. Es liegt an den Modulersteller zu beweisen, dass
 ihre Arbeit ein glänzender Edelstein im Meer von schludrigen Modulen ist.
 Da so viele Entwickleraugen zuerst die README finden werden, ist Qualität hier
-dein öffentlichkeitswirksames Maß deiner Arbeit.
+dein öffentlichkeitswirksames Mass deiner Arbeit.
 
 ### Kürze
 
@@ -161,22 +161,22 @@ separate Seiten dafür! -- aber halte deine README prägnant.
 
 ### Aus der Vergangenheit lernen
 
-Es heißt, dass jene, die nicht aus ihrer Vergangenheit lernen, dazu verdammt
+Es heisst, dass jene, die nicht aus ihrer Vergangenheit lernen, dazu verdammt
 sind, die Fehler zu wiederholen. Entwickler haben bereits seit einigen Jahren
 Dokumentation geschrieben. Es wäre eine Verschwendung, nicht ein wenig darauf
 zurückzublicken und nachzuschauen, was die Leute vor Node.js gemacht haben.
 
 Perl, trotz aller Kritik, die es erfährt, ist in einigen Weisen der geistige
-Großvater von Node.js. Beides sind High-Level Skriptsprache, übernehmen viele
-UNIX-Idiome, befeuern große Teile des Internets und beide besitzen ein reiches
+Grossvater von Node.js. Beides sind High-Level Skriptsprache, übernehmen viele
+UNIX-Idiome, befeuern grosse Teile des Internets und beide besitzen ein reiches
 Modul-Ökosystem.
 
 Es stellt sich heraus, dass die
-[Mönche der Perl-Community](http://perlmonks.org) der tatsächlich viel
+[Mönche der Perl-Community](http://perlmonks.org) tatsächlich viel
 Erfahrung im Schreiben von
 [hochqualitativen READMEs](http://search.cpan.org/~kane/Archive-Tar/lib/Archive/Tar.pm)
 erworben haben. CPAN ist eine wundervolle Ressource, die es wert ist,
-durchgelesen zu werden, um mehr von einer Gemeinschaft zu lernen, die durchweg
+durchgelesen zu werden, um mehr von einer Gemeinschaft zu lernen, die durchwegs
 hochkalibrige Dokumentation geschrieben hat.
 
 ### Keine README? Keine Abstraktion
@@ -211,7 +211,7 @@ führt mich zu
 beginne damit, es von oben nach unten zu durchforsten:
 
 1. *Name* -- am besten selbsterklärend. `collide-2d-aabb-aabb` klingt
-   vielversprechend, auch wenn es annimmt, dass ich weiß, was "aabb" ist. Wenn
+   vielversprechend, auch wenn es annimmt, dass ich weiss, was "aabb" ist. Wenn
    der Name zu vage oder unbezogen klingt, kann das ein Signal sein, woanders
    weiterzusuchen.
 
@@ -251,7 +251,7 @@ beginne damit, es von oben nach unten zu durchforsten:
 
 6. *Lizenz* -- viele Module platzieren dies ganz am Ende, aber es könnte weiter
    oben besser aufgehoben sein; du wirst ein Modul wohl sehr schnell
-   ausschließen, wenn die Lizenz mit deiner Arbeit unkompatibel ist. Generell
+   ausschliessen, wenn die Lizenz mit deiner Arbeit unkompatibel ist. Generell
    tendiere ich zu MIT/BSD/X11/ISC-Varianten. Falls du eine non-permissive
    Lizenz hast, platziere sie ganz am Anfang, um Verwirrung zu vermeiden.
 
@@ -264,7 +264,7 @@ Nutzer von Modulen benutzen viele, und sie müssen sich viele Module anschauen.
 Nachdem du Hunderte von Modulen betrachtet hast, wirst du bemerken, dass der
 Verstand von bestimmten Mustern profitiert.
 
-Du wirst außerdem anfangen, eine eigene persönliche Heuristik zu entwickeln,
+Du wirst ausserdem anfangen, eine eigene persönliche Heuristik zu entwickeln,
 welche Informationen du brauchst und welche Warnsignale ein Modul sehr schnell
 disqualifizieren.
 
@@ -314,7 +314,7 @@ zu "verkaufen". Sondern sie dein Werk so objektiv wie möglich auswerten zu
 lassen, um zu entscheiden, ob es ihre Bedürfnisse erfüllt oder nicht -- und
 nicht etwa, sagen wir, die Anzahl der Downloads oder Nutzer zu maximieren.
 
-Diese Denkweise spricht nicht jeden an; sie verlangt das eigene Ego außen vor
+Diese Denkweise spricht nicht jeden an; sie verlangt das eigene Ego aussen vor
 zu lassen und die Arbeit soweit wie möglich für sich selbst sprechen zu lassen.
 Dein einziger Auftrag ist es, sein Versprechen so genau wie möglich zu
 beschreiben, so dass Modul-Höhlenforscher entweder deine Arbeit, sofern sie
@@ -327,7 +327,7 @@ und nutzbar durch exzellente Dokumentation!
 
 ## Bonus: andere gute Praktiken
 
-Außer den Schlüsselpunkten dieses Artikels gibt es noch andere Praktiken, die
+Ausser den Schlüsselpunkten dieses Artikels gibt es noch andere Praktiken, die
 du anwenden (oder nicht anwenden) kannst, um die Qualitätsleiste deiner
 README zu erhöhen und dessen Nützlichkeit für andere zu maximieren:
 
@@ -336,7 +336,7 @@ README zu erhöhen und dessen Nützlichkeit für andere zu maximieren:
    anderen Ökosystemen beruht. Die Funktion von
    [`bisecting-between`](https://github.com/noffle/bisecting-between) ist nicht
    jedem sofort klar anhand des Namens, so das es einen ausführlichen Abschnitt
-   *Hintergrund* hat, um die großen Konzepte zu definieren und zu verlinken,
+   *Hintergrund* hat, um die grossen Konzepte zu definieren und zu verlinken,
    sowie die Abstraktionen zu erklären, die jemand verstehen muss, um es zu
    benutzen. Dies ist auch ein toller Platz, um die Motivation hinter dem
    Modul zu erklären, falls ähnliche Module bereits auf npm existieren.
@@ -347,7 +347,7 @@ README zu erhöhen und dessen Nützlichkeit für andere zu maximieren:
    ganze Arbeit beruht auf anderen Werken, also zahlt es sich aus, dass Nutzer
    die Geschichte und Inspiration deines Moduls folgen können.
 
-3. Schließe Informationen über Typen von Argumenten und Rückgabewerten ein,
+3. Schliesse Informationen über Typen von Argumenten und Rückgabewerten ein,
    sofern diese nicht offensichtlich sind. Bevorzuge Konvention wo immer
    möglich. `cb` bedeutet wahrscheinlich callback-Funktion, `num` bezeichnet
    wohl ein `Number` usw.).
@@ -356,10 +356,10 @@ README zu erhöhen und dessen Nützlichkeit für andere zu maximieren:
    -- vielleicht als `example.js`. Es ist klasse, README code zu haben, den
    Nutzer tatsächlich ausführen können, falls sie das Repository klonen.
 
-5. Sei bedachtsam mit dem Nutzen von Abzeichen. Sie können leicht
+5. Sei behutsam mit dem Nutzen von Abzeichen. Sie können leicht
    [missbraucht](https://github.com/angular/angular) werden. Sie können auch
    Grundlage für Nebensächlichkeiten (Bikeshedding) und endlosen Debatten
-   werden. Sie fügen visuellen Störungen zu deiner README hinzu und
+   werden. Sie fügen visuelle Störungen zu deiner README hinzu und
    funktionieren oft nur, wenn der Nutzer dein Markdown im Webbrowser liest, da
    die Bilder oft woanders im Internet gehostet werden.
    Für jedes Abzeichen überlege dir: "Was ist der tatsächliche Wert, den dieses
@@ -388,7 +388,7 @@ README zu erhöhen und dessen Nützlichkeit für andere zu maximieren:
       komplett entfernt werden muss
 
    e. verlinke spezielle Terminologie! In Markdown kannst du
-      [Fußnoten](https://daringfireball.net/projects/markdown/syntax#link) am
+      [Fussnoten](https://daringfireball.net/projects/markdown/syntax#link) am
       Ende deines Dokuments einfügen, so dass das erneute Verweisen von ihnen
       sehr billig ist. Einige meiner persönlichen Präferenzen hinsichtlich
       API-Formatierung lassen sich
@@ -420,7 +420,7 @@ README zu erhöhen und dessen Nützlichkeit für andere zu maximieren:
     ergibt, erstelle ein neues Modul, dass die Aufgabe erledigt. Das
     'mach-eine-konkrete-Sache'-Modul bleibt weiterhin gültig und ein wertvolles
     Modell für das npm-Ökosystem, und deine Kurskorrektur kostet dich nichts
-    außer einer einfachen Ersetzung eines Moduls mit einem anderen.
+    ausser einer einfachen Ersetzung eines Moduls mit einem anderen.
 
 11. Schlussendlich, erinnere dich bitte, dass deine Versionskontroll-Repository
     und die README darin dein [repository host](https://github.com) überleben
@@ -478,7 +478,7 @@ Ich bin [noffle](http://blog.eight45.net/about/). Ich bin dafür bekannt zu
 [bloggen](http://blog.eight45.net), [tweeten](https://twitter.com/noffle), und
 zu [hacken](https://github.com/noffle).
 
-Dieses kleine Projekt begann damals im Main in Berlin bei der squantconf, wo
+Dieses kleine Projekt begann damals im Mai in Berlin bei der squantconf, wo
 ich mich damit beschäftigt habe, wie Perl-Mönche ihre Dokumentation schreiben
 und mich ebenso über den Stand der READMEs im Node.js-Ökosystem beschwert habe.
 Das hat mich dazu gebracht,
@@ -501,9 +501,9 @@ erreichen.
    [Sixes666](https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8akpz6)!
 
 1. <a name="footnote-2"></a>Siehe [Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
-   Die meisten Systeme heutzutage werden jedoch nicht Großbuchstaben vor
+   Die meisten Systeme heutzutage werden jedoch nicht Grossbuchstaben vor
    Kleinbuchstaben sortieren, so dass sich die Nützlichkeit der Konvention
-   auf die visuelle Hervorhebung durch die Nutzung der Großbuchstaben
+   auf die visuelle Hervorhebung durch die Nutzung der Grossbuchstaben
    beschränkt.
 
 ## Danksagung
@@ -512,7 +512,7 @@ Ein inniger Dank an dich, [@mafintosh](https://github.com/mafintosh) und
 [@feross](https://github.com/feross) für die Ermunterung, die ich brauchte, um
 diese Idee umzusetzen und anzufangen zu schreiben!
 
-Danke auch an die folgenden großartigen Leser, die Fehler bemerkt und mir PRs
+Danke auch an die folgenden grossartigen Leser, die Fehler bemerkt und mir PRs
 gesendet haben :heart: :
 
 - [@ungoldman](https://github.com/ungoldman)
@@ -556,7 +556,7 @@ Dank an [@Manfred Madelaine](https://github.com/Manfred-Madelaine-pro) und
 [@Ruben Madelaine](https://github.com/Ruben-Madelaine)
 für das Übersetzen der Kunst des README ins Französisch! 
 
-Abschließend dank an alle für ihr Feedback! Bitte teilt eure Kommentare
+Abschliessend dank an alle für ihr Feedback! Bitte teilt eure Kommentare
 [als issue](https://github.com/noffle/art-of-readme/issues)!
 
 ## Pull requests willkommen!
