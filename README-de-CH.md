@@ -16,7 +16,7 @@ auch wenn es sogar noch weiter zurückliegen könnte, zu den Tagen, als
 informative Papiernotizen auf einen Stapel Lochkarten gestapelt wurden
 mit „LIES MICH!” bekritzelt, um ihren Zweck zu beschreiben.
 
-Ein Leser<sup>[1](#footnote-1)</sup> schlug vor, daß der Title README eine
+Ein Leser<sup>[1](#footnote-1)</sup> schlug vor, dass der Title README eine
 humorvolle Anspielung auf
 *Alice im Wunderland* von Lewis Caroll seien könnte, in der es
 einen Trank und einen Kuchen mit der Bezeichung *"DRINK ME"* beziehungsweise
@@ -24,13 +24,13 @@ einen Trank und einen Kuchen mit der Bezeichung *"DRINK ME"* beziehungsweise
 
 Das Muster, das README komplett in Großbuchstaben erscheint, ist eine
 konsistente Facette durch die Geschichte. Nicht nur dank der visuellen
-Hervorhebung durch das Benutzen von Majuskeln, sondern auch dadurch, daß
+Hervorhebung durch das Benutzen von Majuskeln, sondern auch dadurch, dass
 UNIX-Systeme Großbuchstaben vor Kleinbuchstaben sortieren würden, was die
 README bequemerweise vor den Rest des Ordnerinhalts
 platzierte<sup>[2](#footnote-2)</sup>.
 
 Die Absicht ist klar: *"Dies ist wichtige Information für den Nutzer, die
-gelesen sollte, bevor weitergemacht wird."* Laßt uns zusammen erkunden,
+gelesen sollte, bevor weitergemacht wird."* Lasst uns zusammen erkunden,
 was "wichtige Informationen" in der heutigen Moderne ausmacht.
 
 ## Für Ersteller, für Konsumierende
@@ -39,16 +39,16 @@ Dies ist ein Artikel über READMEs. Darüber, was sie tun, warum sie unbedingt
 notwendig sind und wie sie gut erstellt werden können.
 
 Dies ist für Ersteller von Modulen geschrieben, da es die Aufgabe eines solchen
-ist, etwas zu schaffen, daß überdauert. Es ist eine inhärente Motivation,
+ist, etwas zu schaffen, dass überdauert. Es ist eine inhärente Motivation,
 selbst wenn der Autor keine Absicht hat, ihre Arbeit zu teilen. Nach sechs
-Monaten wird ein Modul ohne Dokumentation wie neu und unbekannt außehen.
+Monaten wird ein Modul ohne Dokumentation wie neu und unbekannt aussehen.
 
 Dies ist ebenso für Konsumierende von Modulen geschrieben, da jeder Auto auch
 ein Nutzer von Modulen ist. Node.js hat einen sehr gesunden Grad von
 Interdependenz: niemand lebt wirklich am Fuße des Abhängigkeitsbaums.
 
-Auch wenn es sich auf Node.js fokußiert, behauptet der Autor, daß die
-Lektionen sich genauso gut auf andere Programmierumgebungen anwenden laßen.
+Auch wenn es sich auf Node.js fokussiert, behauptet der Autor, dass die
+Lektionen sich genauso gut auf andere Programmierumgebungen anwenden lassen.
 
 ## Viele Module: einige gut, andere schlecht
 
@@ -62,7 +62,7 @@ Wie andere sehr zugängliche Ökosysteme auch, schwankt die Qualität. npm
 macht das Beste daraus, all diese Module nett zu verpacken und weit zu
 verteilen. Die gefundenen Werkzeuge unterscheiden sich jedoch ziemlich:
 einige sind brandneu, andere angestaubt oder kaputt und wieder andere irgendwo
-dazwischen. Es gibt sogar welche, von denen wir gar nicht wißen, was sie tun!
+dazwischen. Es gibt sogar welche, von denen wir gar nicht wissen, was sie tun!
 
 Für einige Module kann das in Form ungenauer oder wenig hilfreicher Namen
 annehmen (was wohl das `fudge` Modul tut?), andere haben keine Dokumentation,
@@ -74,14 +74,14 @@ fehlenden Überbleibseln von Dokumentation, dann wird das Modul ein bizarres
 Artefakt eines Aliens, unbenutzbar und unverständlich für die
 Archäologie-Hacker von morgen.
 
-Wo landen die Module, die eine Dokumentation haben, auf dem Qualitätßpektrum?
+Wo landen die Module, die eine Dokumentation haben, auf dem Qualitätsspektrum?
 Manchmal handelt es sich nur um einen Einzeiler: `"sortiert Nummern nach ihren
 Hex-Werten"`. Vielleicht ist es ein Beispielcode-Schnippsel. Beides sind
-beßer als gar nichts, aber sie tendieren dazu, in das Worst-Case Szenario
+besser als gar nichts, aber sie tendieren dazu, in das Worst-Case Szenario
 einer modernen Modul-Höhlenforschung zu resultieren: Den Quellcode
 durchforsten, um zu versuchen und zu verstehen, wie es tatsächlich
 funktioniert. Das Schreiben hervorragender Dokumentation zeichnet sich dadurch
-aus, daß der Nutzer aus dem Quellcode ferngehalten wird, indem die Anleitungen
+aus, dass der Nutzer aus dem Quellcode ferngehalten wird, indem die Anleitungen
 ausreichend genug sind, um die wundervollen Abstraktionen zu genießen, die das
 Modul bereitstellt.
 
@@ -95,11 +95,11 @@ Diese Situation hat eine natürliche Konsequenz: Es kann schwer sein,
 *hochwertige* Module zu finden, die genau das machen, was du willst.
 
 **Das ist in Ordnung**. Wirklich. Eine niedrige Eintrittsbarriere und das
-Auffindbarkeits-Problem sind unendlich beßer als ein Kulturproblem, bei dem
+Auffindbarkeits-Problem sind unendlich besser als ein Kulturproblem, bei dem
 nur die wenigen Privilegierten teilnehmen dürfen.
 
-Darüberhinaus läßt sich Auffindbarkeit -- wie wir herausfinden werden --
-einfacher adreßieren.
+Darüberhinaus lässt sich Auffindbarkeit -- wie wir herausfinden werden --
+einfacher adressieren.
 
 ## Alle Straßen führen zur README.md
 
@@ -112,7 +112,7 @@ Module zu erstellen.
 Entwickler nutzen ihre langjährige Erfahrung beim Untersuchen von Hunderten
 verschiedener Module, um mit Neulingen die *crème de la crème* zu teilen:
 die besten Module in jeder Kategorie.
-Dies kann auch in Form von Rß-Feeds und Mailinglisten geschehen, die neue
+Dies kann auch in Form von RSS-Feeds und Mailinglisten geschehen, die neue
 Module vorstellen, die von vertrauenswürdigen Mitgliedern der Community als
 nützlich betrachtet werden.
 
@@ -131,23 +131,23 @@ wird schließlich deine README zu sehen bekommen. Da sich deine Nutzer
 unausweislich hier wiederfinden werden, stellt sich die Frage, was du machen
 kannst, um ihren ersten Eindruck maximal effektiv zu mcahen?
 
-## Profeßionelle Modul-Höhlenforschung
+## Professionelle Modul-Höhlenforschung
 
 ### Die README: Alles aus einer Hand
 
 Die README ist der erste -- und vielleicht einzige -- Blick eines Modulnutzers
-in dein Werk. Der Nutzer erwartet, daß ein Modul ihre Bedürfniße erfüllt,
+in dein Werk. Der Nutzer erwartet, dass ein Modul ihre Bedürfnisse erfüllt,
 also must du genau erklären, was für ein Problem dein Modul löst und wie
 effektiv es dabei ist.
 
 Deine Aufgabe ist es,
 
 1. zu erklären, was es ist (mit Kontext)
-2. zu zeigen, wie es in Aktion außieht
+2. zu zeigen, wie es in Aktion aussieht
 3. zu zeigen, wie es genutzt wird
 4. alle weiteren relevante Details aufzuzählen
 
-Dies ist *deine* Aufgabe. Es liegt an den Modulersteller zu beweisen, daß
+Dies ist *deine* Aufgabe. Es liegt an den Modulersteller zu beweisen, dass
 ihre Arbeit ein glänzender Edelstein im Meer von schludrigen Modulen ist.
 Da so viele Entwickleraugen zuerst die README finden werden, ist Qualität hier
 dein öffentlichkeitswirksames Maß deiner Arbeit.
@@ -161,7 +161,7 @@ separate Seiten dafür! -- aber halte deine README prägnant.
 
 ### Aus der Vergangenheit lernen
 
-Es heißt, daß jene, die nicht aus ihrer Vergangenheit lernen, dazu verdammt
+Es heißt, dass jene, die nicht aus ihrer Vergangenheit lernen, dazu verdammt
 sind, die Fehler zu wiederholen. Entwickler haben bereits seit einigen Jahren
 Dokumentation geschrieben. Es wäre eine Verschwendung, nicht ein wenig darauf
 zurückzublicken und nachzuschauen, was die Leute vor Node.js gemacht haben.
@@ -171,25 +171,25 @@ Großvater von Node.js. Beides sind High-Level Skriptsprache, übernehmen viele
 UNIX-Idiome, befeuern große Teile des Internets und beide besitzen ein reiches
 Modul-Ökosystem.
 
-Es stellt sich heraus, daß die
+Es stellt sich heraus, dass die
 [Mönche der Perl-Community](http://perlmonks.org) der tatsächlich viel
 Erfahrung im Schreiben von
 [hochqualitativen READMEs](http://search.cpan.org/~kane/Archive-Tar/lib/Archive/Tar.pm)
-erworben haben. CPAN ist eine wundervolle Reßource, die es wert ist,
+erworben haben. CPAN ist eine wundervolle Ressource, die es wert ist,
 durchgelesen zu werden, um mehr von einer Gemeinschaft zu lernen, die durchweg
 hochkalibrige Dokumentation geschrieben hat.
 
 ### Keine README? Keine Abstraktion
 
-Ohne README werden Entwickler den Quellcode betrachten müßen, um ihn zu
+Ohne README werden Entwickler den Quellcode betrachten müssen, um ihn zu
 verstehen.
 
 Die Perl-Mönche haben hierzu eine Weisheit zu teilen:
 
 > Deine Dokumentation ist dann vollständig, wenn jemand dein Modul nutzen kann,
-> ohne jemals auf den Quellcode schauen zu müßen. Das ist sehr wichtig. Es
-> ermöglicht es dir, die dokumentierte Schnittstelle deines Moduls von deßen
-> Implementierung zu trennen (gut). Das ist gut, weil es bedeutet, daß du
+> ohne jemals auf den Quellcode schauen zu müssen. Das ist sehr wichtig. Es
+> ermöglicht es dir, die dokumentierte Schnittstelle deines Moduls von dessen
+> Implementierung zu trennen (gut). Das ist gut, weil es bedeutet, dass du
 > frei bist, die Interna deines Moduls zu ändern, solange die Schnittstelle
 > die gleiche bleibt.
 >
@@ -197,13 +197,13 @@ Die Perl-Mönche haben hierzu eine Weisheit zu teilen:
 > was ein Modul macht.
 -- [Ken Williams](http://mathforum.org/ken/perl_modules.html#document)
 
-### Schlüßelelemente
+### Schlüsselelemente
 
 Sowie eine README gefunden wurde, überfliegt der mutige Modul-Höhlenforscher es,
-um festzustellen, ob es die Bedürfniße des Entwicklers abdeckt. Im
+um festzustellen, ob es die Bedürfnisse des Entwicklers abdeckt. Im
 Wesentlichen handelt es sich dabei um eine Reihe von Problemen des
-Musterabgleichs, welches das Gehirn lösen muß, wobei jeder Schritt den
-Entwickler tiefer in das Modul und deßen Details führt.
+Musterabgleichs, welches das Gehirn lösen muss, wobei jeder Schritt den
+Entwickler tiefer in das Modul und dessen Details führt.
 
 Sagen wir zum Beispiel, meine Suche für ein Modul zur 2D-Kollisionserkennung
 führt mich zu
@@ -211,57 +211,57 @@ führt mich zu
 beginne damit, es von oben nach unten zu durchforsten:
 
 1. *Name* -- am besten selbsterklärend. `collide-2d-aabb-aabb` klingt
-   vielversprechend, auch wenn es annimmt, daß ich weiß, was "aabb" ist. Wenn
+   vielversprechend, auch wenn es annimmt, dass ich weiß, was "aabb" ist. Wenn
    der Name zu vage oder unbezogen klingt, kann das ein Signal sein, woanders
    weiterzusuchen.
 
 2. *Einzeiler* -- ein Einzeiler zur Beschreibung des Moduls kann nützlich sein,
    um eine Idee davon zu bekommen, was das Modul in etwa macht.
-   `collide-2d-aabb-aabb` sagt, daß es
+   `collide-2d-aabb-aabb` sagt, dass es
 
    > Bestimmt, ob eine sich bewegende Achsen-ausgerichtete Begrenzungs-Box
    > (AABB) mit anderen AABBs kollidiert.
 
    Fantastisch: es definiert AABB und was das Modul macht. Jetzt zum Abschätzen,
-   wie gut es in meinen Code paßen wird:
+   wie gut es in meinen Code passen wird:
 
 3. *Benutzung* -- anstatt sich direkt in die API-Dokumentation zu vertiefen,
-   wäre es toll zu sehen, wie das Modul in Aktion außieht. Ich kann schnell
+   wäre es toll zu sehen, wie das Modul in Aktion aussieht. Ich kann schnell
    bestimmen, ob das Beispiel-JavaScript den gewünschtem Stil und Problem
    entspricht. Die Leute haben viele Meinungen dazu, wie Dinge wie
-   Promises/Callbacks und ES6 außehen sollten. Falls es den Vorstellungen
+   Promises/Callbacks und ES6 aussehen sollten. Falls es den Vorstellungen
    entspricht, dann kann ich mit mehr Details fortfahren.
 
 4. *API* -- der Name, die Beschreibung und die Benutzung des Moduls klingen
    allesamt vielversprechend für mich. Ich bin an dieser Stelle sehr dazu
-   geneigt, das Modul zu benutzen. Ich muß nur noch das API überfliegen, um zu
+   geneigt, das Modul zu benutzen. Ich muss nur noch das API überfliegen, um zu
    sehen, ob es genau das macht, was ich brauche und werde es dann leicht in
-   meine Codebase integrieren. Der Abschnitt zum API muß daher die Objekte und
+   meine Codebase integrieren. Der Abschnitt zum API muss daher die Objekte und
    Funktionen des Moduls, ihre Signaturen, Rückgabewerte, Callbacks und Events
    im Detail beschreiben. Typen sollten einbezogen werden, wenn sie nicht
    offensichtlich sind. Warnungen sollten klar gemacht werden.
 
-5. *Installation* -- wenn ich bis hierhin gelesen habe, bin ich bereit, daß
+5. *Installation* -- wenn ich bis hierhin gelesen habe, bin ich bereit, dass
    Modul zu installieren. Falls die Installationsbeschreibung vom Standard
    abweicht, sollte es hier stehen, selbst wenn es nur ein reguläres
    `npm install` ist, würde ich das gerne erwähnt sehen. Ständig fangen neue
-   Nutzer mit Node.js an, so daß ein Link zur npmjs.org und ein
-   Installationsbefehl ihnen die Reßourcen an die Hand gibt, um herauszufinden,
+   Nutzer mit Node.js an, so dass ein Link zur npmjs.org und ein
+   Installationsbefehl ihnen die Ressourcen an die Hand gibt, um herauszufinden,
    wie Node.js-Module funktionieren.
 
 6. *Lizenz* -- viele Module platzieren dies ganz am Ende, aber es könnte weiter
-   oben beßer aufgehoben sein; du wirst ein Modul wohl sehr schnell
-   außchließen, wenn die Lizenz mit deiner Arbeit unkompatibel ist. Generell
-   tendiere ich zu MIT/BSD/X11/ISC-Varianten. Falls du eine non-permißive
+   oben besser aufgehoben sein; du wirst ein Modul wohl sehr schnell
+   ausschließen, wenn die Lizenz mit deiner Arbeit unkompatibel ist. Generell
+   tendiere ich zu MIT/BSD/X11/ISC-Varianten. Falls du eine non-permissive
    Lizenz hast, platziere sie ganz am Anfang, um Verwirrung zu vermeiden.
 
 ## Wahrnehmungstrichter
 
 Die Reihenfolge oben wurde nicht zufällig gewählt.
 
-Nutzer von Modulen benutzen viele, und sie müßen sich viele Module anschauen.
+Nutzer von Modulen benutzen viele, und sie müssen sich viele Module anschauen.
 
-Nachdem du Hunderte von Modulen betrachtet hast, wirst du bemerken, daß der
+Nachdem du Hunderte von Modulen betrachtet hast, wirst du bemerken, dass der
 Verstand von bestimmten Mustern profitiert.
 
 Du wirst außerdem anfangen, eine eigene persönliche Heuristik zu entwickeln,
@@ -271,18 +271,18 @@ disqualifizieren.
 Daher ist es für eine README vorteilhaft, folgendes zu besitzen:
 
 1. ein vorhersehbares Format
-2. das Vorhandensein bestimmter Schlüßelelemente
+2. das Vorhandensein bestimmter Schlüsselelemente
 
-Du mußt nicht *dieses* Format nutzen, aber versuche konsistent zu sein, um
+Du musst nicht *dieses* Format nutzen, aber versuche konsistent zu sein, um
 deinen Nutzern wertvolle Runden der Erkenntnis zu ersparen.
 
 Die hier gewählte Reihenfolge wird auch liebevoll als "Wahrnehmungstrichter"
 bezeichnet und kann sich wie ein Trichter vorgestellt werden, der aufrecht
 gehalten wird, wobei das breite Ende die gröbsten relevanten Details beinhaltet
 und nach unten hin immer spezifischer wird für die Leser, die an deiner Arbeit
-intereßiert genug sind, um so weit unten im Dokument anzugelangen. Das Ende
+interessiert genug sind, um so weit unten im Dokument anzugelangen. Das Ende
 kann dann für Details reserviert werden für diejenigen, die mehr an dem
-tieferen Kontext der Arbeit intereßiert sind (Hintergrund, Danksagungen,
+tieferen Kontext der Arbeit interessiert sind (Hintergrund, Danksagungen,
 Quellenangaben usw.).
 
 Wieder einmal haben die Perlmönche eine Weisheit zu diesem Thema zu teilen:
@@ -290,35 +290,35 @@ Wieder einmal haben die Perlmönche eine Weisheit zu diesem Thema zu teilen:
 > Der Detaillevel in Dokumentation von Perlmodulen reicht üblicherweise von
 > weniger detailliert zu mehr detailliert. Der SYNOPSIS-Abschnitt sollte ein
 > Minimal-Beispiel zur Benutzung beinhalten (vielleicht so klein wie eine Zeile
-> Code; überspring die ungewöhnlichen Fälle oder alles, daß nicht von den
+> Code; überspring die ungewöhnlichen Fälle oder alles, dass nicht von den
 > meisten Nutzern gebraucht wird); die DESCRIPTION sollte dein Modul in groben
 > Zügen beschreiben, normalerweise in wenigen Abschnitten; mehr Details zu den
 > Routinen oder Methoden deines Moduls, längere Codebeispiele oder anderes
 > tiefergehendes Material sollte in darauffolgenden Abschnitten kommen.
 >
 > Idealerweise sollte jemand, der nur wenig mit deinem Modul vertraut ist,
-> seine Erinnerung auffrischen können, ohne auf "Bild ab" drücken zu müßen.
+> seine Erinnerung auffrischen können, ohne auf "Bild ab" drücken zu müssen.
 > Mit weiterem Voranschreiten durch das Dokumente, sollten deine Leser nach
-> und nach tieferes Wißen erhalten.
+> und nach tieferes Wissen erhalten.
 > -- aus `perlmodstyle`
 
 ## Sorge dich um die Zeit der Leute
 
-Fantastisch; die Reihenfolge dieser Schlüßelelemente sollte dadurch bestimmt
+Fantastisch; die Reihenfolge dieser Schlüsselelemente sollte dadurch bestimmt
 werden, wie schnell sie es jemanden erlaubt, vorzeitig dein Modul zu
 verwerfen.
 
 Das klingt rau, stimmt's? Aber denk drüber nach: es ist nicht deine Aufgabe,
 sowie du sie mit einem optimalen Altruismus erfüllst, den Leuten deine Arbeit
 zu "verkaufen". Sondern sie dein Werk so objektiv wie möglich auswerten zu
-laßen, um zu entscheiden, ob es ihre Bedürfniße erfüllt oder nicht -- und
+lassen, um zu entscheiden, ob es ihre Bedürfnisse erfüllt oder nicht -- und
 nicht etwa, sagen wir, die Anzahl der Downloads oder Nutzer zu maximieren.
 
 Diese Denkweise spricht nicht jeden an; sie verlangt das eigene Ego außen vor
-zu laßen und die Arbeit soweit wie möglich für sich selbst sprechen zu laßen.
+zu lassen und die Arbeit soweit wie möglich für sich selbst sprechen zu lassen.
 Dein einziger Auftrag ist es, sein Versprechen so genau wie möglich zu
-beschreiben, so daß Modul-Höhlenforscher entweder deine Arbeit, sofern sie
-paßt, benutzen, oder sich nach etwas anderem umsehen können.
+beschreiben, so dass Modul-Höhlenforscher entweder deine Arbeit, sofern sie
+passt, benutzen, oder sich nach etwas anderem umsehen können.
 
 ## Zu den Waffen!
 
@@ -327,9 +327,9 @@ und nutzbar durch exzellente Dokumentation!
 
 ## Bonus: andere gute Praktiken
 
-Außer den Schlüßelpunkten dieses Artikels gibt es noch andere Praktiken, die
+Außer den Schlüsselpunkten dieses Artikels gibt es noch andere Praktiken, die
 du anwenden (oder nicht anwenden) kannst, um die Qualitätsleiste deiner
-README zu erhöhen und deßen Nützlichkeit für andere zu maximieren:
+README zu erhöhen und dessen Nützlichkeit für andere zu maximieren:
 
 1. Überleg dir, ob du einen Abschnitt **Hintergrund** einfügen willst, falls
    dein Modul auf wichtigen, aber nicht sehr bekannten Abstraktionen oder
@@ -337,14 +337,14 @@ README zu erhöhen und deßen Nützlichkeit für andere zu maximieren:
    [`bisecting-between`](https://github.com/noffle/bisecting-between) ist nicht
    jedem sofort klar anhand des Namens, so das es einen ausführlichen Abschnitt
    *Hintergrund* hat, um die großen Konzepte zu definieren und zu verlinken,
-   sowie die Abstraktionen zu erklären, die jemand verstehen muß, um es zu
+   sowie die Abstraktionen zu erklären, die jemand verstehen muss, um es zu
    benutzen. Dies ist auch ein toller Platz, um die Motivation hinter dem
    Modul zu erklären, falls ähnliche Module bereits auf npm existieren.
 
 2. Verlinke viel! Falls du über andere Module, Ideen oder Personen sprichst,
-   verlinke die Referenz, so daß Besucher einfach dein Module und die Ideen
+   verlinke die Referenz, so dass Besucher einfach dein Module und die Ideen
    dahinter verstehen können. Wenige Module existieren in einem Vakuum: die
-   ganze Arbeit beruht auf anderen Werken, also zahlt es sich aus, daß Nutzer
+   ganze Arbeit beruht auf anderen Werken, also zahlt es sich aus, dass Nutzer
    die Geschichte und Inspiration deines Moduls folgen können.
 
 3. Schließe Informationen über Typen von Argumenten und Rückgabewerten ein,
@@ -353,11 +353,11 @@ README zu erhöhen und deßen Nützlichkeit für andere zu maximieren:
    wohl ein `Number` usw.).
 
 4. Führe Beispielcode aus dem Bereich **Benutzung** als Datei in deinem Repo
-   -- vielleicht als `example.js`. Es ist klaße, README code zu haben, den
+   -- vielleicht als `example.js`. Es ist klasse, README code zu haben, den
    Nutzer tatsächlich ausführen können, falls sie das Repository klonen.
 
 5. Sei bedachtsam mit dem Nutzen von Abzeichen. Sie können leicht
-   [mißbraucht](https://github.com/angular/angular) werden. Sie können auch
+   [missbraucht](https://github.com/angular/angular) werden. Sie können auch
    Grundlage für Nebensächlichkeiten (Bikeshedding) und endlosen Debatten
    werden. Sie fügen visuellen Störungen zu deiner README hinzu und
    funktionieren oft nur, wenn der Nutzer dein Markdown im Webbrowser liest, da
@@ -366,9 +366,9 @@ README zu erhöhen und deßen Nützlichkeit für andere zu maximieren:
    Abzeichen dem üblichen Betrachter der README bringt?" Hast du ein
    CI-Abzeichen, um den Status des Builds / Tests anzuzeigen? Dieses Signal
    würde die relevanten Gruppen eher erreichen, indem den Instandhaltern eine
-   E-Mail geschickt oder ein Ißue erstellt wird. Bedenke immer das Publikum
-   der Daten in deiner README und frage dich selber, ob es einen Fluß für
-   diese Daten gibt, die das gewünschte Publikum beßer erreicht.
+   E-Mail geschickt oder ein Issue erstellt wird. Bedenke immer das Publikum
+   der Daten in deiner README und frage dich selber, ob es einen Fluss für
+   diese Daten gibt, die das gewünschte Publikum besser erreicht.
 
 6. API-Formatierung hat das Potential, sich in Nebensächlichkeiten zu
    verlieren. Benutze das Format, von dem du denkst, es ist am klarsten, aber
@@ -378,27 +378,27 @@ README zu erhöhen und deßen Nützlichkeit für andere zu maximieren:
 
    b. Typinformationen, sofern nicht aufgrund von Konventionen offensichtlich
 
-   c. für `opts` Objekt-Parameter, alle akzeptierten Schlüßel-Wert-Paare
+   c. für `opts` Objekt-Parameter, alle akzeptierten Schlüssel-Wert-Paare
 
    d. schrecke nicht davor zurück, ein winziges Beispiel der Benutzung einer
       API-Funktion zu geben, sofern es nicht offensichtlich oder im Abschnitt
       **Benutzung** behandlet wurde.
-      Dies kann aber auch ein starker Hinweis darauf sein, daß die Funktion zu
+      Dies kann aber auch ein starker Hinweis darauf sein, dass die Funktion zu
       komplex ist und refactort, in kleinere Funktionen aufgebrochen oder
-      komplett entfernt werden muß
+      komplett entfernt werden muss
 
    e. verlinke spezielle Terminologie! In Markdown kannst du
       [Fußnoten](https://daringfireball.net/projects/markdown/syntax#link) am
-      Ende deines Dokuments einfügen, so daß das erneute Verweisen von ihnen
+      Ende deines Dokuments einfügen, so dass das erneute Verweisen von ihnen
       sehr billig ist. Einige meiner persönlichen Präferenzen hinsichtlich
-      API-Formatierung laßen sich
+      API-Formatierung lassen sich
       [hier](https://github.com/noffle/common-readme/blob/master/api_formatting.md)
       finden
 
 7. Falls dein Modul sich aus einer Sammlung zustandsloser Funktionen
    zusammensetzt, kann der Abschnitt **Benutzung** als 
-   [Node REPL seßion](https://github.com/noffle/bisecting-between#example) von
-   Funktionsaufrufen und -ergebnißen vielleicht den Gebrauch klarer ausdrücken
+   [Node REPL session](https://github.com/noffle/bisecting-between#example) von
+   Funktionsaufrufen und -ergebnissen vielleicht den Gebrauch klarer ausdrücken
    als das Ausführen einer Datei.
 
 8. Falls dein Modul ein CLI (command line interface) bereitstellt anstelle
@@ -406,23 +406,23 @@ README zu erhöhen und deßen Nützlichkeit für andere zu maximieren:
    Aufrufe von Befehlen und ihrer Ausgabe. Falls du eine Datei erstellst oder
    bearbeitest, `cat` sie, um den Unterschied davor und danach zu demonstrieren.
 
-9. Vergiß nicht, [Keywords](https://docs.npmjs.com/files/package.json#keywords)
+9. Vergiss nicht, [Keywords](https://docs.npmjs.com/files/package.json#keywords)
    in der `package.json` zu benutzen, um Modul-Höhlenforscher an deine Pfote zu
    leiten.
 
-10. Je mehr du dein API veränderst, desto mehr Arbeit mußt du darauf
+10. Je mehr du dein API veränderst, desto mehr Arbeit musst du darauf
     verwenden, deine Dokumentation zu aktualisieren -- die Implikation hier ist,
-    daß du dein API klein halten und früh konkret definieren solltest.
+    dass du dein API klein halten und früh konkret definieren solltest.
     Anforderungen ändern sich über die Zeit, aber anstatt Annahmen von
     vornherein in das API deiner Module zu packen, hebe sie eine
     Abstraktionsebene höher: dem Modul selber. Sofern sich die Änderungen
     *tatsächlich* ändern und 'mach-eine-konkrete-Sache' nicht länger Sinn
-    ergibt, erstelle ein neues Modul, daß die Aufgabe erledigt. Das
+    ergibt, erstelle ein neues Modul, dass die Aufgabe erledigt. Das
     'mach-eine-konkrete-Sache'-Modul bleibt weiterhin gültig und ein wertvolles
     Modell für das npm-Ökosystem, und deine Kurskorrektur kostet dich nichts
     außer einer einfachen Ersetzung eines Moduls mit einem anderen.
 
-11. Schlußendlich, erinnere dich bitte, daß deine Versionskontroll-Repository
+11. Schlussendlich, erinnere dich bitte, dass deine Versionskontroll-Repository
     und die README darin dein [repository host](https://github.com) überleben
     wird und ebenso alles, worauf du einen Link setzt -- insbesondere Bilder --
     so *inkludiere* alles, was wesentlich ist für künftige Nutzer, um deine
@@ -449,7 +449,7 @@ verinnerlichen:
 
 - https://github.com/noffle/ice-box
 - https://github.com/substack/quote-stream
-- https://github.com/feroß/bittorrent-dht
+- https://github.com/feross/bittorrent-dht
 - https://github.com/mikolalysenko/box-intersect
 - https://github.com/freeman-lab/pixel-grid
 - https://github.com/mafintosh/torrent-stream
@@ -469,7 +469,7 @@ Eine hilfreiche Checkliste, um abzuschätzen, wie gut deine README vorankommt:
 - [ ] Ausführliche API-Dokumentation
 - [ ] Ausführen des [Wahrnehmungstrichters](https://github.com/noffle/art-of-readme#cognitive-funneling)
 - [ ] Warnmeldungen und Einschränkungen werden im Voraus erwähnt
-- [ ] Verläßt sich nicht auf Bilder, um kritische Informationen zu vermitteln
+- [ ] Verlässt sich nicht auf Bilder, um kritische Informationen zu vermitteln
 - [ ] Lizenz
 
 ## Über den originalen Autor
@@ -483,7 +483,7 @@ ich mich damit beschäftigt habe, wie Perl-Mönche ihre Dokumentation schreiben
 und mich ebenso über den Stand der READMEs im Node.js-Ökosystem beschwert habe.
 Das hat mich dazu gebracht,
 [common-readme](https://github.com/noffle/common-readme) zu erstellen.
-Der Abschnitt zu "README Tipps" floß allerdings mit Tipps über, so daß ich
+Der Abschnitt zu "README Tipps" floss allerdings mit Tipps über, so dass ich
 mich entschied, diese in einem Artikel zu sammeln, wie READMEs geschrieben
 werden. So wurde die Kunst des README geboren!
 
@@ -502,14 +502,14 @@ erreichen.
 
 1. <a name="footnote-2"></a>Siehe [Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
    Die meisten Systeme heutzutage werden jedoch nicht Großbuchstaben vor
-   Kleinbuchstaben sortieren, so daß sich die Nützlichkeit der Konvention
+   Kleinbuchstaben sortieren, so dass sich die Nützlichkeit der Konvention
    auf die visuelle Hervorhebung durch die Nutzung der Großbuchstaben
    beschränkt.
 
 ## Danksagung
 
 Ein inniger Dank an dich, [@mafintosh](https://github.com/mafintosh) und
-[@feroß](https://github.com/feroß) für die Ermunterung, die ich brauchte, um
+[@feross](https://github.com/feross) für die Ermunterung, die ich brauchte, um
 diese Idee umzusetzen und anzufangen zu schreiben!
 
 Danke auch an die folgenden großartigen Leser, die Fehler bemerkt und mir PRs
@@ -557,7 +557,7 @@ Dank an [@Manfred Madelaine](https://github.com/Manfred-Madelaine-pro) und
 für das Übersetzen der Kunst des README ins Französisch! 
 
 Abschließend dank an alle für ihr Feedback! Bitte teilt eure Kommentare
-[als ißue](https://github.com/noffle/art-of-readme/ißues)!
+[als issue](https://github.com/noffle/art-of-readme/issues)!
 
 ## Pull requests willkommen!
 
