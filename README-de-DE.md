@@ -357,7 +357,7 @@ README zu erhöhen und deßen Nützlichkeit für andere zu maximieren:
    Nutzer tatsächlich ausführen können, falls sie das Repository klonen.
 
 5. Sei bedachtsam mit dem Nutzen von Abzeichen. Sie können leicht
-   [mißbraucht](https://github.com/angular/angular) werden. Sie können auch
+   [missbraucht](https://github.com/angular/angular) werden. Sie können auch
    Grundlage für Nebensächlichkeiten (Bikeshedding) und endlosen Debatten
    werden. Sie fügen visuellen Störungen zu deiner README hinzu und
    funktionieren oft nur, wenn der Nutzer dein Markdown im Webbrowser liest, da
@@ -385,10 +385,10 @@ README zu erhöhen und deßen Nützlichkeit für andere zu maximieren:
       **Benutzung** behandlet wurde.
       Dies kann aber auch ein starker Hinweis darauf sein, daß die Funktion zu
       komplex ist und refactort, in kleinere Funktionen aufgebrochen oder
-      komplett entfernt werden muß
+      komplett entfernt werden muß.
 
    e. verlinke spezielle Terminologie! In Markdown kannst du
-      [Fußnoten](https://daringfireball.net/projects/markdown/syntax#link) am
+      [Fussnoten](https://daringfireball.net/projects/markdown/syntax#link) am
       Ende deines Dokuments einfügen, so daß das erneute Verweisen von ihnen
       sehr billig ist. Einige meiner persönlichen Präferenzen hinsichtlich
       API-Formatierung laßen sich
@@ -397,7 +397,7 @@ README zu erhöhen und deßen Nützlichkeit für andere zu maximieren:
 
 7. Falls dein Modul sich aus einer Sammlung zustandsloser Funktionen
    zusammensetzt, kann der Abschnitt **Benutzung** als 
-   [Node REPL seßion](https://github.com/noffle/bisecting-between#example) von
+   [Node REPL session](https://github.com/noffle/bisecting-between#example) von
    Funktionsaufrufen und -ergebnißen vielleicht den Gebrauch klarer ausdrücken
    als das Ausführen einer Datei.
 
@@ -557,7 +557,7 @@ Dank an [@Manfred Madelaine](https://github.com/Manfred-Madelaine-pro) und
 für das Übersetzen der Kunst des README ins Französisch! 
 
 Abschließend dank an alle für ihr Feedback! Bitte teilt eure Kommentare
-[als ißue](https://github.com/noffle/art-of-readme/issues)!
+[als issue](https://github.com/noffle/art-of-readme/issues)!
 
 ## Pull requests willkommen!
 
