@@ -101,7 +101,7 @@ nur die wenigen Privilegierten teilnehmen dürfen.
 Darüberhinaus lässt sich Auffindbarkeit -- wie wir herausfinden werden --
 einfacher adressieren.
 
-## Alle Straßen führen zur README.md
+## Alle Strassen führen zur README.md
 
 Die Node.js Gemeinschaft hat auf die Herausforderung der Auffindbarkeit in
 verschiedenen Weisen reagiert.
