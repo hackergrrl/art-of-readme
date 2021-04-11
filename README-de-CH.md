@@ -43,7 +43,7 @@ ist, etwas zu schaffen, dass überdauert. Es ist eine inhärente Motivation,
 selbst wenn der Autor keine Absicht hat, ihre Arbeit zu teilen. Nach sechs
 Monaten wird ein Modul ohne Dokumentation wie neu und unbekannt aussehen.
 
-Dies ist ebenso für Konsumierende von Modulen geschrieben, da jeder Auto auch
+Dies ist ebenso für Konsumierende von Modulen geschrieben, da jeder Autor auch
 ein Nutzer von Modulen ist. Node.js hat einen sehr gesunden Grad von
 Interdependenz: niemand lebt wirklich am Fuße des Abhängigkeitsbaums.
 
@@ -101,7 +101,7 @@ nur die wenigen Privilegierten teilnehmen dürfen.
 Darüberhinaus lässt sich Auffindbarkeit -- wie wir herausfinden werden --
 einfacher adressieren.
 
-## Alle Straßen führen zur README.md
+## Alle Strassen führen zur README.md
 
 Die Node.js Gemeinschaft hat auf die Herausforderung der Auffindbarkeit in
 verschiedenen Weisen reagiert.
