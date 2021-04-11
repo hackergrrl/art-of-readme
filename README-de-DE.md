@@ -112,7 +112,7 @@ Module zu erstellen.
 Entwickler nutzen ihre langjährige Erfahrung beim Untersuchen von Hunderten
 verschiedener Module, um mit Neulingen die *crème de la crème* zu teilen:
 die besten Module in jeder Kategorie.
-Dies kann auch in Form von Rß-Feeds und Mailinglisten geschehen, die neue
+Dies kann auch in Form von RSS-Feeds und Mailinglisten geschehen, die neue
 Module vorstellen, die von vertrauenswürdigen Mitgliedern der Community als
 nützlich betrachtet werden.
 
@@ -449,7 +449,7 @@ verinnerlichen:
 
 - https://github.com/noffle/ice-box
 - https://github.com/substack/quote-stream
-- https://github.com/feroß/bittorrent-dht
+- https://github.com/feross/bittorrent-dht
 - https://github.com/mikolalysenko/box-intersect
 - https://github.com/freeman-lab/pixel-grid
 - https://github.com/mafintosh/torrent-stream
@@ -509,7 +509,7 @@ erreichen.
 ## Danksagung
 
 Ein inniger Dank an dich, [@mafintosh](https://github.com/mafintosh) und
-[@feroß](https://github.com/feroß) für die Ermunterung, die ich brauchte, um
+[@feross](https://github.com/feross) für die Ermunterung, die ich brauchte, um
 diese Idee umzusetzen und anzufangen zu schreiben!
 
 Danke auch an die folgenden großartigen Leser, die Fehler bemerkt und mir PRs
@@ -557,7 +557,7 @@ Dank an [@Manfred Madelaine](https://github.com/Manfred-Madelaine-pro) und
 für das Übersetzen der Kunst des README ins Französisch! 
 
 Abschließend dank an alle für ihr Feedback! Bitte teilt eure Kommentare
-[als ißue](https://github.com/noffle/art-of-readme/ißues)!
+[als ißue](https://github.com/noffle/art-of-readme/issues)!
 
 ## Pull requests willkommen!
 
