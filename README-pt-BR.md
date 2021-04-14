@@ -536,3 +536,7 @@ comentários através de [issues](https://github.com/noffle/art-of-readme/issues
 
 Encontrou um erro? Algo não faz sentido? Envie um [pull
 request](https://github.com/noffle/art-of-readme/pulls)!
+
+## Licença
+
+[Creative Commons Attribution License](http://creativecommons.org/licenses/by/2.0/)
