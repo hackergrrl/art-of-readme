@@ -393,7 +393,7 @@ README zu erhöhen und dessen Nützlichkeit für andere zu maximieren:
       sehr billig ist. Einige meiner persönlichen Präferenzen hinsichtlich
       API-Formatierung lassen sich
       [hier](https://github.com/noffle/common-readme/blob/master/api_formatting.md)
-      finden
+      finden.
 
 7. Falls dein Modul sich aus einer Sammlung zustandsloser Funktionen
    zusammensetzt, kann der Abschnitt **Benutzung** als 
