@@ -502,7 +502,7 @@ erreichen.
 
 1. <a name="footnote-2"></a>Siehe [Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
    Die meisten Systeme heutzutage werden jedoch nicht Großbuchstaben vor
-   Kleinbuchstaben sortieren, so daß sich die Nützlichkeit der Konvention
+   Kleinbuchstaben sortieren, so dass sich die Nützlichkeit der Konvention
    auf die visuelle Hervorhebung durch die Nutzung der Großbuchstaben
    beschränkt.
 
