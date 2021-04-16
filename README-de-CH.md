@@ -385,7 +385,7 @@ README zu erhöhen und dessen Nützlichkeit für andere zu maximieren:
       **Benutzung** behandlet wurde.
       Dies kann aber auch ein starker Hinweis darauf sein, dass die Funktion zu
       komplex ist und refactort, in kleinere Funktionen aufgebrochen oder
-      komplett entfernt werden muss
+      komplett entfernt werden muss.
 
    e. Verlinke spezielle Terminologie! In Markdown kannst du
       [Fußnoten](https://daringfireball.net/projects/markdown/syntax#link) am
