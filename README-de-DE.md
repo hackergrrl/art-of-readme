@@ -469,7 +469,7 @@ Eine hilfreiche Checkliste, um abzuschätzen, wie gut deine README vorankommt:
 - [ ] Ausführliche API-Dokumentation
 - [ ] Ausführen des [Wahrnehmungstrichters](https://github.com/noffle/art-of-readme#cognitive-funneling)
 - [ ] Warnmeldungen und Einschränkungen werden im Voraus erwähnt
-- [ ] Verläßt sich nicht auf Bilder, um kritische Informationen zu vermitteln
+- [ ] Verlässt sich nicht auf Bilder, um kritische Informationen zu vermitteln
 - [ ] Lizenz
 
 ## Über den originalen Autor
