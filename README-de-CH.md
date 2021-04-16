@@ -98,7 +98,7 @@ Diese Situation hat eine natürliche Konsequenz: Es kann schwer sein,
 Auffindbarkeits-Problem sind unendlich besser als ein Kulturproblem, bei dem
 nur die wenigen Privilegierten teilnehmen dürfen.
 
-Darüberhinaus lässt sich Auffindbarkeit -- wie wir herausfinden werden --
+Darüberhinaus lässt sich Auffindbarkeit -- wie wir später herausfinden werden --
 einfacher adressieren.
 
 ## Alle Strassen führen zur README.md
