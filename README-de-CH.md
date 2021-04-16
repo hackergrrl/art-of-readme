@@ -75,7 +75,7 @@ Artefakt eines Aliens, unbenutzbar und unverständlich für die
 Archäologie-Hacker von morgen.
 
 Wo landen die Module, die eine Dokumentation haben, auf dem Qualitätsspektrum?
-Manchmal handelt es sich nur um einen Einzeiler: `"sortiert Nummern nach ihren
+Manchmal handelt es sich nur um einen Einzeiler: `"Sortiert Nummern nach ihren
 Hex-Werten"`. Vielleicht ist es ein Beispielcode-Schnippsel. Beides sind
 besser als gar nichts, aber sie tendieren dazu, in das Worst-Case Szenario
 einer modernen Modul-Höhlenforschung zu resultieren: Den Quellcode
