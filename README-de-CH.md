@@ -122,7 +122,7 @@ die GitHubs sozialen Graphen verwendet, um Module zu finden, die deine Freunde
 mögen oder erstellt haben.
 
 Natürlich hat npm auch eine eingebaute [Suche](https://npmjs.org):
-ein sicherer Standard und der übliche Einstiegspunkt für neue Entwickler.
+Ein sicherer Standard und der übliche Einstiegspunkt für neue Entwickler.
 
 Egal welcher Ansatz, unabhängig davon, ob ein Modul-Höhlenforscher die
 Moduluntergründe von [npmjs.org](https://npmjs.org),
