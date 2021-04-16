@@ -43,7 +43,7 @@ ist, etwas zu schaffen, dass überdauert. Es ist eine inhärente Motivation,
 selbst wenn der Autor keine Absicht hat, ihre Arbeit zu teilen. Nach sechs
 Monaten wird ein Modul ohne Dokumentation wie neu und unbekannt aussehen.
 
-Dies ist ebenso für Konsumierende von Modulen geschrieben, da jeder Autor auch
+Dies ist ebenso für Nutzer von Modulen geschrieben, da jeder Autor auch
 ein Nutzer von Modulen ist. Node.js hat einen sehr gesunden Grad von
 Interdependenz: niemand lebt wirklich am Fuße des Abhängigkeitsbaums.
 
