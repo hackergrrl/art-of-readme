@@ -33,7 +33,7 @@ Die Absicht ist klar: *"Dies ist wichtige Information für den Nutzer, die
 gelesen sollte, bevor weitergemacht wird."* Lasst uns zusammen erkunden,
 was "wichtige Informationen" in der heutigen Moderne ausmacht.
 
-## Für Ersteller, für Konsumierende
+## Für Ersteller, für Nutzer
 
 Dies ist ein Artikel über READMEs. Darüber, was sie tun, warum sie unbedingt
 notwendig sind und wie sie gut erstellt werden können.
