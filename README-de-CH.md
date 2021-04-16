@@ -45,7 +45,7 @@ Monaten wird ein Modul ohne Dokumentation wie neu und unbekannt aussehen.
 
 Dies ist ebenso für Nutzer von Modulen geschrieben, da jeder Autor auch
 ein Nutzer von Modulen ist. Node.js hat einen sehr gesunden Grad von
-Interdependenz: niemand lebt wirklich am Fuße des Abhängigkeitsbaums.
+Interdependenz: Niemand lebt wirklich am Fuße des Abhängigkeitsbaums.
 
 Auch wenn es sich auf Node.js fokussiert, behauptet der Autor, dass die
 Lektionen sich genauso gut auf andere Programmierumgebungen anwenden lassen.
