@@ -118,7 +118,7 @@ nützlich betrachtet werden.
 
 Was ist mit dem sozialen Graphen? Diese Idee regte die Erstellung von
 [node-modules.com](http://node-modules.com/) an, einem Ersatz der npm-Suche,
-die GitHub's sozialen Graphen verwendet, um Module zu finden, die deine Freunde
+die GitHubs sozialen Graphen verwendet, um Module zu finden, die deine Freunde
 mögen oder erstellt haben.
 
 Natürlich hat npm auch eine eingebaute [Suche](https://npmjs.org):
