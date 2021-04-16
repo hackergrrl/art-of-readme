@@ -483,7 +483,7 @@ ich mich damit beschäftigt habe, wie Perl-Mönche ihre Dokumentation schreiben
 und mich ebenso über den Stand der READMEs im Node.js-Ökosystem beschwert habe.
 Das hat mich dazu gebracht,
 [common-readme](https://github.com/noffle/common-readme) zu erstellen.
-Der Abschnitt zu "README Tipps" floß allerdings mit Tipps über, so daß ich
+Der Abschnitt zu "README Tipps" floss allerdings mit Tipps über, so dass ich
 mich entschied, diese in einem Artikel zu sammeln, wie READMEs geschrieben
 werden. So wurde die Kunst des README geboren!
 
