@@ -387,7 +387,7 @@ README zu erhöhen und dessen Nützlichkeit für andere zu maximieren:
       komplex ist und refactort, in kleinere Funktionen aufgebrochen oder
       komplett entfernt werden muss
 
-   e. verlinke spezielle Terminologie! In Markdown kannst du
+   e. Verlinke spezielle Terminologie! In Markdown kannst du
       [Fußnoten](https://daringfireball.net/projects/markdown/syntax#link) am
       Ende deines Dokuments einfügen, so dass das erneute Verweisen von ihnen
       sehr billig ist. Einige meiner persönlichen Präferenzen hinsichtlich
