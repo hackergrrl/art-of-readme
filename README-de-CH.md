@@ -478,7 +478,7 @@ Ich bin [noffle](http://blog.eight45.net/about/). Ich bin dafür bekannt zu
 [bloggen](http://blog.eight45.net), [tweeten](https://twitter.com/noffle), und
 zu [hacken](https://github.com/noffle).
 
-Dieses kleine Projekt begann damals im Main in Berlin bei der squantconf, wo
+Dieses kleine Projekt begann damals im Mai in Berlin bei der squantconf, wo
 ich mich damit beschäftigt habe, wie Perl-Mönche ihre Dokumentation schreiben
 und mich ebenso über den Stand der READMEs im Node.js-Ökosystem beschwert habe.
 Das hat mich dazu gebracht,
