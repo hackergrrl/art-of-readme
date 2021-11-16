@@ -342,8 +342,8 @@ para os outros.
    -- algo como `example.js`. É ótimo ter um código README que os usuários podem
    executar se clonarem seu repositório.
 
-5. Seja criterioso no uso de badges. É fácil de [abusar]
-   (https://github.com/angular/angular). Eles acrescentam ruído visual para o seu
+5. Seja criterioso no uso de badges. É fácil de [abusar](https://github.com/angular/angular). 
+   Eles acrescentam ruído visual para o seu
    README, e geralmente só funcionam se o usuário estiver lendo seu markdown em
    um navegador on-line, uma vez que as imagens são geralmente hospedados em
    outros lugares na internet. Para cada badge, considere: "qual o real valor este
