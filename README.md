@@ -193,7 +193,7 @@ matching problems for their brain to solve, where each step takes them deeper
 into the module and its details.
 
 Let's say, for example, my search for a 2D collision detection module leads me
-to [`collide-2d-aabb-aabb`](https://github.com/noffle/collide-2d-aabb-aabb). I
+to [`collide-2d-aabb-aabb`](https://github.com/hackergrrl/collide-2d-aabb-aabb). I
 begin to examine it from top to bottom:
 
 1. *Name* -- self-explanatory names are best. `collide-2d-aabb-aabb` sounds
@@ -315,7 +315,7 @@ maximize its usefulness to others:
 
 1. Consider including a **Background** section if your module depends on
    important but not widely known abstractions or other ecosystems. The function
-   of [`bisecting-between`](https://github.com/noffle/bisecting-between) is not
+   of [`bisecting-between`](https://github.com/hackergrrl/bisecting-between) is not
    immediately obvious from its name, so it has a detailed *Background* section
    to define and link to the big concepts and abstractions one needs to
    understand to use and grok it. This is also a great place to explain the
@@ -367,11 +367,11 @@ maximize its usefulness to others:
       the bottom of your document, so referring to them several times throughout
       becomes cheap. Some of my personal preferences on API formatting can be
       found
-      [here](https://github.com/noffle/common-readme/blob/master/api_formatting.md)
+      [here](https://github.com/hackergrrl/common-readme/blob/master/api_formatting.md)
 
 7. If your module is a small collection of stateless functions, having a
    **Usage** section as a [Node REPL
-   session](https://github.com/noffle/bisecting-between#example) of function
+   session](https://github.com/hackergrrl/bisecting-between#example) of function
    calls and results might communicate usage more clearly than a source code
    file to run.
 
@@ -404,7 +404,7 @@ maximize its usefulness to others:
 ## Bonus: *common-readme*
 
 Not coincidentally, this is also the format used by
-[**common-readme**](https://github.com/noffle/common-readme), a set of README
+[**common-readme**](https://github.com/hackergrrl/common-readme), a set of README
 guidelines and handy command-line generator. If you like what's written here,
 you may save some time writing READMEs with `common-readme`. You'll find
 real module examples with this format, too.
@@ -419,7 +419,7 @@ more structured, lintable take on a common README format.
 Theory is well and good, but what do excellent READMEs look like? Here are some
 that I think embody the principles of this article well:
 
-- https://github.com/noffle/ice-box
+- https://github.com/hackergrrl/ice-box
 - https://github.com/substack/quote-stream
 - https://github.com/feross/bittorrent-dht
 - https://github.com/mikolalysenko/box-intersect
@@ -440,7 +440,7 @@ A helpful checklist to gauge how your README is coming along:
 - [ ] Clear, *runnable* example of usage
 - [ ] Installation instructions
 - [ ] Extensive API documentation
-- [ ] Performs [cognitive funneling](https://github.com/noffle/art-of-readme#cognitive-funneling)
+- [ ] Performs [cognitive funneling](https://github.com/hackergrrl/art-of-readme#cognitive-funneling)
 - [ ] Caveats and limitations mentioned up-front
 - [ ] Doesn't rely on images to relay critical information
 - [ ] License
@@ -448,18 +448,14 @@ A helpful checklist to gauge how your README is coming along:
 
 ## The author
 
-I'm [noffle](http://blog.eight45.net/about/). I'm known to
-[blog](http://blog.eight45.net), [tweet](https://twitter.com/noffle), and
-[hack](https://github.com/noffle).
+Hi, I'm [Kira](http://kira.solar).
 
 This little project began back in May in Berlin at squatconf, where I was
 digging into how Perl monks write their documentation and also lamenting the
 state of READMEs in the Node ecosystem. It spurred me to create
-[common-readme](https://github.com/noffle/common-readme). The "README Tips"
+[common-readme](https://github.com/hackergrrl/common-readme). The "README Tips"
 section overflowed with tips though, which I decided could be usefully collected
 into an article about writing READMEs. Thus, Art of README was born!
-
-You can reach me at `noffle@eight45.net` or on Freenode IRC in `#eight45`.
 
 
 ## Further Reading
@@ -526,8 +522,11 @@ Thank you to [@Manfred Madelaine](https://github.com/Manfred-Madelaine-pro) and
 [@Ruben Madelaine](https://github.com/Ruben-Madelaine)
 for translating Art of README to French! 
 
-Finally, thanks for all of the feedback! Please share your comments [as an
-issue](https://github.com/noffle/art-of-readme/issues)!
+## Other Resources
+Some readers have suggested other useful resources for README composition:
+- [Software Release Practice](https://tldp.org/HOWTO/Software-Release-Practice-HOWTO/distpractice.html#readme)
+- [GNU Releases](https://www.gnu.org/prep/standards/html_node/Releases.html#index-README-file)
+
 
 ## License
 
