@@ -1,7 +1,8 @@
 # Art of README
 
-*This article can also be read in [Chinese](README-zh.md), 
-[Brazilian Portuguese](README-pt-BR.md), [Spanish](README-es-ES.md), 
+*This article can also be read in [Chinese](README-zh.md),
+[Japanese](README-ja-JP.md),
+[Brazilian Portuguese](README-pt-BR.md), [Spanish](README-es-ES.md),
 [German](README-de-DE.md) and [French](README-fr.md).*
 
 ## Etymology
@@ -520,7 +521,7 @@ README to German! The following users also made contributions:
 
 Thank you to [@Manfred Madelaine](https://github.com/Manfred-Madelaine-pro) and
 [@Ruben Madelaine](https://github.com/Ruben-Madelaine)
-for translating Art of README to French! 
+for translating Art of README to French!
 
 ## Other Resources
 Some readers have suggested other useful resources for README composition:
