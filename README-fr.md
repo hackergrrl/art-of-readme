@@ -472,7 +472,7 @@ Vous pouvez me joindre à `noffle@eight45.net` ou sur Freenode IRC dans `#eight4
 1. <a name="footnote-1"> </a> Merci,
     [Sixes666](https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8akpz6)!
 
-1. <a name="footnote-2"> </a> Voir [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
+2. <a name="footnote-2"> </a> Voir [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
     Cependant, la plupart des systèmes actuels ne trieront pas les majuscules avant toutes les minuscules, 
     réduisant ainsi l'utilité de cette convention à son seul visuel frappant.
 
