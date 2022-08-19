@@ -500,7 +500,7 @@ erreichen.
 1. <a name="footnote-1"></a>Danke,
    [Sixes666](https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8akpz6)!
 
-1. <a name="footnote-2"></a>Siehe [Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
+2. <a name="footnote-2"></a>Siehe [Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
    Die meisten Systeme heutzutage werden jedoch nicht Großbuchstaben vor
    Kleinbuchstaben sortieren, so dass sich die Nützlichkeit der Konvention
    auf die visuelle Hervorhebung durch die Nutzung der Großbuchstaben

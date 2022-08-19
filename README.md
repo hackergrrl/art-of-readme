@@ -3,7 +3,7 @@
 *This article can also be read in [Chinese](README-zh.md),
 [Japanese](README-ja-JP.md),
 [Brazilian Portuguese](README-pt-BR.md), [Spanish](README-es-ES.md),
-[German](README-de-DE.md) and [French](README-fr.md).*
+[German](README-de-DE.md), [French](README-fr.md) and [Traditional Chinese](README-zh-TW.md).*
 
 ## Etymology
 
@@ -470,7 +470,7 @@ into an article about writing READMEs. Thus, Art of README was born!
 1. <a name="footnote-1"></a>Thanks,
    [Sixes666](https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8akpz6)!
 
-1. <a name="footnote-2"></a>See [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
+2. <a name="footnote-2"></a>See [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html).
    However, most systems today will not sort capitals before all lowercase
    characters, reducing this convention's usefulness to just the visual
    strikingness of all-caps.

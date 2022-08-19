@@ -500,7 +500,7 @@ artículo sobre escribir READMEs. ¡Así nació Art of README!
 1. <a name="footnote-1"></a>Gracias,
    [Sixes666](https://www.reddit.com/r/node/comments/55eto9/nodejs_the_art_of_readme/d8akpz6)!
 
-1. <a name="footnote-2"></a>Consultar [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html). Sin embargo la mayoría
+2. <a name="footnote-2"></a>Consultar [The Jargon File](http://catb.org/~esr/jargon/html/R/README-file.html). Sin embargo la mayoría
 de sistemas actuales, no ordenan las mayúsculas antes que los caracteres en
 minúsculas reduciendo así la utilidad de la convención de usar todo mayúsculas
 a una simple representación llamativa.
