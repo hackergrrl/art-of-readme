@@ -171,10 +171,15 @@ Perl 的傳教士曾分享此智慧：
 6. API 格式是可高度循環的。使用你認為最清晰的任何格式，但要確保你的格式表達了重要的細節：
 
     a. 哪些參數是可選的，以及他們的預設值
+
     b. 如果型別不像約定呈現，需包含型別資訊
+
     c. 對於 `opts` 物件參數，描述它所有可以接受的鍵與值
+
     d. 如果在**用法**區塊不明顯或沒有完全涵蓋，不要迴避提供使用 API 函數的小範例。但這也是一個警訊，表示該函數過於複雜，需要重構、分解為更小的函數或完全刪除
-    e. 積極為專業術語加上連結！在 Markdown 中，你可以在文件底部加上[註腳](https://daringfireball.net/projects/markdown/syntax#link)，可以很方便的多次引用它們，我個人對於 API 格式的偏好可以查看[這裡](https://github.com/hackergrrl/common-readme/blob/master/api_formatting.md)   
+
+    e. 積極為專業術語加上連結！在 Markdown 中，你可以在文件底部加上[註腳](https://daringfireball.net/projects/markdown/syntax#link)，可以很方便的多次引用它們，我個人對於 API 格式的偏好可以查看[這裡](https://github.com/hackergrrl/common-readme/blob/master/api_formatting.md)
+   
 
 7. 如果你的模組是一個小的無狀態函數集合，將**用法**區塊以 [Node REPL session](https://github.com/hackergrrl/bisecting-between#example)格式提供函數的呼叫及結果會比執行原始碼文件更清楚傳達使用方式。
 
